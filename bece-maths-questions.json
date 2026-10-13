@@ -1,0 +1,7002 @@
+[
+ {
+  "id": 1,
+  "level": "JSS1",
+  "topic": "Perimeter and area",
+  "q": "Find the area of a square of side 11 cm.",
+  "options": [
+   "121 cm²",
+   "132 cm²",
+   "44 cm²",
+   "22 cm²"
+  ],
+  "answer": 0,
+  "explanation": "Area = side × side = 11 × 11 = 121 cm²."
+ },
+ {
+  "id": 2,
+  "level": "JSS1",
+  "topic": "Angles",
+  "q": "Angles at a point are 114°, 114° and x°. Find x. (They fill the whole turn.)",
+  "options": [
+   "134",
+   "228",
+   "246",
+   "132"
+  ],
+  "answer": 3,
+  "explanation": "Angles at a point add up to 360°."
+ },
+ {
+  "id": 3,
+  "level": "JSS1",
+  "topic": "Factors and primes",
+  "q": "Which of the following is NOT a prime number?",
+  "options": [
+   "47",
+   "3",
+   "15",
+   "59"
+  ],
+  "answer": 2,
+  "explanation": "15 has more than two factors, so it is not prime."
+ },
+ {
+  "id": 4,
+  "level": "JSS1",
+  "topic": "LCM and HCF",
+  "q": "Find the LCM of 2 and 15.",
+  "options": [
+   "32",
+   "30",
+   "28",
+   "60"
+  ],
+  "answer": 1,
+  "explanation": "List multiples of both numbers. The smallest common multiple is 30."
+ },
+ {
+  "id": 5,
+  "level": "JSS1",
+  "topic": "LCM and HCF",
+  "q": "Find the HCF of 36 and 32.",
+  "options": [
+   "8",
+   "5",
+   "288",
+   "4"
+  ],
+  "answer": 3,
+  "explanation": "The largest number that divides both 36 and 32 exactly is 4."
+ },
+ {
+  "id": 6,
+  "level": "JSS1",
+  "topic": "Whole numbers",
+  "q": "Calculate 81 × 25.",
+  "options": [
+   "2,125",
+   "2,015",
+   "2,025",
+   "2,035"
+  ],
+  "answer": 2,
+  "explanation": "81 × 25 = 2,025."
+ },
+ {
+  "id": 7,
+  "level": "JSS1",
+  "topic": "Factors and primes",
+  "q": "Which of the following is a prime number?",
+  "options": [
+   "53",
+   "49",
+   "45",
+   "65"
+  ],
+  "answer": 0,
+  "explanation": "53 has only two factors, 1 and itself. The other numbers each have more than two factors."
+ },
+ {
+  "id": 8,
+  "level": "JSS1",
+  "topic": "Place value",
+  "q": "What is the place value of the digit 1 in 86,912?",
+  "options": [
+   "units",
+   "ten thousands",
+   "hundreds",
+   "tens"
+  ],
+  "answer": 3,
+  "explanation": "The digit 1 sits in the tens column of 86,912."
+ },
+ {
+  "id": 9,
+  "level": "JSS1",
+  "topic": "Angles",
+  "q": "Find the complement of 20°.",
+  "options": [
+   "110°",
+   "70°",
+   "20°",
+   "160°"
+  ],
+  "answer": 1,
+  "explanation": "Complementary angles add up to 90°. 90° − 20° = 70°."
+ },
+ {
+  "id": 10,
+  "level": "JSS1",
+  "topic": "Place value",
+  "q": "What is the value of the digit 1 in 12,697?",
+  "options": [
+   "1,000",
+   "10,000",
+   "10",
+   "100"
+  ],
+  "answer": 1,
+  "explanation": "The digit 1 is worth 1 × 10,000 = 10,000."
+ },
+ {
+  "id": 11,
+  "level": "JSS1",
+  "topic": "Perimeter and area",
+  "q": "Find the area of a rectangle 23 cm long and 5 cm wide.",
+  "options": [
+   "115 cm²",
+   "138 cm²",
+   "56 cm²",
+   "28 cm²"
+  ],
+  "answer": 0,
+  "explanation": "Area = l × w = 23 × 5 = 115 cm²."
+ },
+ {
+  "id": 12,
+  "level": "JSS1",
+  "topic": "Decimals",
+  "q": "Calculate 33.9 + 78.7.",
+  "options": [
+   "111.6",
+   "11.26",
+   "112.6",
+   "113.6"
+  ],
+  "answer": 2,
+  "explanation": "Line up the decimal points and add to get 112.6."
+ },
+ {
+  "id": 13,
+  "level": "JSS1",
+  "topic": "Number patterns",
+  "q": "What is the next number in the sequence 9, 16, 23, 30, …?",
+  "options": [
+   "36",
+   "37",
+   "38",
+   "44"
+  ],
+  "answer": 1,
+  "explanation": "The sequence goes up by 7 each time, so the next term is 37."
+ },
+ {
+  "id": 14,
+  "level": "JSS1",
+  "topic": "Ratio",
+  "q": "Simplify the ratio 16 : 40.",
+  "options": [
+   "3 : 5",
+   "2 : 6",
+   "5 : 2",
+   "2 : 5"
+  ],
+  "answer": 3,
+  "explanation": "Divide both parts by 8 to get 2 : 5."
+ },
+ {
+  "id": 15,
+  "level": "JSS1",
+  "topic": "Word problems",
+  "q": "A school has 11 classes with 22 pupils in each class. How many pupils are there altogether?",
+  "options": [
+   "264",
+   "33",
+   "242",
+   "231"
+  ],
+  "answer": 2,
+  "explanation": "11 × 22 = 242."
+ },
+ {
+  "id": 16,
+  "level": "JSS1",
+  "topic": "Approximation",
+  "q": "Round off 10,472 to the nearest thousand.",
+  "options": [
+   "9,000",
+   "12,000",
+   "10,000",
+   "11,000"
+  ],
+  "answer": 2,
+  "explanation": "Look at the digit to the right of the thousands place to decide whether to round up or down."
+ },
+ {
+  "id": 17,
+  "level": "JSS1",
+  "topic": "Money",
+  "q": "Amina buys 7 notebooks at ₦500 each and pays with ₦4,000. How much change does Amina get?",
+  "options": [
+   "₦1,500",
+   "₦1,000",
+   "₦500",
+   "₦3,500"
+  ],
+  "answer": 2,
+  "explanation": "Cost = 7 × ₦500 = ₦3,500. Change = ₦4,000 − ₦3,500 = ₦500."
+ },
+ {
+  "id": 18,
+  "level": "JSS1",
+  "topic": "Perimeter and area",
+  "q": "Find the perimeter of a square of side 16 cm.",
+  "options": [
+   "64 cm",
+   "256 cm",
+   "68 cm",
+   "32 cm"
+  ],
+  "answer": 0,
+  "explanation": "A square has four equal sides, so perimeter = 4 × 16 = 64 cm."
+ },
+ {
+  "id": 19,
+  "level": "JSS1",
+  "topic": "Roman numerals",
+  "q": "What is CCXV in Hindu-Arabic numerals?",
+  "options": [
+   "215",
+   "216",
+   "225",
+   "214"
+  ],
+  "answer": 0,
+  "explanation": "CCXV stands for 215."
+ },
+ {
+  "id": 20,
+  "level": "JSS1",
+  "topic": "Number patterns",
+  "q": "What is the next number in the sequence 16, 23, 30, 37, …?",
+  "options": [
+   "44",
+   "51",
+   "45",
+   "43"
+  ],
+  "answer": 0,
+  "explanation": "The sequence goes up by 7 each time, so the next term is 44."
+ },
+ {
+  "id": 21,
+  "level": "JSS1",
+  "topic": "Ratio",
+  "q": "Simplify the ratio 15 : 3.",
+  "options": [
+   "6 : 1",
+   "5 : 2",
+   "1 : 5",
+   "5 : 1"
+  ],
+  "answer": 3,
+  "explanation": "Divide both parts by 3 to get 5 : 1."
+ },
+ {
+  "id": 22,
+  "level": "JSS1",
+  "topic": "Place value",
+  "q": "What is the value of the digit 9 in 36,942?",
+  "options": [
+   "9",
+   "90,000",
+   "900",
+   "9,000"
+  ],
+  "answer": 2,
+  "explanation": "The digit 9 is worth 9 × 100 = 900."
+ },
+ {
+  "id": 23,
+  "level": "JSS1",
+  "topic": "Roman numerals",
+  "q": "Write 217 in Roman numerals.",
+  "options": [
+   "CCXVIII",
+   "CCXXVII",
+   "CCXVII",
+   "CCXVI"
+  ],
+  "answer": 2,
+  "explanation": "217 = CCXVII in Roman numerals."
+ },
+ {
+  "id": 24,
+  "level": "JSS1",
+  "topic": "Percentages",
+  "q": "Find 5% of 300.",
+  "options": [
+   "150",
+   "20",
+   "285",
+   "15"
+  ],
+  "answer": 3,
+  "explanation": "5/100 × 300 = 15."
+ },
+ {
+  "id": 25,
+  "level": "JSS1",
+  "topic": "Algebra basics",
+  "q": "If x = 6, find the value of 7x + 6.",
+  "options": [
+   "55",
+   "42",
+   "19",
+   "48"
+  ],
+  "answer": 3,
+  "explanation": "Replace x with 6 and calculate: the answer is 48."
+ },
+ {
+  "id": 26,
+  "level": "JSS1",
+  "topic": "Approximation",
+  "q": "Round off 98,068 to the nearest thousand.",
+  "options": [
+   "100,000",
+   "99,000",
+   "97,000",
+   "98,000"
+  ],
+  "answer": 3,
+  "explanation": "Look at the digit to the right of the thousands place to decide whether to round up or down."
+ },
+ {
+  "id": 27,
+  "level": "JSS1",
+  "topic": "Integers",
+  "q": "Evaluate (−2) − 3.",
+  "options": [
+   "−5",
+   "−7",
+   "−3",
+   "5"
+  ],
+  "answer": 0,
+  "explanation": "Apply the rules for signs: the answer is −5."
+ },
+ {
+  "id": 28,
+  "level": "JSS1",
+  "topic": "Number bases",
+  "q": "Convert 110 in base two to base ten.",
+  "options": [
+   "8",
+   "6",
+   "5",
+   "7"
+  ],
+  "answer": 1,
+  "explanation": "Add the place values of each 1 in 110: the total is 6."
+ },
+ {
+  "id": 29,
+  "level": "JSS1",
+  "topic": "Factors and multiples",
+  "q": "Which of these numbers is a multiple of 5?",
+  "options": [
+   "56",
+   "64",
+   "60",
+   "61"
+  ],
+  "answer": 2,
+  "explanation": "5 × 12 = 60, so 60 is a multiple of 5."
+ },
+ {
+  "id": 30,
+  "level": "JSS1",
+  "topic": "Place value",
+  "q": "What is the value of the digit 6 in 41,536?",
+  "options": [
+   "6,000",
+   "6",
+   "60,000",
+   "600"
+  ],
+  "answer": 1,
+  "explanation": "The digit 6 is worth 6 × 1 = 6."
+ },
+ {
+  "id": 31,
+  "level": "JSS1",
+  "topic": "Decimals",
+  "q": "Calculate 60.7 + 2.8.",
+  "options": [
+   "64.5",
+   "62.5",
+   "6.35",
+   "63.5"
+  ],
+  "answer": 3,
+  "explanation": "Line up the decimal points and add to get 63.5."
+ },
+ {
+  "id": 32,
+  "level": "JSS1",
+  "topic": "Squares and roots",
+  "q": "Find the value of 6².",
+  "options": [
+   "12",
+   "36",
+   "42",
+   "30"
+  ],
+  "answer": 1,
+  "explanation": "6² = 6 × 6 = 36."
+ },
+ {
+  "id": 33,
+  "level": "JSS1",
+  "topic": "Factors and multiples",
+  "q": "Which of these numbers is a multiple of 4?",
+  "options": [
+   "28",
+   "25",
+   "30",
+   "29"
+  ],
+  "answer": 0,
+  "explanation": "4 × 7 = 28, so 28 is a multiple of 4."
+ },
+ {
+  "id": 34,
+  "level": "JSS1",
+  "topic": "Algebra basics",
+  "q": "Simplify 5a + 9a.",
+  "options": [
+   "14a²",
+   "45a",
+   "14a",
+   "15a"
+  ],
+  "answer": 2,
+  "explanation": "Add the coefficients: 5 + 9 = 14."
+ },
+ {
+  "id": 35,
+  "level": "JSS1",
+  "topic": "Sets",
+  "q": "If A = {1, 3, 4, 8, 9, 11} and B = {1, 2, 3, 8, 9}, find A ∪ B.",
+  "options": [
+   "{4, 11}",
+   "{1, 2, 3, 4, 8, 9, 11}",
+   "{1, 3, 8, 9}",
+   "{2}"
+  ],
+  "answer": 1,
+  "explanation": "A ∪ B contains every element in A or B, written once each."
+ },
+ {
+  "id": 36,
+  "level": "JSS1",
+  "topic": "Factors and multiples",
+  "q": "Which of these numbers is a multiple of 7?",
+  "options": [
+   "98",
+   "102",
+   "97",
+   "94"
+  ],
+  "answer": 0,
+  "explanation": "7 × 14 = 98, so 98 is a multiple of 7."
+ },
+ {
+  "id": 37,
+  "level": "JSS1",
+  "topic": "Decimals",
+  "q": "Calculate 42.4 + 41.2.",
+  "options": [
+   "8.36",
+   "83.6",
+   "82.6",
+   "84.6"
+  ],
+  "answer": 1,
+  "explanation": "Line up the decimal points and add to get 83.6."
+ },
+ {
+  "id": 38,
+  "level": "JSS1",
+  "topic": "Percentages",
+  "q": "Find 30% of 300.",
+  "options": [
+   "210",
+   "900",
+   "90",
+   "120"
+  ],
+  "answer": 2,
+  "explanation": "30/100 × 300 = 90."
+ },
+ {
+  "id": 39,
+  "level": "JSS1",
+  "topic": "Decimals",
+  "q": "Multiply 3.17 by 1,000.",
+  "options": [
+   "31700",
+   "3170",
+   "0.0032",
+   "317"
+  ],
+  "answer": 1,
+  "explanation": "Multiplying by 1,000 moves the decimal point 3 place(s) to the right."
+ },
+ {
+  "id": 40,
+  "level": "JSS1",
+  "topic": "Squares and roots",
+  "q": "Find the square root of 169.",
+  "options": [
+   "12",
+   "13",
+   "84",
+   "14"
+  ],
+  "answer": 1,
+  "explanation": "13 × 13 = 169, so √169 = 13."
+ },
+ {
+  "id": 41,
+  "level": "JSS1",
+  "topic": "LCM and HCF",
+  "q": "Find the LCM of 5 and 6.",
+  "options": [
+   "60",
+   "35",
+   "25",
+   "30"
+  ],
+  "answer": 3,
+  "explanation": "List multiples of both numbers. The smallest common multiple is 30."
+ },
+ {
+  "id": 42,
+  "level": "JSS1",
+  "topic": "Number bases",
+  "q": "Convert 10101 in base two to base ten.",
+  "options": [
+   "23",
+   "20",
+   "22",
+   "21"
+  ],
+  "answer": 3,
+  "explanation": "Add the place values of each 1 in 10101: the total is 21."
+ },
+ {
+  "id": 43,
+  "level": "JSS1",
+  "topic": "Integers",
+  "q": "Evaluate 2 − (−3).",
+  "options": [
+   "5",
+   "3",
+   "−5",
+   "7"
+  ],
+  "answer": 0,
+  "explanation": "Apply the rules for signs: the answer is 5."
+ },
+ {
+  "id": 44,
+  "level": "JSS1",
+  "topic": "Sets",
+  "q": "If A = {5, 6, 9, 10} and B = {1, 4, 10, 11, 12}, find A ∩ B.",
+  "options": [
+   "{1, 4, 11, 12}",
+   "{5, 6, 9}",
+   "{10}",
+   "{1, 4, 5, 6, 9, 10, 11, 12}"
+  ],
+  "answer": 2,
+  "explanation": "A ∩ B contains only the elements found in both sets."
+ },
+ {
+  "id": 45,
+  "level": "JSS1",
+  "topic": "Fractions",
+  "q": "Evaluate 1/6 − 1/7.",
+  "options": [
+   "0",
+   "1/42",
+   "13/42",
+   "1/21"
+  ],
+  "answer": 1,
+  "explanation": "Change to a common denominator, then subtract. The answer is 1/42."
+ },
+ {
+  "id": 46,
+  "level": "JSS1",
+  "topic": "Angles",
+  "q": "Angles at a point are 80°, 80° and x°. Find x. (They fill the whole turn.)",
+  "options": [
+   "20",
+   "280",
+   "160",
+   "200"
+  ],
+  "answer": 3,
+  "explanation": "Angles at a point add up to 360°."
+ },
+ {
+  "id": 47,
+  "level": "JSS1",
+  "topic": "Perimeter and area",
+  "q": "Find the area of a rectangle 15 cm long and 13 cm wide.",
+  "options": [
+   "195 cm²",
+   "210 cm²",
+   "28 cm²",
+   "56 cm²"
+  ],
+  "answer": 0,
+  "explanation": "Area = l × w = 15 × 13 = 195 cm²."
+ },
+ {
+  "id": 48,
+  "level": "JSS1",
+  "topic": "LCM and HCF",
+  "q": "Find the LCM of 3 and 8.",
+  "options": [
+   "48",
+   "24",
+   "21",
+   "27"
+  ],
+  "answer": 1,
+  "explanation": "List multiples of both numbers. The smallest common multiple is 24."
+ },
+ {
+  "id": 49,
+  "level": "JSS1",
+  "topic": "Algebra basics",
+  "q": "If x = 3, find the value of 5x − 12.",
+  "options": [
+   "8",
+   "3",
+   "4",
+   "27"
+  ],
+  "answer": 1,
+  "explanation": "Replace x with 3 and calculate: the answer is 3."
+ },
+ {
+  "id": 50,
+  "level": "JSS1",
+  "topic": "Sets",
+  "q": "If A = {2, 5, 11, 12} and B = {4, 6, 8, 12}, find A ∩ B.",
+  "options": [
+   "{12}",
+   "{4, 6, 8}",
+   "{2, 5, 11}",
+   "{2, 4, 5, 6, 8, 11, 12}"
+  ],
+  "answer": 0,
+  "explanation": "A ∩ B contains only the elements found in both sets."
+ },
+ {
+  "id": 51,
+  "level": "JSS1",
+  "topic": "Place value",
+  "q": "What is the place value of the digit 4 in 14,695?",
+  "options": [
+   "tens",
+   "ten thousands",
+   "thousands",
+   "units"
+  ],
+  "answer": 2,
+  "explanation": "The digit 4 sits in the thousands column of 14,695."
+ },
+ {
+  "id": 52,
+  "level": "JSS1",
+  "topic": "Money",
+  "q": "Funke buys 4 exercise books at ₦250 each and pays with ₦2,000. How much change does Funke get?",
+  "options": [
+   "₦1,250",
+   "₦1,000",
+   "₦3,000",
+   "₦750"
+  ],
+  "answer": 1,
+  "explanation": "Cost = 4 × ₦250 = ₦1,000. Change = ₦2,000 − ₦1,000 = ₦1,000."
+ },
+ {
+  "id": 53,
+  "level": "JSS1",
+  "topic": "Roman numerals",
+  "q": "Write 202 in Roman numerals.",
+  "options": [
+   "CCXII",
+   "CCIII",
+   "CCI",
+   "CCII"
+  ],
+  "answer": 3,
+  "explanation": "202 = CCII in Roman numerals."
+ },
+ {
+  "id": 54,
+  "level": "JSS1",
+  "topic": "Whole numbers",
+  "q": "Calculate 4,340 − 245.",
+  "options": [
+   "4,105",
+   "4,085",
+   "4,195",
+   "4,095"
+  ],
+  "answer": 3,
+  "explanation": "4,340 − 245 = 4,095."
+ },
+ {
+  "id": 55,
+  "level": "JSS1",
+  "topic": "Roman numerals",
+  "q": "Write 203 in Roman numerals.",
+  "options": [
+   "CCIV",
+   "CCXIII",
+   "CCII",
+   "CCIII"
+  ],
+  "answer": 3,
+  "explanation": "203 = CCIII in Roman numerals."
+ },
+ {
+  "id": 56,
+  "level": "JSS1",
+  "topic": "Fractions",
+  "q": "Evaluate 1/2 − 2/9.",
+  "options": [
+   "5/18",
+   "13/18",
+   "1/3",
+   "1/7"
+  ],
+  "answer": 0,
+  "explanation": "Change to a common denominator, then subtract. The answer is 5/18."
+ },
+ {
+  "id": 57,
+  "level": "JSS1",
+  "topic": "Algebra basics",
+  "q": "Simplify 5m + 3m.",
+  "options": [
+   "15m",
+   "8m²",
+   "9m",
+   "8m"
+  ],
+  "answer": 3,
+  "explanation": "Add the coefficients: 5 + 3 = 8."
+ },
+ {
+  "id": 58,
+  "level": "JSS1",
+  "topic": "Decimals",
+  "q": "Multiply 9.76 by 10.",
+  "options": [
+   "97.6",
+   "976",
+   "9.76",
+   "0.976"
+  ],
+  "answer": 0,
+  "explanation": "Multiplying by 10 moves the decimal point 1 place(s) to the right."
+ },
+ {
+  "id": 59,
+  "level": "JSS1",
+  "topic": "Integers",
+  "q": "Evaluate (−11) − 7.",
+  "options": [
+   "−18",
+   "−20",
+   "18",
+   "−16"
+  ],
+  "answer": 0,
+  "explanation": "Apply the rules for signs: the answer is −18."
+ },
+ {
+  "id": 60,
+  "level": "JSS1",
+  "topic": "Decimals",
+  "q": "Multiply 1.06 by 1,000.",
+  "options": [
+   "1060",
+   "10600",
+   "106",
+   "0.0011"
+  ],
+  "answer": 0,
+  "explanation": "Multiplying by 1,000 moves the decimal point 3 place(s) to the right."
+ },
+ {
+  "id": 61,
+  "level": "JSS1",
+  "topic": "Decimals",
+  "q": "Multiply 9.57 by 100.",
+  "options": [
+   "957",
+   "0.0957",
+   "9570",
+   "95.7"
+  ],
+  "answer": 0,
+  "explanation": "Multiplying by 100 moves the decimal point 2 place(s) to the right."
+ },
+ {
+  "id": 62,
+  "level": "JSS1",
+  "topic": "Perimeter and area",
+  "q": "Find the perimeter of a square of side 23 cm.",
+  "options": [
+   "92 cm",
+   "96 cm",
+   "46 cm",
+   "529 cm"
+  ],
+  "answer": 0,
+  "explanation": "A square has four equal sides, so perimeter = 4 × 23 = 92 cm."
+ },
+ {
+  "id": 63,
+  "level": "JSS1",
+  "topic": "Approximation",
+  "q": "Round off 46,808 to the nearest thousand.",
+  "options": [
+   "46,000",
+   "50,000",
+   "48,000",
+   "47,000"
+  ],
+  "answer": 3,
+  "explanation": "Look at the digit to the right of the thousands place to decide whether to round up or down."
+ },
+ {
+  "id": 64,
+  "level": "JSS1",
+  "topic": "Fractions",
+  "q": "Find 1/2 of 8.",
+  "options": [
+   "8",
+   "4",
+   "7",
+   "6"
+  ],
+  "answer": 1,
+  "explanation": "8 ÷ 2 = 4, then 4 × 1 = 4."
+ },
+ {
+  "id": 65,
+  "level": "JSS1",
+  "topic": "Roman numerals",
+  "q": "What is CCCLXXXIX in Hindu-Arabic numerals?",
+  "options": [
+   "399",
+   "388",
+   "390",
+   "389"
+  ],
+  "answer": 3,
+  "explanation": "CCCLXXXIX stands for 389."
+ },
+ {
+  "id": 66,
+  "level": "JSS1",
+  "topic": "LCM and HCF",
+  "q": "Find the LCM of 10 and 14.",
+  "options": [
+   "80",
+   "60",
+   "70",
+   "140"
+  ],
+  "answer": 2,
+  "explanation": "List multiples of both numbers. The smallest common multiple is 70."
+ },
+ {
+  "id": 67,
+  "level": "JSS1",
+  "topic": "Decimals",
+  "q": "Calculate 35.3 + 56.3.",
+  "options": [
+   "9.16",
+   "91.6",
+   "90.6",
+   "92.6"
+  ],
+  "answer": 1,
+  "explanation": "Line up the decimal points and add to get 91.6."
+ },
+ {
+  "id": 68,
+  "level": "JSS1",
+  "topic": "Angles",
+  "q": "Two straight lines cross. One angle is 45°. What is the angle vertically opposite it?",
+  "options": [
+   "45°",
+   "135°",
+   "55°",
+   "315°"
+  ],
+  "answer": 0,
+  "explanation": "Vertically opposite angles are equal."
+ },
+ {
+  "id": 69,
+  "level": "JSS1",
+  "topic": "Time",
+  "q": "How many minutes are there in 5 hours 20 minutes?",
+  "options": [
+   "380",
+   "320",
+   "520",
+   "260"
+  ],
+  "answer": 1,
+  "explanation": "5 × 60 + 20 = 320 minutes."
+ },
+ {
+  "id": 70,
+  "level": "JSS1",
+  "topic": "Algebra basics",
+  "q": "If x = 4, find the value of 7x − 7.",
+  "options": [
+   "28",
+   "35",
+   "21",
+   "4"
+  ],
+  "answer": 2,
+  "explanation": "Replace x with 4 and calculate: the answer is 21."
+ },
+ {
+  "id": 71,
+  "level": "JSS1",
+  "topic": "Factors and multiples",
+  "q": "Which of these numbers is a multiple of 9?",
+  "options": [
+   "70",
+   "76",
+   "73",
+   "72"
+  ],
+  "answer": 3,
+  "explanation": "9 × 8 = 72, so 72 is a multiple of 9."
+ },
+ {
+  "id": 72,
+  "level": "JSS1",
+  "topic": "Ratio",
+  "q": "Simplify the ratio 28 : 36.",
+  "options": [
+   "7 : 9",
+   "8 : 9",
+   "7 : 10",
+   "9 : 7"
+  ],
+  "answer": 0,
+  "explanation": "Divide both parts by 4 to get 7 : 9."
+ },
+ {
+  "id": 73,
+  "level": "JSS1",
+  "topic": "Fractions",
+  "q": "Evaluate 5/9 + 4/5.",
+  "options": [
+   "1/5",
+   "4/9",
+   "1 16/45",
+   "9/14"
+  ],
+  "answer": 2,
+  "explanation": "Use the LCM of 9 and 5 as common denominator. The sum is 1 16/45."
+ },
+ {
+  "id": 74,
+  "level": "JSS1",
+  "topic": "Algebra basics",
+  "q": "If x = 6, find the value of 6x + 11.",
+  "options": [
+   "23",
+   "36",
+   "47",
+   "53"
+  ],
+  "answer": 2,
+  "explanation": "Replace x with 6 and calculate: the answer is 47."
+ },
+ {
+  "id": 75,
+  "level": "JSS1",
+  "topic": "Roman numerals",
+  "q": "What is CCLXXXIV in Hindu-Arabic numerals?",
+  "options": [
+   "284",
+   "294",
+   "283",
+   "285"
+  ],
+  "answer": 0,
+  "explanation": "CCLXXXIV stands for 284."
+ },
+ {
+  "id": 76,
+  "level": "JSS1",
+  "topic": "Squares and roots",
+  "q": "Find the value of 18².",
+  "options": [
+   "342",
+   "36",
+   "324",
+   "306"
+  ],
+  "answer": 2,
+  "explanation": "18² = 18 × 18 = 324."
+ },
+ {
+  "id": 77,
+  "level": "JSS1",
+  "topic": "Sets",
+  "q": "If A = {1, 6, 7, 11} and B = {2, 6, 8, 9, 10, 11}, find A ∩ B.",
+  "options": [
+   "{6, 11}",
+   "{2, 8, 9, 10}",
+   "{1, 7}",
+   "{1, 2, 6, 7, 8, 9, 10, 11}"
+  ],
+  "answer": 0,
+  "explanation": "A ∩ B contains only the elements found in both sets."
+ },
+ {
+  "id": 78,
+  "level": "JSS1",
+  "topic": "LCM and HCF",
+  "q": "Find the HCF of 15 and 10.",
+  "options": [
+   "6",
+   "10",
+   "5",
+   "30"
+  ],
+  "answer": 2,
+  "explanation": "The largest number that divides both 15 and 10 exactly is 5."
+ },
+ {
+  "id": 79,
+  "level": "JSS1",
+  "topic": "Number patterns",
+  "q": "What is the next number in the sequence 10, 15, 20, 25, …?",
+  "options": [
+   "30",
+   "35",
+   "29",
+   "31"
+  ],
+  "answer": 0,
+  "explanation": "The sequence goes up by 5 each time, so the next term is 30."
+ },
+ {
+  "id": 80,
+  "level": "JSS1",
+  "topic": "Decimals",
+  "q": "Calculate 96.3 − 33.3.",
+  "options": [
+   "62",
+   "6.3",
+   "63",
+   "64"
+  ],
+  "answer": 2,
+  "explanation": "Line up the decimal points and subtract to get 63."
+ },
+ {
+  "id": 81,
+  "level": "JSS1",
+  "topic": "Roman numerals",
+  "q": "Write 75 in Roman numerals.",
+  "options": [
+   "LXXVI",
+   "LXXXV",
+   "LXXIV",
+   "LXXV"
+  ],
+  "answer": 3,
+  "explanation": "75 = LXXV in Roman numerals."
+ },
+ {
+  "id": 82,
+  "level": "JSS1",
+  "topic": "Place value",
+  "q": "What is the value of the digit 4 in 71,452?",
+  "options": [
+   "400",
+   "4,000",
+   "40",
+   "4"
+  ],
+  "answer": 0,
+  "explanation": "The digit 4 is worth 4 × 100 = 400."
+ },
+ {
+  "id": 83,
+  "level": "JSS1",
+  "topic": "Decimals",
+  "q": "Multiply 2.33 by 1,000.",
+  "options": [
+   "0.0023",
+   "23300",
+   "233",
+   "2330"
+  ],
+  "answer": 3,
+  "explanation": "Multiplying by 1,000 moves the decimal point 3 place(s) to the right."
+ },
+ {
+  "id": 84,
+  "level": "JSS1",
+  "topic": "Angles",
+  "q": "Find the supplement of 64°.",
+  "options": [
+   "26°",
+   "116°",
+   "64°",
+   "244°"
+  ],
+  "answer": 1,
+  "explanation": "Supplementary angles add up to 180°. 180° − 64° = 116°."
+ },
+ {
+  "id": 85,
+  "level": "JSS1",
+  "topic": "Place value",
+  "q": "What is the value of the digit 2 in 47,962?",
+  "options": [
+   "2,000",
+   "200",
+   "20",
+   "2"
+  ],
+  "answer": 3,
+  "explanation": "The digit 2 is worth 2 × 1 = 2."
+ },
+ {
+  "id": 86,
+  "level": "JSS1",
+  "topic": "Fractions",
+  "q": "Evaluate 1/3 + 2/7.",
+  "options": [
+   "3/10",
+   "2/21",
+   "13/21",
+   "1/7"
+  ],
+  "answer": 2,
+  "explanation": "Use the LCM of 3 and 7 as common denominator. The sum is 13/21."
+ },
+ {
+  "id": 87,
+  "level": "JSS1",
+  "topic": "Angles",
+  "q": "Angles at a point are 138°, 138° and x°. Find x. (They fill the whole turn.)",
+  "options": [
+   "276",
+   "84",
+   "222",
+   "158"
+  ],
+  "answer": 1,
+  "explanation": "Angles at a point add up to 360°."
+ },
+ {
+  "id": 88,
+  "level": "JSS1",
+  "topic": "LCM and HCF",
+  "q": "Find the LCM of 12 and 13.",
+  "options": [
+   "144",
+   "156",
+   "312",
+   "168"
+  ],
+  "answer": 1,
+  "explanation": "List multiples of both numbers. The smallest common multiple is 156."
+ },
+ {
+  "id": 89,
+  "level": "JSS1",
+  "topic": "Ratio",
+  "q": "Simplify the ratio 42 : 35.",
+  "options": [
+   "7 : 5",
+   "6 : 5",
+   "6 : 6",
+   "5 : 6"
+  ],
+  "answer": 1,
+  "explanation": "Divide both parts by 7 to get 6 : 5."
+ },
+ {
+  "id": 90,
+  "level": "JSS1",
+  "topic": "Decimals",
+  "q": "Calculate 62.4 − 42.7.",
+  "options": [
+   "1.97",
+   "19.7",
+   "20.7",
+   "18.7"
+  ],
+  "answer": 1,
+  "explanation": "Line up the decimal points and subtract to get 19.7."
+ },
+ {
+  "id": 91,
+  "level": "JSS1",
+  "topic": "Approximation",
+  "q": "Round off 53,257 to the nearest thousand.",
+  "options": [
+   "52,000",
+   "54,000",
+   "53,000",
+   "55,000"
+  ],
+  "answer": 2,
+  "explanation": "Look at the digit to the right of the thousands place to decide whether to round up or down."
+ },
+ {
+  "id": 92,
+  "level": "JSS1",
+  "topic": "Fractions",
+  "q": "Find 2/3 of 51.",
+  "options": [
+   "34",
+   "51",
+   "17",
+   "37"
+  ],
+  "answer": 0,
+  "explanation": "51 ÷ 3 = 17, then 17 × 2 = 34."
+ },
+ {
+  "id": 93,
+  "level": "JSS1",
+  "topic": "Approximation",
+  "q": "Round off 27,219 to the nearest hundred.",
+  "options": [
+   "27,400",
+   "27,100",
+   "27,300",
+   "27,200"
+  ],
+  "answer": 3,
+  "explanation": "Look at the digit to the right of the hundreds place to decide whether to round up or down."
+ },
+ {
+  "id": 94,
+  "level": "JSS1",
+  "topic": "Factors and multiples",
+  "q": "Which of these numbers is a multiple of 9?",
+  "options": [
+   "115",
+   "122",
+   "117",
+   "123"
+  ],
+  "answer": 2,
+  "explanation": "9 × 13 = 117, so 117 is a multiple of 9."
+ },
+ {
+  "id": 95,
+  "level": "JSS1",
+  "topic": "Fractions",
+  "q": "Evaluate 3/5 + 1/2.",
+  "options": [
+   "1 1/10",
+   "4/7",
+   "2/5",
+   "3/10"
+  ],
+  "answer": 0,
+  "explanation": "Use the LCM of 5 and 2 as common denominator. The sum is 1 1/10."
+ },
+ {
+  "id": 96,
+  "level": "JSS1",
+  "topic": "Factors and primes",
+  "q": "Which of the following is NOT a prime number?",
+  "options": [
+   "17",
+   "7",
+   "47",
+   "25"
+  ],
+  "answer": 3,
+  "explanation": "25 has more than two factors, so it is not prime."
+ },
+ {
+  "id": 97,
+  "level": "JSS1",
+  "topic": "Time",
+  "q": "How many minutes are there in 5 hours 30 minutes?",
+  "options": [
+   "270",
+   "530",
+   "330",
+   "390"
+  ],
+  "answer": 2,
+  "explanation": "5 × 60 + 30 = 330 minutes."
+ },
+ {
+  "id": 98,
+  "level": "JSS1",
+  "topic": "Algebra basics",
+  "q": "If x = 7, find the value of 6x − 8.",
+  "options": [
+   "40",
+   "5",
+   "50",
+   "34"
+  ],
+  "answer": 3,
+  "explanation": "Replace x with 7 and calculate: the answer is 34."
+ },
+ {
+  "id": 99,
+  "level": "JSS1",
+  "topic": "Fractions",
+  "q": "Evaluate 2/3 − 3/5.",
+  "options": [
+   "1 4/15",
+   "2/15",
+   "1/2",
+   "1/15"
+  ],
+  "answer": 3,
+  "explanation": "Change to a common denominator, then subtract. The answer is 1/15."
+ },
+ {
+  "id": 100,
+  "level": "JSS1",
+  "topic": "Decimals",
+  "q": "Calculate 83.1 − 12.1.",
+  "options": [
+   "72",
+   "7.1",
+   "71",
+   "70"
+  ],
+  "answer": 2,
+  "explanation": "Line up the decimal points and subtract to get 71."
+ },
+ {
+  "id": 101,
+  "level": "JSS1",
+  "topic": "Whole numbers",
+  "q": "Calculate 62 × 24.",
+  "options": [
+   "1,588",
+   "1,498",
+   "1,478",
+   "1,488"
+  ],
+  "answer": 3,
+  "explanation": "62 × 24 = 1,488."
+ },
+ {
+  "id": 102,
+  "level": "JSS1",
+  "topic": "Factors and primes",
+  "q": "Which of the following is NOT a prime number?",
+  "options": [
+   "43",
+   "31",
+   "41",
+   "27"
+  ],
+  "answer": 3,
+  "explanation": "27 has more than two factors, so it is not prime."
+ },
+ {
+  "id": 103,
+  "level": "JSS1",
+  "topic": "Factors and primes",
+  "q": "Which of the following is NOT a prime number?",
+  "options": [
+   "59",
+   "53",
+   "27",
+   "2"
+  ],
+  "answer": 2,
+  "explanation": "27 has more than two factors, so it is not prime."
+ },
+ {
+  "id": 104,
+  "level": "JSS1",
+  "topic": "Fractions",
+  "q": "Evaluate 1/2 + 3/5.",
+  "options": [
+   "3/10",
+   "4/7",
+   "2/5",
+   "1 1/10"
+  ],
+  "answer": 3,
+  "explanation": "Use the LCM of 2 and 5 as common denominator. The sum is 1 1/10."
+ },
+ {
+  "id": 105,
+  "level": "JSS1",
+  "topic": "Factors and primes",
+  "q": "Which of the following is NOT a prime number?",
+  "options": [
+   "31",
+   "27",
+   "19",
+   "41"
+  ],
+  "answer": 1,
+  "explanation": "27 has more than two factors, so it is not prime."
+ },
+ {
+  "id": 106,
+  "level": "JSS1",
+  "topic": "Algebra basics",
+  "q": "Simplify 9y + 7y.",
+  "options": [
+   "16y²",
+   "17y",
+   "16y",
+   "63y"
+  ],
+  "answer": 2,
+  "explanation": "Add the coefficients: 9 + 7 = 16."
+ },
+ {
+  "id": 107,
+  "level": "JSS1",
+  "topic": "Number bases",
+  "q": "Convert 1101 in base two to base ten.",
+  "options": [
+   "13",
+   "15",
+   "12",
+   "14"
+  ],
+  "answer": 0,
+  "explanation": "Add the place values of each 1 in 1101: the total is 13."
+ },
+ {
+  "id": 108,
+  "level": "JSS1",
+  "topic": "Sets",
+  "q": "If A = {2, 4, 6, 8, 12} and B = {1, 2, 4, 5, 7, 12}, find A ∩ B.",
+  "options": [
+   "{2, 4, 12}",
+   "{1, 5, 7}",
+   "{1, 2, 4, 5, 6, 7, 8, 12}",
+   "{6, 8}"
+  ],
+  "answer": 0,
+  "explanation": "A ∩ B contains only the elements found in both sets."
+ },
+ {
+  "id": 109,
+  "level": "JSS1",
+  "topic": "Fractions",
+  "q": "Evaluate 4/5 − 4/9.",
+  "options": [
+   "0",
+   "16/45",
+   "1 11/45",
+   "17/45"
+  ],
+  "answer": 1,
+  "explanation": "Change to a common denominator, then subtract. The answer is 16/45."
+ },
+ {
+  "id": 110,
+  "level": "JSS1",
+  "topic": "Word problems",
+  "q": "Fatima shares 60 oranges equally among 4 children. How many oranges does each child get?",
+  "options": [
+   "56",
+   "16",
+   "14",
+   "15"
+  ],
+  "answer": 3,
+  "explanation": "60 ÷ 4 = 15."
+ },
+ {
+  "id": 111,
+  "level": "JSS1",
+  "topic": "Fractions",
+  "q": "Find 8/10 of 170.",
+  "options": [
+   "136",
+   "153",
+   "146",
+   "34"
+  ],
+  "answer": 0,
+  "explanation": "170 ÷ 10 = 17, then 17 × 8 = 136."
+ },
+ {
+  "id": 112,
+  "level": "JSS1",
+  "topic": "Ratio",
+  "q": "Simplify the ratio 27 : 9.",
+  "options": [
+   "3 : 2",
+   "3 : 1",
+   "4 : 1",
+   "1 : 3"
+  ],
+  "answer": 1,
+  "explanation": "Divide both parts by 9 to get 3 : 1."
+ },
+ {
+  "id": 113,
+  "level": "JSS1",
+  "topic": "Factors and primes",
+  "q": "Which of the following is a prime number?",
+  "options": [
+   "9",
+   "39",
+   "27",
+   "17"
+  ],
+  "answer": 3,
+  "explanation": "17 has only two factors, 1 and itself. The other numbers each have more than two factors."
+ },
+ {
+  "id": 114,
+  "level": "JSS1",
+  "topic": "Roman numerals",
+  "q": "What is CCCXVIII in Hindu-Arabic numerals?",
+  "options": [
+   "319",
+   "328",
+   "317",
+   "318"
+  ],
+  "answer": 3,
+  "explanation": "CCCXVIII stands for 318."
+ },
+ {
+  "id": 115,
+  "level": "JSS1",
+  "topic": "Algebra basics",
+  "q": "Simplify 6a + 7a − 8a.",
+  "options": [
+   "7a",
+   "21a",
+   "5a",
+   "336a"
+  ],
+  "answer": 2,
+  "explanation": "Combine the coefficients of like terms."
+ },
+ {
+  "id": 116,
+  "level": "JSS1",
+  "topic": "Fractions",
+  "q": "Evaluate 4/9 + 5/8.",
+  "options": [
+   "5/18",
+   "1 5/72",
+   "9/17",
+   "1/8"
+  ],
+  "answer": 1,
+  "explanation": "Use the LCM of 9 and 8 as common denominator. The sum is 1 5/72."
+ },
+ {
+  "id": 117,
+  "level": "JSS1",
+  "topic": "Whole numbers",
+  "q": "Calculate 8,322 + 9,227.",
+  "options": [
+   "17,649",
+   "17,539",
+   "17,549",
+   "17,559"
+  ],
+  "answer": 2,
+  "explanation": "8,322 + 9,227 = 17,549."
+ },
+ {
+  "id": 118,
+  "level": "JSS1",
+  "topic": "Place value",
+  "q": "What is the place value of the digit 7 in 45,176?",
+  "options": [
+   "hundreds",
+   "ten thousands",
+   "tens",
+   "units"
+  ],
+  "answer": 2,
+  "explanation": "The digit 7 sits in the tens column of 45,176."
+ },
+ {
+  "id": 119,
+  "level": "JSS1",
+  "topic": "Place value",
+  "q": "What is the place value of the digit 4 in 85,794?",
+  "options": [
+   "hundreds",
+   "thousands",
+   "units",
+   "tens"
+  ],
+  "answer": 2,
+  "explanation": "The digit 4 sits in the units column of 85,794."
+ },
+ {
+  "id": 120,
+  "level": "JSS1",
+  "topic": "Angles",
+  "q": "Two straight lines cross. One angle is 63°. What is the angle vertically opposite it?",
+  "options": [
+   "297°",
+   "117°",
+   "27°",
+   "63°"
+  ],
+  "answer": 3,
+  "explanation": "Vertically opposite angles are equal."
+ },
+ {
+  "id": 121,
+  "level": "JSS1",
+  "topic": "Number patterns",
+  "q": "What is the next number in the sequence 3, 11, 19, 27, …?",
+  "options": [
+   "36",
+   "34",
+   "43",
+   "35"
+  ],
+  "answer": 3,
+  "explanation": "The sequence goes up by 8 each time, so the next term is 35."
+ },
+ {
+  "id": 122,
+  "level": "JSS1",
+  "topic": "LCM and HCF",
+  "q": "Find the HCF of 18 and 42.",
+  "options": [
+   "12",
+   "6",
+   "126",
+   "7"
+  ],
+  "answer": 1,
+  "explanation": "The largest number that divides both 18 and 42 exactly is 6."
+ },
+ {
+  "id": 123,
+  "level": "JSS1",
+  "topic": "Word problems",
+  "q": "A bus travels 58 km each day. How far does it travel in 9 days?",
+  "options": [
+   "67 km",
+   "580 km",
+   "513 km",
+   "522 km"
+  ],
+  "answer": 3,
+  "explanation": "58 × 9 = 522 km."
+ },
+ {
+  "id": 124,
+  "level": "JSS1",
+  "topic": "Word problems",
+  "q": "A school has 18 classes with 22 pupils in each class. How many pupils are there altogether?",
+  "options": [
+   "396",
+   "418",
+   "40",
+   "378"
+  ],
+  "answer": 0,
+  "explanation": "18 × 22 = 396."
+ },
+ {
+  "id": 125,
+  "level": "JSS1",
+  "topic": "Perimeter and area",
+  "q": "A rectangle is 13 cm long and 12 cm wide. Find its perimeter.",
+  "options": [
+   "25 cm",
+   "156 cm",
+   "50 cm",
+   "312 cm"
+  ],
+  "answer": 2,
+  "explanation": "Perimeter = 2(l + w) = 2(13 + 12) = 50 cm."
+ },
+ {
+  "id": 126,
+  "level": "JSS1",
+  "topic": "Roman numerals",
+  "q": "What is CCCXLVIII in Hindu-Arabic numerals?",
+  "options": [
+   "358",
+   "348",
+   "349",
+   "347"
+  ],
+  "answer": 1,
+  "explanation": "CCCXLVIII stands for 348."
+ },
+ {
+  "id": 127,
+  "level": "JSS1",
+  "topic": "Place value",
+  "q": "What is the place value of the digit 5 in 74,625?",
+  "options": [
+   "ten thousands",
+   "hundreds",
+   "units",
+   "tens"
+  ],
+  "answer": 2,
+  "explanation": "The digit 5 sits in the units column of 74,625."
+ },
+ {
+  "id": 128,
+  "level": "JSS1",
+  "topic": "Percentages",
+  "q": "Find 60% of 720.",
+  "options": [
+   "288",
+   "492",
+   "432",
+   "4,320"
+  ],
+  "answer": 2,
+  "explanation": "60/100 × 720 = 432."
+ },
+ {
+  "id": 129,
+  "level": "JSS1",
+  "topic": "Perimeter and area",
+  "q": "A rectangle is 18 cm long and 3 cm wide. Find its perimeter.",
+  "options": [
+   "21 cm",
+   "42 cm",
+   "108 cm",
+   "54 cm"
+  ],
+  "answer": 1,
+  "explanation": "Perimeter = 2(l + w) = 2(18 + 3) = 42 cm."
+ },
+ {
+  "id": 130,
+  "level": "JSS1",
+  "topic": "Percentages",
+  "q": "Find 40% of 440.",
+  "options": [
+   "216",
+   "176",
+   "1,760",
+   "264"
+  ],
+  "answer": 1,
+  "explanation": "40/100 × 440 = 176."
+ },
+ {
+  "id": 131,
+  "level": "JSS1",
+  "topic": "Factors and primes",
+  "q": "Which of the following is a prime number?",
+  "options": [
+   "63",
+   "51",
+   "43",
+   "33"
+  ],
+  "answer": 2,
+  "explanation": "43 has only two factors, 1 and itself. The other numbers each have more than two factors."
+ },
+ {
+  "id": 132,
+  "level": "JSS1",
+  "topic": "Angles",
+  "q": "Find the supplement of 44°.",
+  "options": [
+   "46°",
+   "224°",
+   "44°",
+   "136°"
+  ],
+  "answer": 3,
+  "explanation": "Supplementary angles add up to 180°. 180° − 44° = 136°."
+ },
+ {
+  "id": 133,
+  "level": "JSS1",
+  "topic": "Perimeter and area",
+  "q": "Find the area of a square of side 21 cm.",
+  "options": [
+   "462 cm²",
+   "441 cm²",
+   "42 cm²",
+   "84 cm²"
+  ],
+  "answer": 1,
+  "explanation": "Area = side × side = 21 × 21 = 441 cm²."
+ },
+ {
+  "id": 134,
+  "level": "JSS1",
+  "topic": "Money",
+  "q": "Funke buys 2 pens at ₦400 each and pays with ₦1,000. How much change does Funke get?",
+  "options": [
+   "₦200",
+   "₦800",
+   "₦600",
+   "₦1,000"
+  ],
+  "answer": 0,
+  "explanation": "Cost = 2 × ₦400 = ₦800. Change = ₦1,000 − ₦800 = ₦200."
+ },
+ {
+  "id": 135,
+  "level": "JSS1",
+  "topic": "Time",
+  "q": "How many minutes are there in 2 hours 45 minutes?",
+  "options": [
+   "165",
+   "225",
+   "245",
+   "105"
+  ],
+  "answer": 0,
+  "explanation": "2 × 60 + 45 = 165 minutes."
+ },
+ {
+  "id": 136,
+  "level": "JSS1",
+  "topic": "Angles",
+  "q": "Find the complement of 39°.",
+  "options": [
+   "141°",
+   "129°",
+   "39°",
+   "51°"
+  ],
+  "answer": 3,
+  "explanation": "Complementary angles add up to 90°. 90° − 39° = 51°."
+ },
+ {
+  "id": 137,
+  "level": "JSS1",
+  "topic": "Factors and primes",
+  "q": "Which of the following is a prime number?",
+  "options": [
+   "15",
+   "65",
+   "25",
+   "3"
+  ],
+  "answer": 3,
+  "explanation": "3 has only two factors, 1 and itself. The other numbers each have more than two factors."
+ },
+ {
+  "id": 138,
+  "level": "JSS1",
+  "topic": "Algebra basics",
+  "q": "Simplify 9a − 3a.",
+  "options": [
+   "12a",
+   "27a",
+   "6a",
+   "6"
+  ],
+  "answer": 2,
+  "explanation": "Subtract the coefficients: 9 − 3 = 6."
+ },
+ {
+  "id": 139,
+  "level": "JSS1",
+  "topic": "Perimeter and area",
+  "q": "Find the area of a rectangle 19 cm long and 18 cm wide.",
+  "options": [
+   "342 cm²",
+   "37 cm²",
+   "361 cm²",
+   "74 cm²"
+  ],
+  "answer": 0,
+  "explanation": "Area = l × w = 19 × 18 = 342 cm²."
+ },
+ {
+  "id": 140,
+  "level": "JSS1",
+  "topic": "LCM and HCF",
+  "q": "Find the HCF of 27 and 63.",
+  "options": [
+   "9",
+   "10",
+   "18",
+   "189"
+  ],
+  "answer": 0,
+  "explanation": "The largest number that divides both 27 and 63 exactly is 9."
+ },
+ {
+  "id": 141,
+  "level": "JSS1",
+  "topic": "Angles",
+  "q": "Find the supplement of 23°.",
+  "options": [
+   "203°",
+   "67°",
+   "23°",
+   "157°"
+  ],
+  "answer": 3,
+  "explanation": "Supplementary angles add up to 180°. 180° − 23° = 157°."
+ },
+ {
+  "id": 142,
+  "level": "JSS1",
+  "topic": "Squares and roots",
+  "q": "Find the value of 8².",
+  "options": [
+   "16",
+   "64",
+   "56",
+   "72"
+  ],
+  "answer": 1,
+  "explanation": "8² = 8 × 8 = 64."
+ },
+ {
+  "id": 143,
+  "level": "JSS1",
+  "topic": "Fractions",
+  "q": "Find 2/10 of 200.",
+  "options": [
+   "50",
+   "60",
+   "160",
+   "40"
+  ],
+  "answer": 3,
+  "explanation": "200 ÷ 10 = 20, then 20 × 2 = 40."
+ },
+ {
+  "id": 144,
+  "level": "JSS1",
+  "topic": "Roman numerals",
+  "q": "Write 111 in Roman numerals.",
+  "options": [
+   "CXII",
+   "CXI",
+   "CXXI",
+   "CX"
+  ],
+  "answer": 1,
+  "explanation": "111 = CXI in Roman numerals."
+ },
+ {
+  "id": 145,
+  "level": "JSS1",
+  "topic": "Perimeter and area",
+  "q": "A rectangle is 21 cm long and 20 cm wide. Find its perimeter.",
+  "options": [
+   "41 cm",
+   "420 cm",
+   "82 cm",
+   "840 cm"
+  ],
+  "answer": 2,
+  "explanation": "Perimeter = 2(l + w) = 2(21 + 20) = 82 cm."
+ },
+ {
+  "id": 146,
+  "level": "JSS1",
+  "topic": "Percentages",
+  "q": "Find 15% of 180.",
+  "options": [
+   "270",
+   "27",
+   "42",
+   "153"
+  ],
+  "answer": 1,
+  "explanation": "15/100 × 180 = 27."
+ },
+ {
+  "id": 147,
+  "level": "JSS1",
+  "topic": "Word problems",
+  "q": "Tunde shares 21 oranges equally among 3 children. How many oranges does each child get?",
+  "options": [
+   "8",
+   "6",
+   "7",
+   "18"
+  ],
+  "answer": 2,
+  "explanation": "21 ÷ 3 = 7."
+ },
+ {
+  "id": 148,
+  "level": "JSS1",
+  "topic": "Money",
+  "q": "Funke buys 4 mathematical sets at ₦100 each and pays with ₦1,000. How much change does Funke get?",
+  "options": [
+   "₦400",
+   "₦700",
+   "₦500",
+   "₦600"
+  ],
+  "answer": 3,
+  "explanation": "Cost = 4 × ₦100 = ₦400. Change = ₦1,000 − ₦400 = ₦600."
+ },
+ {
+  "id": 149,
+  "level": "JSS1",
+  "topic": "Number bases",
+  "q": "Convert 11000 in base two to base ten.",
+  "options": [
+   "26",
+   "23",
+   "24",
+   "25"
+  ],
+  "answer": 2,
+  "explanation": "Add the place values of each 1 in 11000: the total is 24."
+ },
+ {
+  "id": 150,
+  "level": "JSS1",
+  "topic": "Number bases",
+  "q": "Convert 11100 in base two to base ten.",
+  "options": [
+   "28",
+   "29",
+   "30",
+   "27"
+  ],
+  "answer": 0,
+  "explanation": "Add the place values of each 1 in 11100: the total is 28."
+ },
+ {
+  "id": 151,
+  "level": "JSS1",
+  "topic": "Place value",
+  "q": "What is the place value of the digit 8 in 52,938?",
+  "options": [
+   "tens",
+   "hundreds",
+   "units",
+   "ten thousands"
+  ],
+  "answer": 2,
+  "explanation": "The digit 8 sits in the units column of 52,938."
+ },
+ {
+  "id": 152,
+  "level": "JSS1",
+  "topic": "Whole numbers",
+  "q": "Calculate 2,059 − 902.",
+  "options": [
+   "1,147",
+   "1,167",
+   "1,157",
+   "1,257"
+  ],
+  "answer": 2,
+  "explanation": "2,059 − 902 = 1,157."
+ },
+ {
+  "id": 153,
+  "level": "JSS1",
+  "topic": "Decimals",
+  "q": "Calculate 90.3 − 34.1.",
+  "options": [
+   "57.2",
+   "55.2",
+   "5.62",
+   "56.2"
+  ],
+  "answer": 3,
+  "explanation": "Line up the decimal points and subtract to get 56.2."
+ },
+ {
+  "id": 154,
+  "level": "JSS1",
+  "topic": "Fractions",
+  "q": "Evaluate 2/3 − 2/8.",
+  "options": [
+   "5/12",
+   "11/24",
+   "0",
+   "11/12"
+  ],
+  "answer": 0,
+  "explanation": "Change to a common denominator, then subtract. The answer is 5/12."
+ },
+ {
+  "id": 155,
+  "level": "JSS1",
+  "topic": "Squares and roots",
+  "q": "Find the value of 11².",
+  "options": [
+   "22",
+   "132",
+   "110",
+   "121"
+  ],
+  "answer": 3,
+  "explanation": "11² = 11 × 11 = 121."
+ },
+ {
+  "id": 156,
+  "level": "JSS1",
+  "topic": "Fractions",
+  "q": "Find 1/10 of 180.",
+  "options": [
+   "18",
+   "28",
+   "36",
+   "162"
+  ],
+  "answer": 0,
+  "explanation": "180 ÷ 10 = 18, then 18 × 1 = 18."
+ },
+ {
+  "id": 157,
+  "level": "JSS1",
+  "topic": "Decimals",
+  "q": "Calculate 42.8 − 32.4.",
+  "options": [
+   "11.4",
+   "10.4",
+   "9.4",
+   "1.04"
+  ],
+  "answer": 1,
+  "explanation": "Line up the decimal points and subtract to get 10.4."
+ },
+ {
+  "id": 158,
+  "level": "JSS1",
+  "topic": "Number patterns",
+  "q": "What is the next number in the sequence 19, 27, 35, 43, …?",
+  "options": [
+   "50",
+   "51",
+   "59",
+   "52"
+  ],
+  "answer": 1,
+  "explanation": "The sequence goes up by 8 each time, so the next term is 51."
+ },
+ {
+  "id": 159,
+  "level": "JSS1",
+  "topic": "LCM and HCF",
+  "q": "Find the HCF of 63 and 36.",
+  "options": [
+   "252",
+   "18",
+   "9",
+   "10"
+  ],
+  "answer": 2,
+  "explanation": "The largest number that divides both 63 and 36 exactly is 9."
+ },
+ {
+  "id": 160,
+  "level": "JSS1",
+  "topic": "Time",
+  "q": "How many minutes are there in 9 hours 30 minutes?",
+  "options": [
+   "570",
+   "930",
+   "630",
+   "510"
+  ],
+  "answer": 0,
+  "explanation": "9 × 60 + 30 = 570 minutes."
+ },
+ {
+  "id": 161,
+  "level": "JSS1",
+  "topic": "Whole numbers",
+  "q": "Calculate 2,100 − 1,764.",
+  "options": [
+   "436",
+   "336",
+   "326",
+   "346"
+  ],
+  "answer": 1,
+  "explanation": "2,100 − 1,764 = 336."
+ },
+ {
+  "id": 162,
+  "level": "JSS1",
+  "topic": "Integers",
+  "q": "Evaluate (−11) + (−2).",
+  "options": [
+   "13",
+   "−13",
+   "−15",
+   "−11"
+  ],
+  "answer": 1,
+  "explanation": "Apply the rules for signs: the answer is −13."
+ },
+ {
+  "id": 163,
+  "level": "JSS1",
+  "topic": "Factors and primes",
+  "q": "Which of the following is a prime number?",
+  "options": [
+   "9",
+   "35",
+   "25",
+   "41"
+  ],
+  "answer": 3,
+  "explanation": "41 has only two factors, 1 and itself. The other numbers each have more than two factors."
+ },
+ {
+  "id": 164,
+  "level": "JSS1",
+  "topic": "Decimals",
+  "q": "Calculate 27.6 + 78.5.",
+  "options": [
+   "106.1",
+   "10.61",
+   "107.1",
+   "105.1"
+  ],
+  "answer": 0,
+  "explanation": "Line up the decimal points and add to get 106.1."
+ },
+ {
+  "id": 165,
+  "level": "JSS1",
+  "topic": "Money",
+  "q": "Aisha buys 8 mathematical sets at ₦50 each and pays with ₦1,000. How much change does Aisha get?",
+  "options": [
+   "₦600",
+   "₦550",
+   "₦400",
+   "₦650"
+  ],
+  "answer": 0,
+  "explanation": "Cost = 8 × ₦50 = ₦400. Change = ₦1,000 − ₦400 = ₦600."
+ },
+ {
+  "id": 166,
+  "level": "JSS1",
+  "topic": "Integers",
+  "q": "Evaluate 5 − (−4).",
+  "options": [
+   "11",
+   "−9",
+   "9",
+   "7"
+  ],
+  "answer": 2,
+  "explanation": "Apply the rules for signs: the answer is 9."
+ },
+ {
+  "id": 167,
+  "level": "JSS1",
+  "topic": "Time",
+  "q": "How many minutes are there in 7 hours 15 minutes?",
+  "options": [
+   "375",
+   "495",
+   "435",
+   "715"
+  ],
+  "answer": 2,
+  "explanation": "7 × 60 + 15 = 435 minutes."
+ },
+ {
+  "id": 168,
+  "level": "JSS2",
+  "topic": "LCM and HCF",
+  "q": "Two bells ring every 4 minutes and every 2 minutes. They ring together now. After how many minutes will they next ring together?",
+  "options": [
+   "2 minutes",
+   "6 minutes",
+   "8 minutes",
+   "4 minutes"
+  ],
+  "answer": 3,
+  "explanation": "Find the LCM of 4 and 2. It is 4."
+ },
+ {
+  "id": 169,
+  "level": "JSS2",
+  "topic": "Ratio and proportion",
+  "q": "₦17,000 is shared between Fatima and Chioma in the ratio 3 : 7. How much does Chioma get?",
+  "options": [
+   "₦8,500",
+   "₦5,100",
+   "₦1,700",
+   "₦11,900"
+  ],
+  "answer": 3,
+  "explanation": "Total parts = 10. One part = ₦17,000 ÷ 10 = ₦1,700. Chioma gets 7 × ₦1,700 = ₦11,900."
+ },
+ {
+  "id": 170,
+  "level": "JSS2",
+  "topic": "Area of plane shapes",
+  "q": "A trapezium has parallel sides 13 cm and 15 cm, and the distance between them is 6 cm. Find its area.",
+  "options": [
+   "90 cm²",
+   "168 cm²",
+   "585 cm²",
+   "84 cm²"
+  ],
+  "answer": 3,
+  "explanation": "Area = ½(a + b)h = ½(13 + 15) × 6 = 84 cm²."
+ },
+ {
+  "id": 171,
+  "level": "JSS2",
+  "topic": "Area of plane shapes",
+  "q": "A trapezium has parallel sides 9 cm and 13 cm, and the distance between them is 12 cm. Find its area.",
+  "options": [
+   "264 cm²",
+   "144 cm²",
+   "132 cm²",
+   "702 cm²"
+  ],
+  "answer": 2,
+  "explanation": "Area = ½(a + b)h = ½(9 + 13) × 12 = 132 cm²."
+ },
+ {
+  "id": 172,
+  "level": "JSS2",
+  "topic": "Ratio and proportion",
+  "q": "On a map, 1 cm represents 10 km. Two towns are 10 cm apart on the map. What is the real distance between them?",
+  "options": [
+   "100 km",
+   "20 km",
+   "1 km",
+   "1000 km"
+  ],
+  "answer": 0,
+  "explanation": "10 × 10 = 100 km."
+ },
+ {
+  "id": 173,
+  "level": "JSS2",
+  "topic": "Area of plane shapes",
+  "q": "A trapezium has parallel sides 12 cm and 17 cm, and the distance between them is 8 cm. Find its area.",
+  "options": [
+   "124 cm²",
+   "116 cm²",
+   "816 cm²",
+   "232 cm²"
+  ],
+  "answer": 1,
+  "explanation": "Area = ½(a + b)h = ½(12 + 17) × 8 = 116 cm²."
+ },
+ {
+  "id": 174,
+  "level": "JSS2",
+  "topic": "Volume",
+  "q": "Find the volume of a cuboid 8 cm long, 10 cm wide and 6 cm high.",
+  "options": [
+   "376 cm³",
+   "480 cm³",
+   "560 cm³",
+   "24 cm³"
+  ],
+  "answer": 1,
+  "explanation": "Volume = l × w × h = 8 × 10 × 6 = 480 cm³."
+ },
+ {
+  "id": 175,
+  "level": "JSS2",
+  "topic": "Sets",
+  "q": "In a class, 25 students like Mathematics and 26 like English. 17 students like both subjects. How many students like at least one of the two subjects?",
+  "options": [
+   "68",
+   "8",
+   "51",
+   "34"
+  ],
+  "answer": 3,
+  "explanation": "n(M ∪ E) = n(M) + n(E) − n(M ∩ E) = 25 + 26 − 17 = 34."
+ },
+ {
+  "id": 176,
+  "level": "JSS2",
+  "topic": "Area of plane shapes",
+  "q": "Find the area of a triangle with base 10 cm and height 9 cm.",
+  "options": [
+   "19 cm²",
+   "45 cm²",
+   "90 cm²",
+   "38 cm²"
+  ],
+  "answer": 1,
+  "explanation": "Area = ½ × base × height = ½ × 10 × 9 = 45 cm²."
+ },
+ {
+  "id": 177,
+  "level": "JSS2",
+  "topic": "Algebraic expressions",
+  "q": "Factorise 8x + 36.",
+  "options": [
+   "4(2x + 9)",
+   "5(2x + 9)",
+   "4(x + 9)",
+   "4(2x + 10)"
+  ],
+  "answer": 0,
+  "explanation": "The HCF of 8 and 36 is 4. Take it outside the bracket."
+ },
+ {
+  "id": 178,
+  "level": "JSS2",
+  "topic": "Algebra basics",
+  "q": "If a = 2 and b = 4, find the value of 2a + 3b.",
+  "options": [
+   "48",
+   "16",
+   "13",
+   "18"
+  ],
+  "answer": 1,
+  "explanation": "2(2) + 3(4) = 4 + 12 = 16."
+ },
+ {
+  "id": 179,
+  "level": "JSS2",
+  "topic": "Indices",
+  "q": "Evaluate 4⁵.",
+  "options": [
+   "20",
+   "1028",
+   "1024",
+   "1020"
+  ],
+  "answer": 2,
+  "explanation": "4⁵ means 4 multiplied by itself 5 times, which is 1024."
+ },
+ {
+  "id": 180,
+  "level": "JSS2",
+  "topic": "Linear equations",
+  "q": "Solve 7x + 7 = 84.",
+  "options": [
+   "10",
+   "11",
+   "77",
+   "12"
+  ],
+  "answer": 1,
+  "explanation": "Subtract 7: 7x = 77. Divide by 7: x = 11."
+ },
+ {
+  "id": 181,
+  "level": "JSS2",
+  "topic": "Simple interest",
+  "q": "Find the simple interest on ₦10,000 at 9% per annum for 3 year(s).",
+  "options": [
+   "₦5,400",
+   "₦1,350",
+   "₦12,700",
+   "₦2,700"
+  ],
+  "answer": 3,
+  "explanation": "I = PRT/100 = 10,000 × 9 × 3 ÷ 100 = ₦2,700."
+ },
+ {
+  "id": 182,
+  "level": "JSS2",
+  "topic": "Angles",
+  "q": "Two angles of a triangle are 64° and 44°. Find the third angle.",
+  "options": [
+   "108°",
+   "26°",
+   "72°",
+   "252°"
+  ],
+  "answer": 2,
+  "explanation": "Angles in a triangle add up to 180°. 180° − 64° − 44° = 72°."
+ },
+ {
+  "id": 183,
+  "level": "JSS2",
+  "topic": "Sets",
+  "q": "In a class, 32 students like Mathematics and 19 like English. 5 students like both subjects. How many students like at least one of the two subjects?",
+  "options": [
+   "56",
+   "27",
+   "46",
+   "51"
+  ],
+  "answer": 2,
+  "explanation": "n(M ∪ E) = n(M) + n(E) − n(M ∩ E) = 32 + 19 − 5 = 46."
+ },
+ {
+  "id": 184,
+  "level": "JSS2",
+  "topic": "Linear equations",
+  "q": "Solve 4x − 7 = 25.",
+  "options": [
+   "7",
+   "9",
+   "8",
+   "32"
+  ],
+  "answer": 2,
+  "explanation": "Add 7: 4x = 32. Divide by 4: x = 8."
+ },
+ {
+  "id": 185,
+  "level": "JSS2",
+  "topic": "Integers",
+  "q": "Evaluate (−80) ÷ 8.",
+  "options": [
+   "−11",
+   "−8",
+   "−10",
+   "10"
+  ],
+  "answer": 2,
+  "explanation": "A negative divided by a positive gives a negative."
+ },
+ {
+  "id": 186,
+  "level": "JSS2",
+  "topic": "Linear equations",
+  "q": "Solve 3x − 4 = 14.",
+  "options": [
+   "7",
+   "6",
+   "5",
+   "18"
+  ],
+  "answer": 1,
+  "explanation": "Add 4: 3x = 18. Divide by 3: x = 6."
+ },
+ {
+  "id": 187,
+  "level": "JSS2",
+  "topic": "Fractions",
+  "q": "Evaluate 2/7 ÷ 7/8.",
+  "options": [
+   "1/4",
+   "16/49",
+   "3 1/16",
+   "3/4"
+  ],
+  "answer": 1,
+  "explanation": "Invert the second fraction and multiply: 2/7 × 8/7 = 16/49."
+ },
+ {
+  "id": 188,
+  "level": "JSS2",
+  "topic": "Percentages",
+  "q": "Express 48/50 as a percentage.",
+  "options": [
+   "106%",
+   "91%",
+   "96%",
+   "2400%"
+  ],
+  "answer": 2,
+  "explanation": "48/50 × 100 = 96%."
+ },
+ {
+  "id": 189,
+  "level": "JSS2",
+  "topic": "Algebra basics",
+  "q": "If a = 6 and b = 4, find the value of 2a + 3b.",
+  "options": [
+   "144",
+   "24",
+   "26",
+   "21"
+  ],
+  "answer": 1,
+  "explanation": "2(6) + 3(4) = 12 + 12 = 24."
+ },
+ {
+  "id": 190,
+  "level": "JSS2",
+  "topic": "Linear equations",
+  "q": "Solve 3x + 17 = 47.",
+  "options": [
+   "30",
+   "11",
+   "9",
+   "10"
+  ],
+  "answer": 3,
+  "explanation": "Subtract 17: 3x = 30. Divide by 3: x = 10."
+ },
+ {
+  "id": 191,
+  "level": "JSS2",
+  "topic": "Algebraic expressions",
+  "q": "Factorise 30x + 54.",
+  "options": [
+   "6(5x + 9)",
+   "7(5x + 9)",
+   "6(x + 9)",
+   "6(5x + 10)"
+  ],
+  "answer": 0,
+  "explanation": "The HCF of 30 and 54 is 6. Take it outside the bracket."
+ },
+ {
+  "id": 192,
+  "level": "JSS2",
+  "topic": "Percentages",
+  "q": "Express 15/50 as a percentage.",
+  "options": [
+   "25%",
+   "750%",
+   "40%",
+   "30%"
+  ],
+  "answer": 3,
+  "explanation": "15/50 × 100 = 30%."
+ },
+ {
+  "id": 193,
+  "level": "JSS2",
+  "topic": "Area of plane shapes",
+  "q": "A parallelogram has base 24 cm and perpendicular height 6 cm. Find its area.",
+  "options": [
+   "30 cm²",
+   "60 cm²",
+   "144 cm²",
+   "72 cm²"
+  ],
+  "answer": 2,
+  "explanation": "Area = base × height = 24 × 6 = 144 cm²."
+ },
+ {
+  "id": 194,
+  "level": "JSS2",
+  "topic": "Area of plane shapes",
+  "q": "A trapezium has parallel sides 7 cm and 15 cm, and the distance between them is 7 cm. Find its area.",
+  "options": [
+   "154 cm²",
+   "77 cm²",
+   "735 cm²",
+   "84 cm²"
+  ],
+  "answer": 1,
+  "explanation": "Area = ½(a + b)h = ½(7 + 15) × 7 = 77 cm²."
+ },
+ {
+  "id": 195,
+  "level": "JSS2",
+  "topic": "Angles",
+  "q": "Two parallel lines are cut by a transversal. One co-interior angle is 104°. Find the other co-interior angle.",
+  "options": [
+   "104°",
+   "256°",
+   "76°",
+   "14°"
+  ],
+  "answer": 2,
+  "explanation": "Co-interior angles add up to 180°."
+ },
+ {
+  "id": 196,
+  "level": "JSS2",
+  "topic": "Indices",
+  "q": "Evaluate 3⁵.",
+  "options": [
+   "246",
+   "240",
+   "243",
+   "15"
+  ],
+  "answer": 2,
+  "explanation": "3⁵ means 3 multiplied by itself 5 times, which is 243."
+ },
+ {
+  "id": 197,
+  "level": "JSS2",
+  "topic": "Ratio and proportion",
+  "q": "3 oranges cost ₦420. How much will 5 oranges cost at the same rate?",
+  "options": [
+   "₦700",
+   "₦425",
+   "₦840",
+   "₦280"
+  ],
+  "answer": 0,
+  "explanation": "One costs ₦140. So 5 cost 5 × ₦140 = ₦700."
+ },
+ {
+  "id": 198,
+  "level": "JSS2",
+  "topic": "Indices",
+  "q": "Simplify 5⁸ ÷ 5³.",
+  "options": [
+   "5⁵",
+   "5¹¹",
+   "5²⁴",
+   "5⁶"
+  ],
+  "answer": 0,
+  "explanation": "Subtract the powers when dividing: 8 − 3 = 5."
+ },
+ {
+  "id": 199,
+  "level": "JSS2",
+  "topic": "Angles",
+  "q": "Two parallel lines are cut by a transversal. One alternate angle is 121°. Find the other alternate angle.",
+  "options": [
+   "31°",
+   "59°",
+   "239°",
+   "121°"
+  ],
+  "answer": 3,
+  "explanation": "Alternate angles between parallel lines are equal."
+ },
+ {
+  "id": 200,
+  "level": "JSS2",
+  "topic": "Linear equations",
+  "q": "Solve 4x + 16 = 60.",
+  "options": [
+   "44",
+   "12",
+   "10",
+   "11"
+  ],
+  "answer": 3,
+  "explanation": "Subtract 16: 4x = 44. Divide by 4: x = 11."
+ },
+ {
+  "id": 201,
+  "level": "JSS2",
+  "topic": "Angles",
+  "q": "Two angles of a triangle are 38° and 46°. Find the third angle.",
+  "options": [
+   "52°",
+   "84°",
+   "96°",
+   "276°"
+  ],
+  "answer": 2,
+  "explanation": "Angles in a triangle add up to 180°. 180° − 38° − 46° = 96°."
+ },
+ {
+  "id": 202,
+  "level": "JSS2",
+  "topic": "Probability",
+  "q": "A bag contains 7 red, 3 blue and 4 green marbles. One marble is picked at random. What is the probability that it is blue?",
+  "options": [
+   "1/3",
+   "1/2",
+   "3/11",
+   "3/14"
+  ],
+  "answer": 3,
+  "explanation": "P(blue) = number of blue ÷ total = 3/14 = 3/14."
+ },
+ {
+  "id": 203,
+  "level": "JSS2",
+  "topic": "Polygons",
+  "q": "Find the sum of the interior angles of a octagon.",
+  "options": [
+   "1080°",
+   "1260°",
+   "540°",
+   "1440°"
+  ],
+  "answer": 0,
+  "explanation": "Sum = (n − 2) × 180° = (8 − 2) × 180° = 1080°."
+ },
+ {
+  "id": 204,
+  "level": "JSS2",
+  "topic": "Integers",
+  "q": "Evaluate 3 × (−10).",
+  "options": [
+   "−30",
+   "13",
+   "30",
+   "−13"
+  ],
+  "answer": 0,
+  "explanation": "A positive times a negative gives a negative."
+ },
+ {
+  "id": 205,
+  "level": "JSS2",
+  "topic": "Fractions",
+  "q": "Evaluate 3/5 ÷ 5/7.",
+  "options": [
+   "3/7",
+   "1 4/21",
+   "13/14",
+   "21/25"
+  ],
+  "answer": 3,
+  "explanation": "Invert the second fraction and multiply: 3/5 × 7/5 = 21/25."
+ },
+ {
+  "id": 206,
+  "level": "JSS2",
+  "topic": "Simple interest",
+  "q": "Find the simple interest on ₦90,000 at 6% per annum for 1 year(s).",
+  "options": [
+   "₦10,800",
+   "₦2,700",
+   "₦5,400",
+   "₦95,400"
+  ],
+  "answer": 2,
+  "explanation": "I = PRT/100 = 90,000 × 6 × 1 ÷ 100 = ₦5,400."
+ },
+ {
+  "id": 207,
+  "level": "JSS2",
+  "topic": "Polygons",
+  "q": "Find the sum of the interior angles of a nonagon.",
+  "options": [
+   "630°",
+   "1620°",
+   "1260°",
+   "1440°"
+  ],
+  "answer": 2,
+  "explanation": "Sum = (n − 2) × 180° = (9 − 2) × 180° = 1260°."
+ },
+ {
+  "id": 208,
+  "level": "JSS2",
+  "topic": "Probability",
+  "q": "A bag contains 3 red, 8 blue and 1 green marbles. One marble is picked at random. What is the probability that it is blue?",
+  "options": [
+   "2",
+   "1/4",
+   "1/8",
+   "2/3"
+  ],
+  "answer": 3,
+  "explanation": "P(blue) = number of blue ÷ total = 8/12 = 2/3."
+ },
+ {
+  "id": 209,
+  "level": "JSS2",
+  "topic": "Polygons",
+  "q": "Find the sum of the interior angles of a quadrilateral.",
+  "options": [
+   "180°",
+   "720°",
+   "540°",
+   "360°"
+  ],
+  "answer": 3,
+  "explanation": "Sum = (n − 2) × 180° = (4 − 2) × 180° = 360°."
+ },
+ {
+  "id": 210,
+  "level": "JSS2",
+  "topic": "Algebraic expressions",
+  "q": "Simplify 7x + 2y − 2x + 9y.",
+  "options": [
+   "5x + 10y",
+   "9x + 11y",
+   "5x + 11y",
+   "6x + 11y"
+  ],
+  "answer": 2,
+  "explanation": "Collect like terms: x terms give 5x and y terms give 11y."
+ },
+ {
+  "id": 211,
+  "level": "JSS2",
+  "topic": "Volume",
+  "q": "Find the volume of a cuboid 8 cm long, 10 cm wide and 8 cm high.",
+  "options": [
+   "720 cm³",
+   "448 cm³",
+   "26 cm³",
+   "640 cm³"
+  ],
+  "answer": 3,
+  "explanation": "Volume = l × w × h = 8 × 10 × 8 = 640 cm³."
+ },
+ {
+  "id": 212,
+  "level": "JSS2",
+  "topic": "Area of plane shapes",
+  "q": "A parallelogram has base 21 cm and perpendicular height 10 cm. Find its area.",
+  "options": [
+   "62 cm²",
+   "31 cm²",
+   "210 cm²",
+   "105 cm²"
+  ],
+  "answer": 2,
+  "explanation": "Area = base × height = 21 × 10 = 210 cm²."
+ },
+ {
+  "id": 213,
+  "level": "JSS2",
+  "topic": "Speed, distance and time",
+  "q": "How long does it take to travel 120 km at 40 km/h?",
+  "options": [
+   "6 hours",
+   "4800 hours",
+   "4 hours",
+   "3 hours"
+  ],
+  "answer": 3,
+  "explanation": "Time = distance ÷ speed = 120 ÷ 40 = 3 hours."
+ },
+ {
+  "id": 214,
+  "level": "JSS2",
+  "topic": "Simple interest",
+  "q": "Find the simple interest on ₦100,000 at 5% per annum for 5 year(s).",
+  "options": [
+   "₦12,500",
+   "₦25,000",
+   "₦50,000",
+   "₦125,000"
+  ],
+  "answer": 1,
+  "explanation": "I = PRT/100 = 100,000 × 5 × 5 ÷ 100 = ₦25,000."
+ },
+ {
+  "id": 215,
+  "level": "JSS2",
+  "topic": "Circles",
+  "q": "Find the area of a circle of radius 7 cm. (Take π = 22/7)",
+  "options": [
+   "308 cm²",
+   "168 cm²",
+   "154 cm²",
+   "44 cm²"
+  ],
+  "answer": 2,
+  "explanation": "A = πr² = 22/7 × 7 × 7 = 154 cm²."
+ },
+ {
+  "id": 216,
+  "level": "JSS2",
+  "topic": "Percentages",
+  "q": "Express 48% as a fraction in its lowest terms.",
+  "options": [
+   "1/48",
+   "53/100",
+   "48/10",
+   "12/25"
+  ],
+  "answer": 3,
+  "explanation": "48% = 48/100, which simplifies to 12/25."
+ },
+ {
+  "id": 217,
+  "level": "JSS2",
+  "topic": "Ratio and proportion",
+  "q": "On a map, 1 cm represents 2 km. Two towns are 14 cm apart on the map. What is the real distance between them?",
+  "options": [
+   "280 km",
+   "16 km",
+   "28 km",
+   "7 km"
+  ],
+  "answer": 2,
+  "explanation": "14 × 2 = 28 km."
+ },
+ {
+  "id": 218,
+  "level": "JSS2",
+  "topic": "Sets",
+  "q": "In a class, 22 students like Mathematics and 18 like English. 5 students like both subjects. How many students like at least one of the two subjects?",
+  "options": [
+   "45",
+   "40",
+   "17",
+   "35"
+  ],
+  "answer": 3,
+  "explanation": "n(M ∪ E) = n(M) + n(E) − n(M ∩ E) = 22 + 18 − 5 = 35."
+ },
+ {
+  "id": 219,
+  "level": "JSS2",
+  "topic": "Integers",
+  "q": "Evaluate 9 × (−9).",
+  "options": [
+   "−18",
+   "18",
+   "81",
+   "−81"
+  ],
+  "answer": 3,
+  "explanation": "A positive times a negative gives a negative."
+ },
+ {
+  "id": 220,
+  "level": "JSS2",
+  "topic": "Algebra basics",
+  "q": "If a = 6 and b = 3, find the value of 2a + 3b.",
+  "options": [
+   "18",
+   "21",
+   "108",
+   "23"
+  ],
+  "answer": 1,
+  "explanation": "2(6) + 3(3) = 12 + 9 = 21."
+ },
+ {
+  "id": 221,
+  "level": "JSS2",
+  "topic": "Angles",
+  "q": "Two angles of a triangle are 37° and 37°. Find the third angle.",
+  "options": [
+   "53°",
+   "74°",
+   "286°",
+   "106°"
+  ],
+  "answer": 3,
+  "explanation": "Angles in a triangle add up to 180°. 180° − 37° − 37° = 106°."
+ },
+ {
+  "id": 222,
+  "level": "JSS2",
+  "topic": "Number bases",
+  "q": "Convert 16 from base ten to base two.",
+  "options": [
+   "10000",
+   "10010",
+   "10001",
+   "1111"
+  ],
+  "answer": 0,
+  "explanation": "Divide repeatedly by 2 and read the remainders upwards: 10000."
+ },
+ {
+  "id": 223,
+  "level": "JSS2",
+  "topic": "Statistics",
+  "q": "Find the mean of 4, 20, 7, 15, 14.",
+  "options": [
+   "12",
+   "13",
+   "14",
+   "11"
+  ],
+  "answer": 0,
+  "explanation": "Sum = 60. Mean = 60 ÷ 5 = 12."
+ },
+ {
+  "id": 224,
+  "level": "JSS2",
+  "topic": "Circles",
+  "q": "Find the area of a circle of radius 28 cm. (Take π = 22/7)",
+  "options": [
+   "616 cm²",
+   "2464 cm²",
+   "176 cm²",
+   "4928 cm²"
+  ],
+  "answer": 1,
+  "explanation": "A = πr² = 22/7 × 28 × 28 = 2464 cm²."
+ },
+ {
+  "id": 225,
+  "level": "JSS2",
+  "topic": "Angles",
+  "q": "Two angles of a triangle are 61° and 42°. Find the third angle.",
+  "options": [
+   "257°",
+   "103°",
+   "29°",
+   "77°"
+  ],
+  "answer": 3,
+  "explanation": "Angles in a triangle add up to 180°. 180° − 61° − 42° = 77°."
+ },
+ {
+  "id": 226,
+  "level": "JSS2",
+  "topic": "Number bases",
+  "q": "Convert 10 from base ten to base two.",
+  "options": [
+   "1011",
+   "1100",
+   "1001",
+   "1010"
+  ],
+  "answer": 3,
+  "explanation": "Divide repeatedly by 2 and read the remainders upwards: 1010."
+ },
+ {
+  "id": 227,
+  "level": "JSS2",
+  "topic": "Circles",
+  "q": "Find the area of a circle of radius 14 cm. (Take π = 22/7)",
+  "options": [
+   "308 cm²",
+   "1232 cm²",
+   "616 cm²",
+   "88 cm²"
+  ],
+  "answer": 2,
+  "explanation": "A = πr² = 22/7 × 14 × 14 = 616 cm²."
+ },
+ {
+  "id": 228,
+  "level": "JSS2",
+  "topic": "Profit and loss",
+  "q": "A trader buys a bag of rice for ₦3,200 and sells it for ₦3,520. Find the profit percent.",
+  "options": [
+   "15%",
+   "10%",
+   "5%",
+   "20%"
+  ],
+  "answer": 1,
+  "explanation": "Profit = ₦3,520 − ₦3,200 = ₦320. Profit percent = 320/3200 × 100 = 10%."
+ },
+ {
+  "id": 229,
+  "level": "JSS2",
+  "topic": "Circles",
+  "q": "Find the circumference of a circle of radius 21 cm. (Take π = 22/7)",
+  "options": [
+   "132 cm",
+   "264 cm",
+   "66 cm",
+   "1386 cm"
+  ],
+  "answer": 0,
+  "explanation": "C = 2πr = 2 × 22/7 × 21 = 132 cm."
+ },
+ {
+  "id": 230,
+  "level": "JSS2",
+  "topic": "Sets",
+  "q": "In a class, 29 students like Mathematics and 16 like English. 11 students like both subjects. How many students like at least one of the two subjects?",
+  "options": [
+   "34",
+   "18",
+   "45",
+   "56"
+  ],
+  "answer": 0,
+  "explanation": "n(M ∪ E) = n(M) + n(E) − n(M ∩ E) = 29 + 16 − 11 = 34."
+ },
+ {
+  "id": 231,
+  "level": "JSS2",
+  "topic": "Indices",
+  "q": "Evaluate 5³.",
+  "options": [
+   "125",
+   "15",
+   "120",
+   "130"
+  ],
+  "answer": 0,
+  "explanation": "5³ means 5 multiplied by itself 3 times, which is 125."
+ },
+ {
+  "id": 232,
+  "level": "JSS2",
+  "topic": "Algebraic expressions",
+  "q": "Expand 3(3x − 6).",
+  "options": [
+   "9x − 18",
+   "9x + 18",
+   "9x − 6",
+   "3x − 18"
+  ],
+  "answer": 0,
+  "explanation": "Multiply each term inside the bracket by 3."
+ },
+ {
+  "id": 233,
+  "level": "JSS2",
+  "topic": "LCM and HCF",
+  "q": "Two bells ring every 8 minutes and every 5 minutes. They ring together now. After how many minutes will they next ring together?",
+  "options": [
+   "48 minutes",
+   "40 minutes",
+   "1 minutes",
+   "80 minutes"
+  ],
+  "answer": 1,
+  "explanation": "Find the LCM of 8 and 5. It is 40."
+ },
+ {
+  "id": 234,
+  "level": "JSS2",
+  "topic": "Integers",
+  "q": "Evaluate (−20) ÷ 5.",
+  "options": [
+   "4",
+   "−4",
+   "−15",
+   "−5"
+  ],
+  "answer": 1,
+  "explanation": "A negative divided by a positive gives a negative."
+ },
+ {
+  "id": 235,
+  "level": "JSS2",
+  "topic": "Statistics",
+  "q": "Find the median of 28, 9, 25, 14, 6.",
+  "options": [
+   "28",
+   "25",
+   "14",
+   "16"
+  ],
+  "answer": 2,
+  "explanation": "Arrange in order: 6, 9, 14, 25, 28. The middle value is 14."
+ },
+ {
+  "id": 236,
+  "level": "JSS2",
+  "topic": "Algebraic expressions",
+  "q": "Factorise 20x + 32.",
+  "options": [
+   "4(5x + 8)",
+   "4(5x + 9)",
+   "4(x + 8)",
+   "5(5x + 8)"
+  ],
+  "answer": 0,
+  "explanation": "The HCF of 20 and 32 is 4. Take it outside the bracket."
+ },
+ {
+  "id": 237,
+  "level": "JSS2",
+  "topic": "Algebraic expressions",
+  "q": "Simplify 4x + 9y − 1x + 3y.",
+  "options": [
+   "4x + 12y",
+   "3x + 12y",
+   "5x + 12y",
+   "3x + 6y"
+  ],
+  "answer": 1,
+  "explanation": "Collect like terms: x terms give 3x and y terms give 12y."
+ },
+ {
+  "id": 238,
+  "level": "JSS2",
+  "topic": "Speed, distance and time",
+  "q": "A car travels at 50 km/h for 3 hours. How far does it go?",
+  "options": [
+   "53 km",
+   "147 km",
+   "200 km",
+   "150 km"
+  ],
+  "answer": 3,
+  "explanation": "Distance = speed × time = 50 × 3 = 150 km."
+ },
+ {
+  "id": 239,
+  "level": "JSS2",
+  "topic": "Percentages",
+  "q": "Express 1/2 as a percentage.",
+  "options": [
+   "2%",
+   "60%",
+   "45%",
+   "50%"
+  ],
+  "answer": 3,
+  "explanation": "1/2 × 100 = 50%."
+ },
+ {
+  "id": 240,
+  "level": "JSS2",
+  "topic": "Simple interest",
+  "q": "Find the simple interest on ₦85,000 at 3% per annum for 3 year(s).",
+  "options": [
+   "₦3,825",
+   "₦7,650",
+   "₦92,650",
+   "₦15,300"
+  ],
+  "answer": 1,
+  "explanation": "I = PRT/100 = 85,000 × 3 × 3 ÷ 100 = ₦7,650."
+ },
+ {
+  "id": 241,
+  "level": "JSS2",
+  "topic": "Polygons",
+  "q": "Find the sum of the interior angles of a decagon.",
+  "options": [
+   "1800°",
+   "1620°",
+   "1440°",
+   "720°"
+  ],
+  "answer": 2,
+  "explanation": "Sum = (n − 2) × 180° = (10 − 2) × 180° = 1440°."
+ },
+ {
+  "id": 242,
+  "level": "JSS2",
+  "topic": "Volume",
+  "q": "Find the volume of a cuboid 8 cm long, 9 cm wide and 7 cm high.",
+  "options": [
+   "382 cm³",
+   "24 cm³",
+   "504 cm³",
+   "576 cm³"
+  ],
+  "answer": 2,
+  "explanation": "Volume = l × w × h = 8 × 9 × 7 = 504 cm³."
+ },
+ {
+  "id": 243,
+  "level": "JSS2",
+  "topic": "LCM and HCF",
+  "q": "Two bells ring every 8 minutes and every 4 minutes. They ring together now. After how many minutes will they next ring together?",
+  "options": [
+   "8 minutes",
+   "32 minutes",
+   "4 minutes",
+   "16 minutes"
+  ],
+  "answer": 0,
+  "explanation": "Find the LCM of 8 and 4. It is 8."
+ },
+ {
+  "id": 244,
+  "level": "JSS2",
+  "topic": "Algebraic expressions",
+  "q": "Expand 5(5x + 2).",
+  "options": [
+   "10x + 10",
+   "25x + 10",
+   "5x + 10",
+   "25x + 2"
+  ],
+  "answer": 1,
+  "explanation": "Multiply each term inside the bracket by 5."
+ },
+ {
+  "id": 245,
+  "level": "JSS2",
+  "topic": "Simple interest",
+  "q": "Find the simple interest on ₦90,000 at 5% per annum for 3 year(s).",
+  "options": [
+   "₦103,500",
+   "₦13,500",
+   "₦6,750",
+   "₦27,000"
+  ],
+  "answer": 1,
+  "explanation": "I = PRT/100 = 90,000 × 5 × 3 ÷ 100 = ₦13,500."
+ },
+ {
+  "id": 246,
+  "level": "JSS2",
+  "topic": "Indices",
+  "q": "Simplify (6⁵)³.",
+  "options": [
+   "18⁵",
+   "6⁸",
+   "6¹⁶",
+   "6¹⁵"
+  ],
+  "answer": 3,
+  "explanation": "Multiply the powers: 5 × 3 = 15."
+ },
+ {
+  "id": 247,
+  "level": "JSS2",
+  "topic": "Ratio and proportion",
+  "q": "9 sachets of pure water cost ₦720. How much will 14 sachets of pure water cost at the same rate?",
+  "options": [
+   "₦400",
+   "₦1,200",
+   "₦734",
+   "₦1,120"
+  ],
+  "answer": 3,
+  "explanation": "One costs ₦80. So 14 cost 14 × ₦80 = ₦1,120."
+ },
+ {
+  "id": 248,
+  "level": "JSS2",
+  "topic": "Algebraic expressions",
+  "q": "Factorise 4x + 4.",
+  "options": [
+   "5(1x + 1)",
+   "4(2x + 1)",
+   "4(1x + 2)",
+   "4(1x + 1)"
+  ],
+  "answer": 3,
+  "explanation": "The HCF of 4 and 4 is 4. Take it outside the bracket."
+ },
+ {
+  "id": 249,
+  "level": "JSS2",
+  "topic": "Profit and loss",
+  "q": "A trader buys a bag of rice for ₦2,800 and sells it for ₦4,200. Find the profit percent.",
+  "options": [
+   "100%",
+   "50%",
+   "55%",
+   "45%"
+  ],
+  "answer": 1,
+  "explanation": "Profit = ₦4,200 − ₦2,800 = ₦1,400. Profit percent = 1400/2800 × 100 = 50%."
+ },
+ {
+  "id": 250,
+  "level": "JSS2",
+  "topic": "Statistics",
+  "q": "Find the median of 19, 30, 13, 29, 37.",
+  "options": [
+   "29",
+   "26",
+   "37",
+   "13"
+  ],
+  "answer": 0,
+  "explanation": "Arrange in order: 13, 19, 29, 30, 37. The middle value is 29."
+ },
+ {
+  "id": 251,
+  "level": "JSS2",
+  "topic": "Indices",
+  "q": "Simplify (4⁵)⁴.",
+  "options": [
+   "16⁵",
+   "4⁹",
+   "4²¹",
+   "4²⁰"
+  ],
+  "answer": 3,
+  "explanation": "Multiply the powers: 5 × 4 = 20."
+ },
+ {
+  "id": 252,
+  "level": "JSS2",
+  "topic": "Algebraic expressions",
+  "q": "Factorise 5x + 20.",
+  "options": [
+   "5(2x + 4)",
+   "5(1x + 5)",
+   "5(1x + 4)",
+   "6(1x + 4)"
+  ],
+  "answer": 2,
+  "explanation": "The HCF of 5 and 20 is 5. Take it outside the bracket."
+ },
+ {
+  "id": 253,
+  "level": "JSS2",
+  "topic": "Linear equations",
+  "q": "Solve 2x + 10 = 12.",
+  "options": [
+   "3",
+   "1",
+   "11",
+   "2"
+  ],
+  "answer": 1,
+  "explanation": "Subtract 10: 2x = 2. Divide by 2: x = 1."
+ },
+ {
+  "id": 254,
+  "level": "JSS2",
+  "topic": "Ratio and proportion",
+  "q": "On a map, 1 cm represents 5 km. Two towns are 11 cm apart on the map. What is the real distance between them?",
+  "options": [
+   "55 km",
+   "60 km",
+   "550 km",
+   "16 km"
+  ],
+  "answer": 0,
+  "explanation": "11 × 5 = 55 km."
+ },
+ {
+  "id": 255,
+  "level": "JSS2",
+  "topic": "Number bases",
+  "q": "Convert 20 from base ten to base two.",
+  "options": [
+   "10100",
+   "10110",
+   "10101",
+   "10011"
+  ],
+  "answer": 0,
+  "explanation": "Divide repeatedly by 2 and read the remainders upwards: 10100."
+ },
+ {
+  "id": 256,
+  "level": "JSS2",
+  "topic": "Angles",
+  "q": "Two angles of a triangle are 35° and 60°. Find the third angle.",
+  "options": [
+   "95°",
+   "85°",
+   "55°",
+   "265°"
+  ],
+  "answer": 1,
+  "explanation": "Angles in a triangle add up to 180°. 180° − 35° − 60° = 85°."
+ },
+ {
+  "id": 257,
+  "level": "JSS2",
+  "topic": "Algebraic expressions",
+  "q": "Simplify 6x + 4y − 2x + 8y.",
+  "options": [
+   "5x + 12y",
+   "4x + 12y",
+   "8x + 12y",
+   "4x + 11y"
+  ],
+  "answer": 1,
+  "explanation": "Collect like terms: x terms give 4x and y terms give 12y."
+ },
+ {
+  "id": 258,
+  "level": "JSS2",
+  "topic": "Profit and loss",
+  "q": "A trader buys a bag of rice for ₦3,000 and sells it for ₦3,600. Find the profit percent.",
+  "options": [
+   "20%",
+   "15%",
+   "40%",
+   "25%"
+  ],
+  "answer": 0,
+  "explanation": "Profit = ₦3,600 − ₦3,000 = ₦600. Profit percent = 600/3000 × 100 = 20%."
+ },
+ {
+  "id": 259,
+  "level": "JSS2",
+  "topic": "Statistics",
+  "q": "Find the mean of 7, 11, 11, 11, 5.",
+  "options": [
+   "10",
+   "11",
+   "8",
+   "9"
+  ],
+  "answer": 3,
+  "explanation": "Sum = 45. Mean = 45 ÷ 5 = 9."
+ },
+ {
+  "id": 260,
+  "level": "JSS2",
+  "topic": "Ratio and proportion",
+  "q": "₦11,900 is shared between Chidi and Ibrahim in the ratio 2 : 5. How much does Ibrahim get?",
+  "options": [
+   "₦5,950",
+   "₦3,400",
+   "₦1,700",
+   "₦8,500"
+  ],
+  "answer": 3,
+  "explanation": "Total parts = 7. One part = ₦11,900 ÷ 7 = ₦1,700. Ibrahim gets 5 × ₦1,700 = ₦8,500."
+ },
+ {
+  "id": 261,
+  "level": "JSS2",
+  "topic": "Angles",
+  "q": "Two parallel lines are cut by a transversal. One corresponding angle is 123°. Find the other corresponding angle.",
+  "options": [
+   "57°",
+   "123°",
+   "237°",
+   "33°"
+  ],
+  "answer": 1,
+  "explanation": "Corresponding angles between parallel lines are equal."
+ },
+ {
+  "id": 262,
+  "level": "JSS2",
+  "topic": "Ratio and proportion",
+  "q": "On a map, 1 cm represents 2 km. Two towns are 7 cm apart on the map. What is the real distance between them?",
+  "options": [
+   "12 km",
+   "14 km",
+   "9 km",
+   "140 km"
+  ],
+  "answer": 1,
+  "explanation": "7 × 2 = 14 km."
+ },
+ {
+  "id": 263,
+  "level": "JSS2",
+  "topic": "Indices",
+  "q": "Simplify (6⁴)⁴.",
+  "options": [
+   "6⁸",
+   "24⁴",
+   "6¹⁷",
+   "6¹⁶"
+  ],
+  "answer": 3,
+  "explanation": "Multiply the powers: 4 × 4 = 16."
+ },
+ {
+  "id": 264,
+  "level": "JSS2",
+  "topic": "Area of plane shapes",
+  "q": "Find the area of a triangle with base 12 cm and height 15 cm.",
+  "options": [
+   "54 cm²",
+   "27 cm²",
+   "90 cm²",
+   "180 cm²"
+  ],
+  "answer": 2,
+  "explanation": "Area = ½ × base × height = ½ × 12 × 15 = 90 cm²."
+ },
+ {
+  "id": 265,
+  "level": "JSS2",
+  "topic": "Statistics",
+  "q": "Find the mean of 2, 18, 5, 9, 16.",
+  "options": [
+   "11",
+   "12",
+   "9",
+   "10"
+  ],
+  "answer": 3,
+  "explanation": "Sum = 50. Mean = 50 ÷ 5 = 10."
+ },
+ {
+  "id": 266,
+  "level": "JSS2",
+  "topic": "Ratio and proportion",
+  "q": "₦28,000 is shared between Kemi and Aisha in the ratio 7 : 3. How much does Aisha get?",
+  "options": [
+   "₦14,000",
+   "₦8,400",
+   "₦2,800",
+   "₦19,600"
+  ],
+  "answer": 1,
+  "explanation": "Total parts = 10. One part = ₦28,000 ÷ 10 = ₦2,800. Aisha gets 3 × ₦2,800 = ₦8,400."
+ },
+ {
+  "id": 267,
+  "level": "JSS2",
+  "topic": "LCM and HCF",
+  "q": "Two bells ring every 4 minutes and every 5 minutes. They ring together now. After how many minutes will they next ring together?",
+  "options": [
+   "20 minutes",
+   "1 minutes",
+   "40 minutes",
+   "24 minutes"
+  ],
+  "answer": 0,
+  "explanation": "Find the LCM of 4 and 5. It is 20."
+ },
+ {
+  "id": 268,
+  "level": "JSS2",
+  "topic": "Ratio and proportion",
+  "q": "₦3,900 is shared between Chioma and Fatima in the ratio 6 : 7. How much does Fatima get?",
+  "options": [
+   "₦1,950",
+   "₦300",
+   "₦2,100",
+   "₦1,800"
+  ],
+  "answer": 2,
+  "explanation": "Total parts = 13. One part = ₦3,900 ÷ 13 = ₦300. Fatima gets 7 × ₦300 = ₦2,100."
+ },
+ {
+  "id": 269,
+  "level": "JSS2",
+  "topic": "Volume",
+  "q": "Find the volume of a cuboid 13 cm long, 9 cm wide and 4 cm high.",
+  "options": [
+   "410 cm³",
+   "468 cm³",
+   "26 cm³",
+   "585 cm³"
+  ],
+  "answer": 1,
+  "explanation": "Volume = l × w × h = 13 × 9 × 4 = 468 cm³."
+ },
+ {
+  "id": 270,
+  "level": "JSS2",
+  "topic": "Area of plane shapes",
+  "q": "Find the area of a triangle with base 19 cm and height 16 cm.",
+  "options": [
+   "70 cm²",
+   "35 cm²",
+   "152 cm²",
+   "304 cm²"
+  ],
+  "answer": 2,
+  "explanation": "Area = ½ × base × height = ½ × 19 × 16 = 152 cm²."
+ },
+ {
+  "id": 271,
+  "level": "JSS2",
+  "topic": "Algebraic expressions",
+  "q": "Expand 7(5x + 4).",
+  "options": [
+   "12x + 28",
+   "35x + 4",
+   "35x + 28",
+   "5x + 28"
+  ],
+  "answer": 2,
+  "explanation": "Multiply each term inside the bracket by 7."
+ },
+ {
+  "id": 272,
+  "level": "JSS2",
+  "topic": "Indices",
+  "q": "Simplify (2³)³.",
+  "options": [
+   "6³",
+   "2⁹",
+   "2⁶",
+   "2¹⁰"
+  ],
+  "answer": 1,
+  "explanation": "Multiply the powers: 3 × 3 = 9."
+ },
+ {
+  "id": 273,
+  "level": "JSS2",
+  "topic": "Statistics",
+  "q": "Find the mode of 4, 17, 28, 22, 28, 8, 28.",
+  "options": [
+   "4",
+   "22",
+   "8",
+   "28"
+  ],
+  "answer": 3,
+  "explanation": "28 appears most often, three times."
+ },
+ {
+  "id": 274,
+  "level": "JSS2",
+  "topic": "Angles",
+  "q": "Two parallel lines are cut by a transversal. One corresponding angle is 115°. Find the other corresponding angle.",
+  "options": [
+   "25°",
+   "65°",
+   "115°",
+   "245°"
+  ],
+  "answer": 2,
+  "explanation": "Corresponding angles between parallel lines are equal."
+ },
+ {
+  "id": 275,
+  "level": "JSS2",
+  "topic": "Fractions",
+  "q": "Evaluate 6/7 ÷ 2/3.",
+  "options": [
+   "7/9",
+   "4/7",
+   "1 2/7",
+   "1 1/14"
+  ],
+  "answer": 2,
+  "explanation": "Invert the second fraction and multiply: 6/7 × 3/2 = 1 2/7."
+ },
+ {
+  "id": 276,
+  "level": "JSS2",
+  "topic": "Area of plane shapes",
+  "q": "Find the area of a triangle with base 16 cm and height 9 cm.",
+  "options": [
+   "25 cm²",
+   "72 cm²",
+   "144 cm²",
+   "50 cm²"
+  ],
+  "answer": 1,
+  "explanation": "Area = ½ × base × height = ½ × 16 × 9 = 72 cm²."
+ },
+ {
+  "id": 277,
+  "level": "JSS2",
+  "topic": "Polygons",
+  "q": "Find the sum of the interior angles of a heptagon.",
+  "options": [
+   "1260°",
+   "900°",
+   "1080°",
+   "450°"
+  ],
+  "answer": 1,
+  "explanation": "Sum = (n − 2) × 180° = (7 − 2) × 180° = 900°."
+ },
+ {
+  "id": 278,
+  "level": "JSS2",
+  "topic": "Integers",
+  "q": "Evaluate (−9) × (−2).",
+  "options": [
+   "−11",
+   "−18",
+   "11",
+   "18"
+  ],
+  "answer": 3,
+  "explanation": "A negative times a negative gives a positive."
+ },
+ {
+  "id": 279,
+  "level": "JSS2",
+  "topic": "Statistics",
+  "q": "Find the mode of 13, 15, 18, 13, 17, 13, 27.",
+  "options": [
+   "18",
+   "17",
+   "13",
+   "15"
+  ],
+  "answer": 2,
+  "explanation": "13 appears most often, three times."
+ },
+ {
+  "id": 280,
+  "level": "JSS2",
+  "topic": "Ratio and proportion",
+  "q": "On a map, 1 cm represents 10 km. Two towns are 9 cm apart on the map. What is the real distance between them?",
+  "options": [
+   "900 km",
+   "19 km",
+   "14 km",
+   "90 km"
+  ],
+  "answer": 3,
+  "explanation": "9 × 10 = 90 km."
+ },
+ {
+  "id": 281,
+  "level": "JSS2",
+  "topic": "Speed, distance and time",
+  "q": "A bus covers 90 km in 2 hours. Find its average speed.",
+  "options": [
+   "50 km/h",
+   "47 km/h",
+   "180 km/h",
+   "45 km/h"
+  ],
+  "answer": 3,
+  "explanation": "Speed = distance ÷ time = 90 ÷ 2 = 45 km/h."
+ },
+ {
+  "id": 282,
+  "level": "JSS2",
+  "topic": "Statistics",
+  "q": "Find the mean of 10, 18, 6, 19, 12.",
+  "options": [
+   "13",
+   "12",
+   "15",
+   "14"
+  ],
+  "answer": 0,
+  "explanation": "Sum = 65. Mean = 65 ÷ 5 = 13."
+ },
+ {
+  "id": 283,
+  "level": "JSS2",
+  "topic": "Profit and loss",
+  "q": "A trader buys a bag of rice for ₦2,700 and sells it for ₦3,375. Find the profit percent.",
+  "options": [
+   "30%",
+   "50%",
+   "25%",
+   "20%"
+  ],
+  "answer": 2,
+  "explanation": "Profit = ₦3,375 − ₦2,700 = ₦675. Profit percent = 675/2700 × 100 = 25%."
+ },
+ {
+  "id": 284,
+  "level": "JSS2",
+  "topic": "Area of plane shapes",
+  "q": "A parallelogram has base 11 cm and perpendicular height 14 cm. Find its area.",
+  "options": [
+   "154 cm²",
+   "25 cm²",
+   "50 cm²",
+   "77 cm²"
+  ],
+  "answer": 0,
+  "explanation": "Area = base × height = 11 × 14 = 154 cm²."
+ },
+ {
+  "id": 285,
+  "level": "JSS2",
+  "topic": "Number bases",
+  "q": "Convert 15 from base ten to base two.",
+  "options": [
+   "1111",
+   "10001",
+   "1110",
+   "10000"
+  ],
+  "answer": 0,
+  "explanation": "Divide repeatedly by 2 and read the remainders upwards: 1111."
+ },
+ {
+  "id": 286,
+  "level": "JSS2",
+  "topic": "Ratio and proportion",
+  "q": "₦26,100 is shared between Ade and Aisha in the ratio 7 : 2. How much does Aisha get?",
+  "options": [
+   "₦2,900",
+   "₦20,300",
+   "₦13,050",
+   "₦5,800"
+  ],
+  "answer": 3,
+  "explanation": "Total parts = 9. One part = ₦26,100 ÷ 9 = ₦2,900. Aisha gets 2 × ₦2,900 = ₦5,800."
+ },
+ {
+  "id": 287,
+  "level": "JSS2",
+  "topic": "Area of plane shapes",
+  "q": "A parallelogram has base 17 cm and perpendicular height 15 cm. Find its area.",
+  "options": [
+   "64 cm²",
+   "256 cm²",
+   "255 cm²",
+   "32 cm²"
+  ],
+  "answer": 2,
+  "explanation": "Area = base × height = 17 × 15 = 255 cm²."
+ },
+ {
+  "id": 288,
+  "level": "JSS2",
+  "topic": "Statistics",
+  "q": "Find the median of 27, 19, 9, 33, 26, 34, 36.",
+  "options": [
+   "36",
+   "26",
+   "27",
+   "33"
+  ],
+  "answer": 2,
+  "explanation": "Arrange in order: 9, 19, 26, 27, 33, 34, 36. The middle value is 27."
+ },
+ {
+  "id": 289,
+  "level": "JSS2",
+  "topic": "Indices",
+  "q": "Evaluate 6².",
+  "options": [
+   "42",
+   "12",
+   "30",
+   "36"
+  ],
+  "answer": 3,
+  "explanation": "6² means 6 multiplied by itself 2 times, which is 36."
+ },
+ {
+  "id": 290,
+  "level": "JSS2",
+  "topic": "Circles",
+  "q": "Find the circumference of a circle of radius 28 cm. (Take π = 22/7)",
+  "options": [
+   "352 cm",
+   "88 cm",
+   "2464 cm",
+   "176 cm"
+  ],
+  "answer": 3,
+  "explanation": "C = 2πr = 2 × 22/7 × 28 = 176 cm."
+ },
+ {
+  "id": 291,
+  "level": "JSS2",
+  "topic": "Indices",
+  "q": "Evaluate 3⁴.",
+  "options": [
+   "12",
+   "84",
+   "78",
+   "81"
+  ],
+  "answer": 3,
+  "explanation": "3⁴ means 3 multiplied by itself 4 times, which is 81."
+ },
+ {
+  "id": 292,
+  "level": "JSS2",
+  "topic": "Profit and loss",
+  "q": "A trader buys a bag of rice for ₦2,100 and sells it for ₦2,310. Find the profit percent.",
+  "options": [
+   "15%",
+   "20%",
+   "5%",
+   "10%"
+  ],
+  "answer": 3,
+  "explanation": "Profit = ₦2,310 − ₦2,100 = ₦210. Profit percent = 210/2100 × 100 = 10%."
+ },
+ {
+  "id": 293,
+  "level": "JSS2",
+  "topic": "Angles",
+  "q": "Two angles of a triangle are 67° and 67°. Find the third angle.",
+  "options": [
+   "23°",
+   "226°",
+   "46°",
+   "134°"
+  ],
+  "answer": 2,
+  "explanation": "Angles in a triangle add up to 180°. 180° − 67° − 67° = 46°."
+ },
+ {
+  "id": 294,
+  "level": "JSS2",
+  "topic": "Algebraic expressions",
+  "q": "Simplify 5x + 2y − 2x + 9y.",
+  "options": [
+   "4x + 11y",
+   "7x + 11y",
+   "3x + 11y",
+   "3x + 10y"
+  ],
+  "answer": 2,
+  "explanation": "Collect like terms: x terms give 3x and y terms give 11y."
+ },
+ {
+  "id": 295,
+  "level": "JSS2",
+  "topic": "Algebra basics",
+  "q": "If a = 5 and b = 3, find the value of 2a + 3b.",
+  "options": [
+   "21",
+   "90",
+   "16",
+   "19"
+  ],
+  "answer": 3,
+  "explanation": "2(5) + 3(3) = 10 + 9 = 19."
+ },
+ {
+  "id": 296,
+  "level": "JSS2",
+  "topic": "Statistics",
+  "q": "Find the mean of 13, 13, 7, 17, 5.",
+  "options": [
+   "11",
+   "13",
+   "10",
+   "12"
+  ],
+  "answer": 0,
+  "explanation": "Sum = 55. Mean = 55 ÷ 5 = 11."
+ },
+ {
+  "id": 297,
+  "level": "JSS2",
+  "topic": "Speed, distance and time",
+  "q": "A bus covers 665 km in 7 hours. Find its average speed.",
+  "options": [
+   "4655 km/h",
+   "102 km/h",
+   "95 km/h",
+   "100 km/h"
+  ],
+  "answer": 2,
+  "explanation": "Speed = distance ÷ time = 665 ÷ 7 = 95 km/h."
+ },
+ {
+  "id": 298,
+  "level": "JSS2",
+  "topic": "Profit and loss",
+  "q": "A shopkeeper buys a radio for ₦2,400 and sells it for ₦1,800. Find the loss percent.",
+  "options": [
+   "50%",
+   "30%",
+   "20%",
+   "25%"
+  ],
+  "answer": 3,
+  "explanation": "Loss = ₦2,400 − ₦1,800 = ₦600. Loss percent = 600/2400 × 100 = 25%."
+ },
+ {
+  "id": 299,
+  "level": "JSS2",
+  "topic": "Area of plane shapes",
+  "q": "Find the area of a triangle with base 19 cm and height 20 cm.",
+  "options": [
+   "380 cm²",
+   "78 cm²",
+   "190 cm²",
+   "39 cm²"
+  ],
+  "answer": 2,
+  "explanation": "Area = ½ × base × height = ½ × 19 × 20 = 190 cm²."
+ },
+ {
+  "id": 300,
+  "level": "JSS2",
+  "topic": "Algebraic expressions",
+  "q": "Simplify 8x + 3y − 1x + 6y.",
+  "options": [
+   "9x + 9y",
+   "8x + 9y",
+   "7x + 8y",
+   "7x + 9y"
+  ],
+  "answer": 3,
+  "explanation": "Collect like terms: x terms give 7x and y terms give 9y."
+ },
+ {
+  "id": 301,
+  "level": "JSS2",
+  "topic": "Area of plane shapes",
+  "q": "A parallelogram has base 16 cm and perpendicular height 14 cm. Find its area.",
+  "options": [
+   "224 cm²",
+   "112 cm²",
+   "30 cm²",
+   "60 cm²"
+  ],
+  "answer": 0,
+  "explanation": "Area = base × height = 16 × 14 = 224 cm²."
+ },
+ {
+  "id": 302,
+  "level": "JSS2",
+  "topic": "Angles",
+  "q": "Two parallel lines are cut by a transversal. One alternate angle is 132°. Find the other alternate angle.",
+  "options": [
+   "132°",
+   "228°",
+   "42°",
+   "48°"
+  ],
+  "answer": 0,
+  "explanation": "Alternate angles between parallel lines are equal."
+ },
+ {
+  "id": 303,
+  "level": "JSS2",
+  "topic": "Probability",
+  "q": "A bag contains 5 red, 3 blue and 5 green marbles. One marble is picked at random. What is the probability that it is blue?",
+  "options": [
+   "3/13",
+   "1/3",
+   "5/13",
+   "3/10"
+  ],
+  "answer": 0,
+  "explanation": "P(blue) = number of blue ÷ total = 3/13 = 3/13."
+ },
+ {
+  "id": 304,
+  "level": "JSS2",
+  "topic": "Statistics",
+  "q": "Find the mode of 22, 4, 1, 7, 8, 8, 8.",
+  "options": [
+   "22",
+   "8",
+   "4",
+   "7"
+  ],
+  "answer": 1,
+  "explanation": "8 appears most often, three times."
+ },
+ {
+  "id": 305,
+  "level": "JSS2",
+  "topic": "Statistics",
+  "q": "Find the mode of 20, 24, 17, 19, 24, 24, 9.",
+  "options": [
+   "17",
+   "24",
+   "9",
+   "19"
+  ],
+  "answer": 1,
+  "explanation": "24 appears most often, three times."
+ },
+ {
+  "id": 306,
+  "level": "JSS2",
+  "topic": "Algebraic expressions",
+  "q": "Expand 4(2x + 4).",
+  "options": [
+   "8x + 16",
+   "2x + 16",
+   "8x + 4",
+   "6x + 16"
+  ],
+  "answer": 0,
+  "explanation": "Multiply each term inside the bracket by 4."
+ },
+ {
+  "id": 307,
+  "level": "JSS2",
+  "topic": "Ratio and proportion",
+  "q": "4 pencils cost ₦120. How much will 10 pencils cost at the same rate?",
+  "options": [
+   "₦130",
+   "₦300",
+   "₦180",
+   "₦330"
+  ],
+  "answer": 1,
+  "explanation": "One costs ₦30. So 10 cost 10 × ₦30 = ₦300."
+ },
+ {
+  "id": 308,
+  "level": "JSS2",
+  "topic": "Area of plane shapes",
+  "q": "A trapezium has parallel sides 7 cm and 8 cm, and the distance between them is 2 cm. Find its area.",
+  "options": [
+   "15 cm²",
+   "30 cm²",
+   "17 cm²",
+   "56 cm²"
+  ],
+  "answer": 0,
+  "explanation": "Area = ½(a + b)h = ½(7 + 8) × 2 = 15 cm²."
+ },
+ {
+  "id": 309,
+  "level": "JSS2",
+  "topic": "Fractions",
+  "q": "Evaluate 4/6 ÷ 1/5.",
+  "options": [
+   "2/15",
+   "19/30",
+   "3/10",
+   "3 1/3"
+  ],
+  "answer": 3,
+  "explanation": "Invert the second fraction and multiply: 4/6 × 5/1 = 3 1/3."
+ },
+ {
+  "id": 310,
+  "level": "JSS2",
+  "topic": "Area of plane shapes",
+  "q": "Find the area of a triangle with base 16 cm and height 15 cm.",
+  "options": [
+   "62 cm²",
+   "120 cm²",
+   "240 cm²",
+   "31 cm²"
+  ],
+  "answer": 1,
+  "explanation": "Area = ½ × base × height = ½ × 16 × 15 = 120 cm²."
+ },
+ {
+  "id": 311,
+  "level": "JSS2",
+  "topic": "Speed, distance and time",
+  "q": "A bus covers 960 km in 8 hours. Find its average speed.",
+  "options": [
+   "120 km/h",
+   "7680 km/h",
+   "125 km/h",
+   "128 km/h"
+  ],
+  "answer": 0,
+  "explanation": "Speed = distance ÷ time = 960 ÷ 8 = 120 km/h."
+ },
+ {
+  "id": 312,
+  "level": "JSS2",
+  "topic": "LCM and HCF",
+  "q": "Two bells ring every 3 minutes and every 4 minutes. They ring together now. After how many minutes will they next ring together?",
+  "options": [
+   "15 minutes",
+   "24 minutes",
+   "12 minutes",
+   "1 minutes"
+  ],
+  "answer": 2,
+  "explanation": "Find the LCM of 3 and 4. It is 12."
+ },
+ {
+  "id": 313,
+  "level": "JSS2",
+  "topic": "Number bases",
+  "q": "Convert 24 from base ten to base two.",
+  "options": [
+   "11001",
+   "11000",
+   "10111",
+   "11010"
+  ],
+  "answer": 1,
+  "explanation": "Divide repeatedly by 2 and read the remainders upwards: 11000."
+ },
+ {
+  "id": 314,
+  "level": "JSS2",
+  "topic": "Algebraic expressions",
+  "q": "Expand 8(6x − 9).",
+  "options": [
+   "48x − 9",
+   "6x − 72",
+   "48x + 72",
+   "48x − 72"
+  ],
+  "answer": 3,
+  "explanation": "Multiply each term inside the bracket by 8."
+ },
+ {
+  "id": 315,
+  "level": "JSS2",
+  "topic": "Percentages",
+  "q": "Express 68% as a fraction in its lowest terms.",
+  "options": [
+   "17/25",
+   "1/68",
+   "73/100",
+   "68/10"
+  ],
+  "answer": 0,
+  "explanation": "68% = 68/100, which simplifies to 17/25."
+ },
+ {
+  "id": 316,
+  "level": "JSS2",
+  "topic": "Volume",
+  "q": "Find the volume of a cuboid 5 cm long, 9 cm wide and 5 cm high.",
+  "options": [
+   "19 cm³",
+   "230 cm³",
+   "225 cm³",
+   "270 cm³"
+  ],
+  "answer": 2,
+  "explanation": "Volume = l × w × h = 5 × 9 × 5 = 225 cm³."
+ },
+ {
+  "id": 317,
+  "level": "JSS2",
+  "topic": "Algebra basics",
+  "q": "If a = 3 and b = 5, find the value of 2a + 3b.",
+  "options": [
+   "90",
+   "18",
+   "23",
+   "21"
+  ],
+  "answer": 3,
+  "explanation": "2(3) + 3(5) = 6 + 15 = 21."
+ },
+ {
+  "id": 318,
+  "level": "JSS2",
+  "topic": "Algebraic expressions",
+  "q": "Expand 3(5x + 9).",
+  "options": [
+   "15x + 9",
+   "5x + 27",
+   "8x + 27",
+   "15x + 27"
+  ],
+  "answer": 3,
+  "explanation": "Multiply each term inside the bracket by 3."
+ },
+ {
+  "id": 319,
+  "level": "JSS2",
+  "topic": "Ratio and proportion",
+  "q": "5 exercise books cost ₦250. How much will 11 exercise books cost at the same rate?",
+  "options": [
+   "₦261",
+   "₦300",
+   "₦600",
+   "₦550"
+  ],
+  "answer": 3,
+  "explanation": "One costs ₦50. So 11 cost 11 × ₦50 = ₦550."
+ },
+ {
+  "id": 320,
+  "level": "JSS2",
+  "topic": "Indices",
+  "q": "Evaluate 6³.",
+  "options": [
+   "18",
+   "210",
+   "216",
+   "222"
+  ],
+  "answer": 2,
+  "explanation": "6³ means 6 multiplied by itself 3 times, which is 216."
+ },
+ {
+  "id": 321,
+  "level": "JSS2",
+  "topic": "Polygons",
+  "q": "Find the sum of the interior angles of a hexagon.",
+  "options": [
+   "360°",
+   "900°",
+   "720°",
+   "1080°"
+  ],
+  "answer": 2,
+  "explanation": "Sum = (n − 2) × 180° = (6 − 2) × 180° = 720°."
+ },
+ {
+  "id": 322,
+  "level": "JSS2",
+  "topic": "Ratio and proportion",
+  "q": "5 oranges cost ₦300. How much will 8 oranges cost at the same rate?",
+  "options": [
+   "₦180",
+   "₦540",
+   "₦480",
+   "₦308"
+  ],
+  "answer": 2,
+  "explanation": "One costs ₦60. So 8 cost 8 × ₦60 = ₦480."
+ },
+ {
+  "id": 323,
+  "level": "JSS2",
+  "topic": "Fractions",
+  "q": "Evaluate 1/6 ÷ 3/5.",
+  "options": [
+   "1/10",
+   "3/5",
+   "5/18",
+   "3 3/5"
+  ],
+  "answer": 2,
+  "explanation": "Invert the second fraction and multiply: 1/6 × 5/3 = 5/18."
+ },
+ {
+  "id": 324,
+  "level": "JSS2",
+  "topic": "Algebraic expressions",
+  "q": "Simplify 7x + 5y − 1x + 8y.",
+  "options": [
+   "6x + 13y",
+   "7x + 13y",
+   "8x + 13y",
+   "6x + 12y"
+  ],
+  "answer": 0,
+  "explanation": "Collect like terms: x terms give 6x and y terms give 13y."
+ },
+ {
+  "id": 325,
+  "level": "JSS2",
+  "topic": "Indices",
+  "q": "Simplify (2³)⁴.",
+  "options": [
+   "2⁷",
+   "2¹³",
+   "2¹²",
+   "8³"
+  ],
+  "answer": 2,
+  "explanation": "Multiply the powers: 3 × 4 = 12."
+ },
+ {
+  "id": 326,
+  "level": "JSS2",
+  "topic": "Probability",
+  "q": "A bag contains 6 red, 7 blue and 5 green marbles. One marble is picked at random. What is the probability that it is blue?",
+  "options": [
+   "1/7",
+   "7/18",
+   "7/11",
+   "1/3"
+  ],
+  "answer": 1,
+  "explanation": "P(blue) = number of blue ÷ total = 7/18 = 7/18."
+ },
+ {
+  "id": 327,
+  "level": "JSS2",
+  "topic": "Area of plane shapes",
+  "q": "A parallelogram has base 24 cm and perpendicular height 4 cm. Find its area.",
+  "options": [
+   "28 cm²",
+   "56 cm²",
+   "96 cm²",
+   "48 cm²"
+  ],
+  "answer": 2,
+  "explanation": "Area = base × height = 24 × 4 = 96 cm²."
+ },
+ {
+  "id": 328,
+  "level": "JSS2",
+  "topic": "Statistics",
+  "q": "Find the median of 38, 8, 28, 5, 31, 9, 7.",
+  "options": [
+   "38",
+   "5",
+   "18",
+   "9"
+  ],
+  "answer": 3,
+  "explanation": "Arrange in order: 5, 7, 8, 9, 28, 31, 38. The middle value is 9."
+ },
+ {
+  "id": 329,
+  "level": "JSS2",
+  "topic": "Simple interest",
+  "q": "Find the simple interest on ₦55,000 at 2% per annum for 3 year(s).",
+  "options": [
+   "₦6,600",
+   "₦58,300",
+   "₦1,650",
+   "₦3,300"
+  ],
+  "answer": 3,
+  "explanation": "I = PRT/100 = 55,000 × 2 × 3 ÷ 100 = ₦3,300."
+ },
+ {
+  "id": 330,
+  "level": "JSS2",
+  "topic": "Area of plane shapes",
+  "q": "A trapezium has parallel sides 10 cm and 6 cm, and the distance between them is 4 cm. Find its area.",
+  "options": [
+   "64 cm²",
+   "36 cm²",
+   "120 cm²",
+   "32 cm²"
+  ],
+  "answer": 3,
+  "explanation": "Area = ½(a + b)h = ½(10 + 6) × 4 = 32 cm²."
+ },
+ {
+  "id": 331,
+  "level": "JSS2",
+  "topic": "Statistics",
+  "q": "Find the median of 18, 26, 39, 9, 30.",
+  "options": [
+   "26",
+   "39",
+   "9",
+   "24"
+  ],
+  "answer": 0,
+  "explanation": "Arrange in order: 9, 18, 26, 30, 39. The middle value is 26."
+ },
+ {
+  "id": 332,
+  "level": "JSS2",
+  "topic": "Statistics",
+  "q": "Find the mode of 4, 22, 3, 28, 26, 3, 3.",
+  "options": [
+   "3",
+   "26",
+   "4",
+   "22"
+  ],
+  "answer": 0,
+  "explanation": "3 appears most often, three times."
+ },
+ {
+  "id": 333,
+  "level": "JSS2",
+  "topic": "Probability",
+  "q": "A bag contains 3 red, 4 blue and 3 green marbles. One marble is picked at random. What is the probability that it is blue?",
+  "options": [
+   "2/3",
+   "2/5",
+   "1/4",
+   "3/10"
+  ],
+  "answer": 1,
+  "explanation": "P(blue) = number of blue ÷ total = 4/10 = 2/5."
+ },
+ {
+  "id": 334,
+  "level": "JSS2",
+  "topic": "Sets",
+  "q": "In a class, 26 students like Mathematics and 24 like English. 20 students like both subjects. How many students like at least one of the two subjects?",
+  "options": [
+   "6",
+   "50",
+   "30",
+   "70"
+  ],
+  "answer": 2,
+  "explanation": "n(M ∪ E) = n(M) + n(E) − n(M ∩ E) = 26 + 24 − 20 = 30."
+ },
+ {
+  "id": 335,
+  "level": "JSS3",
+  "topic": "Pythagoras theorem",
+  "q": "The two shorter sides of a right-angled triangle are 10 cm and 24 cm. Find the length of the hypotenuse.",
+  "options": [
+   "27 cm",
+   "34 cm",
+   "26 cm",
+   "25 cm"
+  ],
+  "answer": 2,
+  "explanation": "c² = 10² + 24² = 676, so c = 26 cm."
+ },
+ {
+  "id": 336,
+  "level": "JSS3",
+  "topic": "Trigonometry",
+  "q": "What is the exact value of sin 30°?",
+  "options": [
+   "1",
+   "0",
+   "1/2",
+   "√3/2"
+  ],
+  "answer": 2,
+  "explanation": "This is one of the standard trigonometric values to learn by heart."
+ },
+ {
+  "id": 337,
+  "level": "JSS3",
+  "topic": "Mensuration",
+  "q": "Find the total surface area of a cuboid 7 cm by 8 cm by 5 cm.",
+  "options": [
+   "40 cm²",
+   "262 cm²",
+   "280 cm²",
+   "131 cm²"
+  ],
+  "answer": 1,
+  "explanation": "Total surface area = 2(lw + lh + wh) = 2(56 + 35 + 40) = 262 cm²."
+ },
+ {
+  "id": 338,
+  "level": "JSS3",
+  "topic": "Surds",
+  "q": "Simplify √343.",
+  "options": [
+   "7√7",
+   "49√7",
+   "8√7",
+   "7√8"
+  ],
+  "answer": 0,
+  "explanation": "√343 = √49 × √7 = 7√7."
+ },
+ {
+  "id": 339,
+  "level": "JSS3",
+  "topic": "Standard form",
+  "q": "Express 0.0067 in standard form.",
+  "options": [
+   "6.7 × 10⁻³",
+   "6.7 × 10⁻²",
+   "0.67 × 10⁻²",
+   "6.7 × 10³"
+  ],
+  "answer": 0,
+  "explanation": "Move the decimal point 3 places to the right, so the power of 10 is −3."
+ },
+ {
+  "id": 340,
+  "level": "JSS3",
+  "topic": "Inequalities",
+  "q": "Solve −3x > 21.",
+  "options": [
+   "x > −7",
+   "x < −7",
+   "x > 7",
+   "x < 7"
+  ],
+  "answer": 1,
+  "explanation": "Dividing by a negative number reverses the inequality sign."
+ },
+ {
+  "id": 341,
+  "level": "JSS3",
+  "topic": "Percentages",
+  "q": "The price of a bag of beans rose from ₦2,900 to ₦3,625. Find the percentage increase.",
+  "options": [
+   "20%",
+   "25%",
+   "30%",
+   "50%"
+  ],
+  "answer": 1,
+  "explanation": "Increase = ₦725. Percentage increase = 725/2900 × 100 = 25%."
+ },
+ {
+  "id": 342,
+  "level": "JSS3",
+  "topic": "Change of subject",
+  "q": "Make r the subject of the formula C = 2πr.",
+  "options": [
+   "r = C − 2π",
+   "r = C/(2π)",
+   "r = 2πC",
+   "r = 2π/C"
+  ],
+  "answer": 1,
+  "explanation": "Undo each operation on the other side of the formula, one step at a time."
+ },
+ {
+  "id": 343,
+  "level": "JSS3",
+  "topic": "Quadratic equations",
+  "q": "Solve x² − 5x − 14 = 0.",
+  "options": [
+   "x = −7 or x = 2",
+   "x = 7 or x = 2",
+   "x = −7 or x = −2",
+   "x = 7 or x = −2"
+  ],
+  "answer": 3,
+  "explanation": "Factorise: (x − 7)(x + 2) = 0. So x = 7 or x = −2."
+ },
+ {
+  "id": 344,
+  "level": "JSS3",
+  "topic": "Surds",
+  "q": "Simplify √20.",
+  "options": [
+   "10√5",
+   "5√2",
+   "2√6",
+   "2√5"
+  ],
+  "answer": 3,
+  "explanation": "√20 = √4 × √5 = 2√5."
+ },
+ {
+  "id": 345,
+  "level": "JSS3",
+  "topic": "Standard form",
+  "q": "Express 340 in standard form.",
+  "options": [
+   "3.4 × 10²",
+   "34 × 10¹",
+   "3.4 × 10³",
+   "3.4 × 10¹"
+  ],
+  "answer": 0,
+  "explanation": "Move the decimal point 2 places to get 3.4 × 10²."
+ },
+ {
+  "id": 346,
+  "level": "JSS3",
+  "topic": "Probability",
+  "q": "A bag has 8 red, 6 blue and 3 green balls. A ball is chosen at random. Find the probability that it is NOT red.",
+  "options": [
+   "8/17",
+   "9/8",
+   "6/17",
+   "9/17"
+  ],
+  "answer": 3,
+  "explanation": "P(not red) = 1 − 8/17 = 9/17."
+ },
+ {
+  "id": 347,
+  "level": "JSS3",
+  "topic": "Simultaneous equations",
+  "q": "Solve x + y = 21 and x − y = 5. Find the value of x.",
+  "options": [
+   "13",
+   "14",
+   "12",
+   "8"
+  ],
+  "answer": 0,
+  "explanation": "Add the equations: 2x = 26, so x = 13. Then y = 8."
+ },
+ {
+  "id": 348,
+  "level": "JSS3",
+  "topic": "Change of subject",
+  "q": "Make x the subject of y = 4x + 9.",
+  "options": [
+   "x = (y + 9)/4",
+   "x = 4(y − 9)",
+   "x = (y − 9)/4",
+   "x = y − 9/4"
+  ],
+  "answer": 2,
+  "explanation": "Subtract 9 from both sides, then divide by 4."
+ },
+ {
+  "id": 349,
+  "level": "JSS3",
+  "topic": "Bearings",
+  "q": "The bearing of B from A is 090°. What is the bearing of A from B?",
+  "options": [
+   "000°",
+   "280°",
+   "270°",
+   "180°"
+  ],
+  "answer": 2,
+  "explanation": "Back bearing = 90° + 180° = 270°."
+ },
+ {
+  "id": 350,
+  "level": "JSS3",
+  "topic": "Quadratic equations",
+  "q": "Solve x² − 11x + 30 = 0.",
+  "options": [
+   "x = 6 or x = 5",
+   "x = −6 or x = 5",
+   "x = 6 or x = −5",
+   "x = −6 or x = −5"
+  ],
+  "answer": 0,
+  "explanation": "Factorise: (x − 6)(x − 5) = 0. So x = 6 or x = 5."
+ },
+ {
+  "id": 351,
+  "level": "JSS3",
+  "topic": "Indices",
+  "q": "Evaluate 4⁻⁴.",
+  "options": [
+   "1/16",
+   "1/256",
+   "−256",
+   "−16"
+  ],
+  "answer": 1,
+  "explanation": "A negative power means a reciprocal: 4⁻⁴ = 1/4⁴ = 1/256."
+ },
+ {
+  "id": 352,
+  "level": "JSS3",
+  "topic": "Coordinate geometry",
+  "q": "What is the gradient of the line y = −2x − 9?",
+  "options": [
+   "−9",
+   "−2",
+   "2",
+   "−1"
+  ],
+  "answer": 1,
+  "explanation": "In y = mx + c, the gradient is m."
+ },
+ {
+  "id": 353,
+  "level": "JSS3",
+  "topic": "Logarithms",
+  "q": "log 7 + log 6 = log ?",
+  "options": [
+   "117649",
+   "43",
+   "13",
+   "42"
+  ],
+  "answer": 3,
+  "explanation": "log a + log b = log(ab)."
+ },
+ {
+  "id": 354,
+  "level": "JSS3",
+  "topic": "Sets",
+  "q": "In a class of 31 students, 16 offer Mathematics, 18 offer Physics and 12 offer both. How many students offer neither subject?",
+  "options": [
+   "15",
+   "21",
+   "22",
+   "9"
+  ],
+  "answer": 3,
+  "explanation": "Students offering at least one = 16 + 18 − 12 = 22. Neither = 31 − 22 = 9."
+ },
+ {
+  "id": 355,
+  "level": "JSS3",
+  "topic": "Algebraic expressions",
+  "q": "Factorise x² + 9x + 18.",
+  "options": [
+   "(x + 6)(x − 3)",
+   "(x + 6)(x + 3)",
+   "(x − 6)(x − 3)",
+   "(x − 6)(x + 3)"
+  ],
+  "answer": 1,
+  "explanation": "Find two numbers with product 18 and sum 9: they are 6 and 3."
+ },
+ {
+  "id": 356,
+  "level": "JSS3",
+  "topic": "Algebraic expressions",
+  "q": "Expand (x + 7)(x − 5).",
+  "options": [
+   "x² + 2x + 35",
+   "x² + 12x − 35",
+   "x² + 2x − 35",
+   "x² − 35x + 2"
+  ],
+  "answer": 2,
+  "explanation": "x² + (7 + -5)x + (7)(-5) = x² + 2x − 35."
+ },
+ {
+  "id": 357,
+  "level": "JSS3",
+  "topic": "Coordinate geometry",
+  "q": "Find the gradient of the line joining (-1, -4) and (2, -7).",
+  "options": [
+   "−2",
+   "1",
+   "0",
+   "−1"
+  ],
+  "answer": 3,
+  "explanation": "Gradient = (y₂ − y₁)/(x₂ − x₁) = (-7 − -4)/(2 − -1) = −1."
+ },
+ {
+  "id": 358,
+  "level": "JSS3",
+  "topic": "Coordinate geometry",
+  "q": "Find the gradient of the line joining (-2, 4) and (0, 0).",
+  "options": [
+   "−3",
+   "2",
+   "−2",
+   "−1"
+  ],
+  "answer": 2,
+  "explanation": "Gradient = (y₂ − y₁)/(x₂ − x₁) = (0 − 4)/(0 − -2) = −2."
+ },
+ {
+  "id": 359,
+  "level": "JSS3",
+  "topic": "Simultaneous equations",
+  "q": "Solve x + y = 20 and x − y = 8. Find the value of x.",
+  "options": [
+   "14",
+   "13",
+   "6",
+   "15"
+  ],
+  "answer": 0,
+  "explanation": "Add the equations: 2x = 28, so x = 14. Then y = 6."
+ },
+ {
+  "id": 360,
+  "level": "JSS3",
+  "topic": "Coordinate geometry",
+  "q": "Find the gradient of the line joining (4, 5) and (7, -7).",
+  "options": [
+   "−4",
+   "−3",
+   "4",
+   "−5"
+  ],
+  "answer": 0,
+  "explanation": "Gradient = (y₂ − y₁)/(x₂ − x₁) = (-7 − 5)/(7 − 4) = −4."
+ },
+ {
+  "id": 361,
+  "level": "JSS3",
+  "topic": "Variation",
+  "q": "y varies directly as x. If y = 56 when x = 8, find y when x = 6.",
+  "options": [
+   "44",
+   "49",
+   "62",
+   "42"
+  ],
+  "answer": 3,
+  "explanation": "y = kx. k = 56 ÷ 8 = 7. When x = 6, y = 7 × 6 = 42."
+ },
+ {
+  "id": 362,
+  "level": "JSS3",
+  "topic": "Probability",
+  "q": "A fair die is rolled. What is the probability of getting a multiple of 3?",
+  "options": [
+   "1/2",
+   "3/4",
+   "1/4",
+   "1/3"
+  ],
+  "answer": 3,
+  "explanation": "Count the favourable outcomes and divide by the total number of equally likely outcomes."
+ },
+ {
+  "id": 363,
+  "level": "JSS3",
+  "topic": "Probability",
+  "q": "A bag has 7 red, 5 blue and 3 green balls. A ball is chosen at random. Find the probability that it is NOT red.",
+  "options": [
+   "7/15",
+   "1/3",
+   "8/7",
+   "8/15"
+  ],
+  "answer": 3,
+  "explanation": "P(not red) = 1 − 7/15 = 8/15."
+ },
+ {
+  "id": 364,
+  "level": "JSS3",
+  "topic": "Pythagoras theorem",
+  "q": "The two shorter sides of a right-angled triangle are 6 cm and 8 cm. Find the length of the hypotenuse.",
+  "options": [
+   "10 cm",
+   "9 cm",
+   "11 cm",
+   "14 cm"
+  ],
+  "answer": 0,
+  "explanation": "c² = 6² + 8² = 100, so c = 10 cm."
+ },
+ {
+  "id": 365,
+  "level": "JSS3",
+  "topic": "Pythagoras theorem",
+  "q": "The two shorter sides of a right-angled triangle are 18 cm and 24 cm. Find the length of the hypotenuse.",
+  "options": [
+   "42 cm",
+   "29 cm",
+   "31 cm",
+   "30 cm"
+  ],
+  "answer": 3,
+  "explanation": "c² = 18² + 24² = 900, so c = 30 cm."
+ },
+ {
+  "id": 366,
+  "level": "JSS3",
+  "topic": "Simultaneous equations",
+  "q": "Solve x + y = 18 and x − y = 6. Find the value of x.",
+  "options": [
+   "6",
+   "12",
+   "11",
+   "13"
+  ],
+  "answer": 1,
+  "explanation": "Add the equations: 2x = 24, so x = 12. Then y = 6."
+ },
+ {
+  "id": 367,
+  "level": "JSS3",
+  "topic": "Change of subject",
+  "q": "Make x the subject of y = 2x + 5.",
+  "options": [
+   "x = (y − 5)/2",
+   "x = 2(y − 5)",
+   "x = (y + 5)/2",
+   "x = y − 5/2"
+  ],
+  "answer": 0,
+  "explanation": "Subtract 5 from both sides, then divide by 2."
+ },
+ {
+  "id": 368,
+  "level": "JSS3",
+  "topic": "Percentages",
+  "q": "A shirt marked at ₦1,600 is sold at a 15% discount. What is the selling price?",
+  "options": [
+   "₦240",
+   "₦1,840",
+   "₦1,360",
+   "₦1,585"
+  ],
+  "answer": 2,
+  "explanation": "Discount = 15% of ₦1,600 = ₦240. Selling price = ₦1,600 − ₦240 = ₦1,360."
+ },
+ {
+  "id": 369,
+  "level": "JSS3",
+  "topic": "Coordinate geometry",
+  "q": "What is the gradient of the line y = −4x − 2?",
+  "options": [
+   "4",
+   "−2",
+   "−4",
+   "−3"
+  ],
+  "answer": 2,
+  "explanation": "In y = mx + c, the gradient is m."
+ },
+ {
+  "id": 370,
+  "level": "JSS3",
+  "topic": "Inequalities",
+  "q": "Solve 5x + 5 > 55.",
+  "options": [
+   "x > 10",
+   "x < 10",
+   "x > 50",
+   "x > 11"
+  ],
+  "answer": 0,
+  "explanation": "Subtract 5: 5x > 50. Divide by 5: x > 10."
+ },
+ {
+  "id": 371,
+  "level": "JSS3",
+  "topic": "Percentages",
+  "q": "A salesman earns 2% commission on his sales. Find his commission on sales of ₦155,000.",
+  "options": [
+   "₦1,550",
+   "₦151,900",
+   "₦31,000",
+   "₦3,100"
+  ],
+  "answer": 3,
+  "explanation": "2% of ₦155,000 = ₦3,100."
+ },
+ {
+  "id": 372,
+  "level": "JSS3",
+  "topic": "Coordinate geometry",
+  "q": "Find the gradient of the line joining (2, 4) and (5, -8).",
+  "options": [
+   "−5",
+   "4",
+   "−3",
+   "−4"
+  ],
+  "answer": 3,
+  "explanation": "Gradient = (y₂ − y₁)/(x₂ − x₁) = (-8 − 4)/(5 − 2) = −4."
+ },
+ {
+  "id": 373,
+  "level": "JSS3",
+  "topic": "Sets",
+  "q": "In a class of 50 students, 33 offer Mathematics, 19 offer Physics and 6 offer both. How many students offer neither subject?",
+  "options": [
+   "4",
+   "10",
+   "46",
+   "17"
+  ],
+  "answer": 0,
+  "explanation": "Students offering at least one = 33 + 19 − 6 = 46. Neither = 50 − 46 = 4."
+ },
+ {
+  "id": 374,
+  "level": "JSS3",
+  "topic": "Mensuration",
+  "q": "Find the total surface area of a cuboid 8 cm by 7 cm by 5 cm.",
+  "options": [
+   "262 cm²",
+   "40 cm²",
+   "131 cm²",
+   "280 cm²"
+  ],
+  "answer": 0,
+  "explanation": "Total surface area = 2(lw + lh + wh) = 2(56 + 40 + 35) = 262 cm²."
+ },
+ {
+  "id": 375,
+  "level": "JSS3",
+  "topic": "Percentages",
+  "q": "A salesman earns 2% commission on his sales. Find his commission on sales of ₦10,000.",
+  "options": [
+   "₦2,000",
+   "₦100",
+   "₦9,800",
+   "₦200"
+  ],
+  "answer": 3,
+  "explanation": "2% of ₦10,000 = ₦200."
+ },
+ {
+  "id": 376,
+  "level": "JSS3",
+  "topic": "Compound interest",
+  "q": "Find the compound interest on ₦80,000 for 2 years at 10% per annum.",
+  "options": [
+   "₦24,800",
+   "₦96,800",
+   "₦16,800",
+   "₦16,000"
+  ],
+  "answer": 2,
+  "explanation": "Amount = ₦80,000 × (1 + 10/100)² = ₦96,800. Interest = amount − principal = ₦16,800."
+ },
+ {
+  "id": 377,
+  "level": "JSS3",
+  "topic": "Number bases",
+  "q": "Add 100 and 1001 in base two.",
+  "options": [
+   "1100",
+   "1110",
+   "1101",
+   "1111"
+  ],
+  "answer": 2,
+  "explanation": "4 + 9 = 13, which is 1101 in base two."
+ },
+ {
+  "id": 378,
+  "level": "JSS3",
+  "topic": "Whole numbers",
+  "q": "Evaluate 9 + 6 × 4 − 4 × 3.",
+  "options": [
+   "21",
+   "9",
+   "48",
+   "32"
+  ],
+  "answer": 0,
+  "explanation": "Multiply first (BODMAS), then add and subtract from left to right."
+ },
+ {
+  "id": 379,
+  "level": "JSS3",
+  "topic": "Inequalities",
+  "q": "Solve 5x + 3 ≤ 28.",
+  "options": [
+   "x ≤ 6",
+   "x ≤ 25",
+   "x ≥ 5",
+   "x ≤ 5"
+  ],
+  "answer": 3,
+  "explanation": "Subtract 3: 5x ≤ 25. Divide by 5: x ≤ 5."
+ },
+ {
+  "id": 380,
+  "level": "JSS3",
+  "topic": "Polygons",
+  "q": "Each exterior angle of a regular polygon is 18°. How many sides does it have?",
+  "options": [
+   "20",
+   "22",
+   "19",
+   "21"
+  ],
+  "answer": 0,
+  "explanation": "Number of sides = 360° ÷ 18° = 20."
+ },
+ {
+  "id": 381,
+  "level": "JSS3",
+  "topic": "Algebraic expressions",
+  "q": "Expand (x + 9)(x + 5).",
+  "options": [
+   "x² + 14x − 45",
+   "x² + 4x + 45",
+   "x² + 14x + 45",
+   "x² + 45x + 14"
+  ],
+  "answer": 2,
+  "explanation": "x² + (9 + 5)x + (9)(5) = x² + 14x + 45."
+ },
+ {
+  "id": 382,
+  "level": "JSS3",
+  "topic": "Percentages",
+  "q": "The price of a bag of beans rose from ₦1,900 to ₦2,090. Find the percentage increase.",
+  "options": [
+   "15%",
+   "5%",
+   "20%",
+   "10%"
+  ],
+  "answer": 3,
+  "explanation": "Increase = ₦190. Percentage increase = 190/1900 × 100 = 10%."
+ },
+ {
+  "id": 383,
+  "level": "JSS3",
+  "topic": "Change of subject",
+  "q": "Make m the subject of the formula F = ma.",
+  "options": [
+   "m = a/F",
+   "m = F/a",
+   "m = F − a",
+   "m = Fa"
+  ],
+  "answer": 1,
+  "explanation": "Undo each operation on the other side of the formula, one step at a time."
+ },
+ {
+  "id": 384,
+  "level": "JSS3",
+  "topic": "Trigonometry",
+  "q": "In a right-angled triangle, the side opposite angle θ is 7 cm, the side adjacent to θ is 24 cm and the hypotenuse is 25 cm. Find cos θ.",
+  "options": [
+   "7/25",
+   "7/24",
+   "24/25",
+   "25/7"
+  ],
+  "answer": 2,
+  "explanation": "cos θ = adjacent ÷ hypotenuse."
+ },
+ {
+  "id": 385,
+  "level": "JSS3",
+  "topic": "Statistics",
+  "q": "The mean of 19, 13, x, 5, 2 is 12. Find x.",
+  "options": [
+   "21",
+   "22",
+   "20",
+   "12"
+  ],
+  "answer": 0,
+  "explanation": "Total = 5 × 12 = 60. x = 60 − 39 = 21."
+ },
+ {
+  "id": 386,
+  "level": "JSS3",
+  "topic": "Linear equations",
+  "q": "Solve x/2 + 9 = 13.",
+  "options": [
+   "8",
+   "10",
+   "6",
+   "4"
+  ],
+  "answer": 0,
+  "explanation": "Subtract 9: x/2 = 4. Multiply by 2: x = 8."
+ },
+ {
+  "id": 387,
+  "level": "JSS3",
+  "topic": "Mensuration",
+  "q": "Find the volume of a cylinder of radius 21 cm and height 3 cm. (Take π = 22/7)",
+  "options": [
+   "1,386 cm³",
+   "396 cm³",
+   "198 cm³",
+   "4,158 cm³"
+  ],
+  "answer": 3,
+  "explanation": "V = πr²h = 22/7 × 21² × 3 = 4,158 cm³."
+ },
+ {
+  "id": 388,
+  "level": "JSS3",
+  "topic": "Standard form",
+  "q": "Express 0.078 in standard form.",
+  "options": [
+   "0.78 × 10⁻¹",
+   "7.8 × 10²",
+   "7.8 × 10⁻¹",
+   "7.8 × 10⁻²"
+  ],
+  "answer": 3,
+  "explanation": "Move the decimal point 2 places to the right, so the power of 10 is −2."
+ },
+ {
+  "id": 389,
+  "level": "JSS3",
+  "topic": "Percentages",
+  "q": "A salesman earns 5% commission on his sales. Find his commission on sales of ₦10,000.",
+  "options": [
+   "₦9,500",
+   "₦500",
+   "₦250",
+   "₦5,000"
+  ],
+  "answer": 1,
+  "explanation": "5% of ₦10,000 = ₦500."
+ },
+ {
+  "id": 390,
+  "level": "JSS3",
+  "topic": "Trigonometry",
+  "q": "What is the exact value of cos 60°?",
+  "options": [
+   "0",
+   "1",
+   "1/2",
+   "√3/2"
+  ],
+  "answer": 2,
+  "explanation": "This is one of the standard trigonometric values to learn by heart."
+ },
+ {
+  "id": 391,
+  "level": "JSS3",
+  "topic": "Whole numbers",
+  "q": "Evaluate 9 + 7 × 6 − 6 × 2.",
+  "options": [
+   "9",
+   "47",
+   "84",
+   "39"
+  ],
+  "answer": 3,
+  "explanation": "Multiply first (BODMAS), then add and subtract from left to right."
+ },
+ {
+  "id": 392,
+  "level": "JSS3",
+  "topic": "Trigonometry",
+  "q": "In a right-angled triangle, the side opposite angle θ is 3 cm, the side adjacent to θ is 4 cm and the hypotenuse is 5 cm. Find tan θ.",
+  "options": [
+   "4/5",
+   "3/5",
+   "3/4",
+   "5/3"
+  ],
+  "answer": 2,
+  "explanation": "tan θ = opposite ÷ adjacent."
+ },
+ {
+  "id": 393,
+  "level": "JSS3",
+  "topic": "Linear equations",
+  "q": "Solve x/5 + 1 = 9.",
+  "options": [
+   "35",
+   "8",
+   "45",
+   "40"
+  ],
+  "answer": 3,
+  "explanation": "Subtract 1: x/5 = 8. Multiply by 5: x = 40."
+ },
+ {
+  "id": 394,
+  "level": "JSS3",
+  "topic": "Algebraic fractions",
+  "q": "Simplify x/5 + x/7.",
+  "options": [
+   "x/35",
+   "12x/35",
+   "2x/12",
+   "x/12"
+  ],
+  "answer": 1,
+  "explanation": "Use the common denominator 35: (7x + 5x)/35 = 12x/35."
+ },
+ {
+  "id": 395,
+  "level": "JSS3",
+  "topic": "Mensuration",
+  "q": "Find the volume of a cylinder of radius 7 cm and height 15 cm. (Take π = 22/7)",
+  "options": [
+   "660 cm³",
+   "330 cm³",
+   "2,310 cm³",
+   "770 cm³"
+  ],
+  "answer": 2,
+  "explanation": "V = πr²h = 22/7 × 7² × 15 = 2,310 cm³."
+ },
+ {
+  "id": 396,
+  "level": "JSS3",
+  "topic": "Algebraic fractions",
+  "q": "Simplify x/3 + x/6.",
+  "options": [
+   "2x/9",
+   "x/9",
+   "x/2",
+   "x/18"
+  ],
+  "answer": 2,
+  "explanation": "Use the common denominator 18: (6x + 3x)/18 = x/2."
+ },
+ {
+  "id": 397,
+  "level": "JSS3",
+  "topic": "Algebraic fractions",
+  "q": "Simplify x/3 + x/2.",
+  "options": [
+   "x/6",
+   "5x/6",
+   "2x/5",
+   "x/5"
+  ],
+  "answer": 1,
+  "explanation": "Use the common denominator 6: (2x + 3x)/6 = 5x/6."
+ },
+ {
+  "id": 398,
+  "level": "JSS3",
+  "topic": "Percentages",
+  "q": "The price of a bag of beans rose from ₦1,600 to ₦2,400. Find the percentage increase.",
+  "options": [
+   "55%",
+   "50%",
+   "45%",
+   "100%"
+  ],
+  "answer": 1,
+  "explanation": "Increase = ₦800. Percentage increase = 800/1600 × 100 = 50%."
+ },
+ {
+  "id": 399,
+  "level": "JSS3",
+  "topic": "Simultaneous equations",
+  "q": "Solve x + y = 13 and x − y = 9. Find the value of x.",
+  "options": [
+   "12",
+   "11",
+   "10",
+   "2"
+  ],
+  "answer": 1,
+  "explanation": "Add the equations: 2x = 22, so x = 11. Then y = 2."
+ },
+ {
+  "id": 400,
+  "level": "JSS3",
+  "topic": "Mensuration",
+  "q": "Find the volume of a cylinder of radius 14 cm and height 6 cm. (Take π = 22/7)",
+  "options": [
+   "3,696 cm³",
+   "528 cm³",
+   "264 cm³",
+   "1,232 cm³"
+  ],
+  "answer": 0,
+  "explanation": "V = πr²h = 22/7 × 14² × 6 = 3,696 cm³."
+ },
+ {
+  "id": 401,
+  "level": "JSS3",
+  "topic": "Percentages",
+  "q": "A shirt marked at ₦500 is sold at a 10% discount. What is the selling price?",
+  "options": [
+   "₦550",
+   "₦450",
+   "₦50",
+   "₦490"
+  ],
+  "answer": 1,
+  "explanation": "Discount = 10% of ₦500 = ₦50. Selling price = ₦500 − ₦50 = ₦450."
+ },
+ {
+  "id": 402,
+  "level": "JSS3",
+  "topic": "Number bases",
+  "q": "Convert 231 in base 6 to base ten.",
+  "options": [
+   "90",
+   "92",
+   "91",
+   "97"
+  ],
+  "answer": 2,
+  "explanation": "Multiply each digit of 231 by the right power of 6 and add up to get 91."
+ },
+ {
+  "id": 403,
+  "level": "JSS3",
+  "topic": "Inequalities",
+  "q": "Solve 3x + 8 < 32.",
+  "options": [
+   "x < 9",
+   "x < 24",
+   "x > 8",
+   "x < 8"
+  ],
+  "answer": 3,
+  "explanation": "Subtract 8: 3x < 24. Divide by 3: x < 8."
+ },
+ {
+  "id": 404,
+  "level": "JSS3",
+  "topic": "Percentages",
+  "q": "A shirt marked at ₦2,300 is sold at a 25% discount. What is the selling price?",
+  "options": [
+   "₦1,725",
+   "₦2,875",
+   "₦2,275",
+   "₦575"
+  ],
+  "answer": 0,
+  "explanation": "Discount = 25% of ₦2,300 = ₦575. Selling price = ₦2,300 − ₦575 = ₦1,725."
+ },
+ {
+  "id": 405,
+  "level": "JSS3",
+  "topic": "Percentages",
+  "q": "A shirt marked at ₦2,500 is sold at a 10% discount. What is the selling price?",
+  "options": [
+   "₦2,250",
+   "₦2,750",
+   "₦250",
+   "₦2,490"
+  ],
+  "answer": 0,
+  "explanation": "Discount = 10% of ₦2,500 = ₦250. Selling price = ₦2,500 − ₦250 = ₦2,250."
+ },
+ {
+  "id": 406,
+  "level": "JSS3",
+  "topic": "Coordinate geometry",
+  "q": "What is the y-intercept of the line y = −4x − 9?",
+  "options": [
+   "−9",
+   "−4",
+   "−8",
+   "9"
+  ],
+  "answer": 0,
+  "explanation": "In y = mx + c, the y-intercept is c."
+ },
+ {
+  "id": 407,
+  "level": "JSS3",
+  "topic": "Percentages",
+  "q": "A salesman earns 10% commission on his sales. Find his commission on sales of ₦150,000.",
+  "options": [
+   "₦150,000",
+   "₦135,000",
+   "₦7,500",
+   "₦15,000"
+  ],
+  "answer": 3,
+  "explanation": "10% of ₦150,000 = ₦15,000."
+ },
+ {
+  "id": 408,
+  "level": "JSS3",
+  "topic": "Logarithms",
+  "q": "log 5 + log 4 = log ?",
+  "options": [
+   "21",
+   "9",
+   "625",
+   "20"
+  ],
+  "answer": 3,
+  "explanation": "log a + log b = log(ab)."
+ },
+ {
+  "id": 409,
+  "level": "JSS3",
+  "topic": "Change of subject",
+  "q": "Make x the subject of y = 7x − 11.",
+  "options": [
+   "x = (y − 11)/7",
+   "x = (y + 11)/7",
+   "x = 7(y + 11)",
+   "x = y + 11/7"
+  ],
+  "answer": 1,
+  "explanation": "Add 11 to both sides, then divide by 7."
+ },
+ {
+  "id": 410,
+  "level": "JSS3",
+  "topic": "Number bases",
+  "q": "Convert 80 from base ten to base 7.",
+  "options": [
+   "142",
+   "153",
+   "144",
+   "143"
+  ],
+  "answer": 3,
+  "explanation": "Divide 80 repeatedly by 7 and read the remainders from bottom to top."
+ },
+ {
+  "id": 411,
+  "level": "JSS3",
+  "topic": "Coordinate geometry",
+  "q": "Find the gradient of the line joining (3, 0) and (6, 9).",
+  "options": [
+   "3",
+   "1/3",
+   "4",
+   "−3"
+  ],
+  "answer": 0,
+  "explanation": "Gradient = (y₂ − y₁)/(x₂ − x₁) = (9 − 0)/(6 − 3) = 3."
+ },
+ {
+  "id": 412,
+  "level": "JSS3",
+  "topic": "Number bases",
+  "q": "Convert 135 in base 8 to base ten.",
+  "options": [
+   "94",
+   "93",
+   "101",
+   "92"
+  ],
+  "answer": 1,
+  "explanation": "Multiply each digit of 135 by the right power of 8 and add up to get 93."
+ },
+ {
+  "id": 413,
+  "level": "JSS3",
+  "topic": "Bearings",
+  "q": "The bearing of B from A is 150°. What is the bearing of A from B?",
+  "options": [
+   "210°",
+   "240°",
+   "060°",
+   "330°"
+  ],
+  "answer": 3,
+  "explanation": "Back bearing = 150° + 180° = 330°."
+ },
+ {
+  "id": 414,
+  "level": "JSS3",
+  "topic": "Probability",
+  "q": "A fair die is rolled. What is the probability of getting a prime number?",
+  "options": [
+   "5/6",
+   "1/2",
+   "2/3",
+   "1/6"
+  ],
+  "answer": 1,
+  "explanation": "Count the favourable outcomes and divide by the total number of equally likely outcomes."
+ },
+ {
+  "id": 415,
+  "level": "JSS3",
+  "topic": "Algebraic expressions",
+  "q": "Factorise x² − 13x + 36.",
+  "options": [
+   "(x + 9)(x + 4)",
+   "(x + 9)(x − 4)",
+   "(x − 9)(x + 4)",
+   "(x − 9)(x − 4)"
+  ],
+  "answer": 3,
+  "explanation": "Find two numbers with product 36 and sum -13: they are -9 and -4."
+ },
+ {
+  "id": 416,
+  "level": "JSS3",
+  "topic": "Inequalities",
+  "q": "Solve −4x > 20.",
+  "options": [
+   "x > −5",
+   "x < −5",
+   "x > 5",
+   "x < 5"
+  ],
+  "answer": 1,
+  "explanation": "Dividing by a negative number reverses the inequality sign."
+ },
+ {
+  "id": 417,
+  "level": "JSS3",
+  "topic": "Algebraic fractions",
+  "q": "Simplify x/2 + x/6.",
+  "options": [
+   "x/8",
+   "2x/3",
+   "x/12",
+   "2x/8"
+  ],
+  "answer": 1,
+  "explanation": "Use the common denominator 12: (6x + 2x)/12 = 2x/3."
+ },
+ {
+  "id": 418,
+  "level": "JSS3",
+  "topic": "Probability",
+  "q": "A bag has 2 red, 6 blue and 2 green balls. A ball is chosen at random. Find the probability that it is NOT red.",
+  "options": [
+   "4",
+   "1/5",
+   "4/5",
+   "3/5"
+  ],
+  "answer": 2,
+  "explanation": "P(not red) = 1 − 2/10 = 4/5."
+ },
+ {
+  "id": 419,
+  "level": "JSS3",
+  "topic": "Algebraic fractions",
+  "q": "Simplify x/6 + x/2.",
+  "options": [
+   "2x/3",
+   "2x/8",
+   "x/8",
+   "x/12"
+  ],
+  "answer": 0,
+  "explanation": "Use the common denominator 12: (2x + 6x)/12 = 2x/3."
+ },
+ {
+  "id": 420,
+  "level": "JSS3",
+  "topic": "Simultaneous equations",
+  "q": "Solve x + y = 10 and x − y = 8. Find the value of x.",
+  "options": [
+   "9",
+   "1",
+   "10",
+   "8"
+  ],
+  "answer": 0,
+  "explanation": "Add the equations: 2x = 18, so x = 9. Then y = 1."
+ },
+ {
+  "id": 421,
+  "level": "JSS3",
+  "topic": "Change of subject",
+  "q": "Make x the subject of y = 8x − 11.",
+  "options": [
+   "x = y + 11/8",
+   "x = 8(y + 11)",
+   "x = (y − 11)/8",
+   "x = (y + 11)/8"
+  ],
+  "answer": 3,
+  "explanation": "Add 11 to both sides, then divide by 8."
+ },
+ {
+  "id": 422,
+  "level": "JSS3",
+  "topic": "Polygons",
+  "q": "Each exterior angle of a regular polygon is 60°. How many sides does it have?",
+  "options": [
+   "7",
+   "8",
+   "6",
+   "5"
+  ],
+  "answer": 2,
+  "explanation": "Number of sides = 360° ÷ 60° = 6."
+ },
+ {
+  "id": 423,
+  "level": "JSS3",
+  "topic": "Statistics",
+  "q": "The mean of 7, x, 19, 17 is 13. Find x.",
+  "options": [
+   "9",
+   "8",
+   "13",
+   "10"
+  ],
+  "answer": 0,
+  "explanation": "Total = 4 × 13 = 52. x = 52 − 43 = 9."
+ },
+ {
+  "id": 424,
+  "level": "JSS3",
+  "topic": "Algebraic expressions",
+  "q": "Factorise x² − 5x − 6.",
+  "options": [
+   "(x − 1)(x − 6)",
+   "(x + 1)(x − 6)",
+   "(x − 1)(x + 6)",
+   "(x + 1)(x + 6)"
+  ],
+  "answer": 1,
+  "explanation": "Find two numbers with product -6 and sum -5: they are 1 and -6."
+ },
+ {
+  "id": 425,
+  "level": "JSS3",
+  "topic": "Probability",
+  "q": "A fair die is rolled. What is the probability of getting an odd number?",
+  "options": [
+   "3/4",
+   "1/2",
+   "5/6",
+   "1/6"
+  ],
+  "answer": 1,
+  "explanation": "Count the favourable outcomes and divide by the total number of equally likely outcomes."
+ },
+ {
+  "id": 426,
+  "level": "JSS3",
+  "topic": "Inequalities",
+  "q": "Solve −5x < 20.",
+  "options": [
+   "x > 4",
+   "x > −4",
+   "x < −4",
+   "x < 4"
+  ],
+  "answer": 1,
+  "explanation": "Dividing by a negative number reverses the inequality sign."
+ },
+ {
+  "id": 427,
+  "level": "JSS3",
+  "topic": "Statistics",
+  "q": "The mean of 6, 14, x, 13, 8 is 10. Find x.",
+  "options": [
+   "8",
+   "10",
+   "50",
+   "9"
+  ],
+  "answer": 3,
+  "explanation": "Total = 5 × 10 = 50. x = 50 − 41 = 9."
+ },
+ {
+  "id": 428,
+  "level": "JSS3",
+  "topic": "Variation",
+  "q": "y varies directly as x. If y = 45 when x = 5, find y when x = 9.",
+  "options": [
+   "81",
+   "90",
+   "54",
+   "25"
+  ],
+  "answer": 0,
+  "explanation": "y = kx. k = 45 ÷ 5 = 9. When x = 9, y = 9 × 9 = 81."
+ },
+ {
+  "id": 429,
+  "level": "JSS3",
+  "topic": "Linear equations",
+  "q": "Solve x/3 + 6 = 8.",
+  "options": [
+   "3",
+   "2",
+   "6",
+   "9"
+  ],
+  "answer": 2,
+  "explanation": "Subtract 6: x/3 = 2. Multiply by 3: x = 6."
+ },
+ {
+  "id": 430,
+  "level": "JSS3",
+  "topic": "Standard form",
+  "q": "Express 0.0000025 in standard form.",
+  "options": [
+   "2.5 × 10⁻⁵",
+   "2.5 × 10⁶",
+   "0.25 × 10⁻⁵",
+   "2.5 × 10⁻⁶"
+  ],
+  "answer": 3,
+  "explanation": "Move the decimal point 6 places to the right, so the power of 10 is −6."
+ },
+ {
+  "id": 431,
+  "level": "JSS3",
+  "topic": "Probability",
+  "q": "A fair die is rolled. What is the probability of getting a number less than 3?",
+  "options": [
+   "1/2",
+   "1/3",
+   "2/3",
+   "1/4"
+  ],
+  "answer": 1,
+  "explanation": "Count the favourable outcomes and divide by the total number of equally likely outcomes."
+ },
+ {
+  "id": 432,
+  "level": "JSS3",
+  "topic": "Number bases",
+  "q": "Convert 82 from base ten to base 6.",
+  "options": [
+   "214",
+   "224",
+   "213",
+   "215"
+  ],
+  "answer": 0,
+  "explanation": "Divide 82 repeatedly by 6 and read the remainders from bottom to top."
+ },
+ {
+  "id": 433,
+  "level": "JSS3",
+  "topic": "Logarithms",
+  "q": "log 2 + log 3 = log ?",
+  "options": [
+   "7",
+   "6",
+   "8",
+   "5"
+  ],
+  "answer": 1,
+  "explanation": "log a + log b = log(ab)."
+ },
+ {
+  "id": 434,
+  "level": "JSS3",
+  "topic": "Pythagoras theorem",
+  "q": "The two shorter sides of a right-angled triangle are 12 cm and 16 cm. Find the length of the hypotenuse.",
+  "options": [
+   "28 cm",
+   "19 cm",
+   "20 cm",
+   "21 cm"
+  ],
+  "answer": 2,
+  "explanation": "c² = 12² + 16² = 400, so c = 20 cm."
+ },
+ {
+  "id": 435,
+  "level": "JSS3",
+  "topic": "Algebraic expressions",
+  "q": "Expand (x + 2)(x + 2).",
+  "options": [
+   "x² + 4x − 4",
+   "x² + 4x + 5",
+   "x² + 6x + 4",
+   "x² + 4x + 4"
+  ],
+  "answer": 3,
+  "explanation": "x² + (2 + 2)x + (2)(2) = x² + 4x + 4."
+ },
+ {
+  "id": 436,
+  "level": "JSS3",
+  "topic": "Trigonometry",
+  "q": "In a right-angled triangle, the side opposite angle θ is 15 cm, the side adjacent to θ is 8 cm and the hypotenuse is 17 cm. Find cos θ.",
+  "options": [
+   "8/17",
+   "15/17",
+   "15/8",
+   "17/15"
+  ],
+  "answer": 0,
+  "explanation": "cos θ = adjacent ÷ hypotenuse."
+ },
+ {
+  "id": 437,
+  "level": "JSS3",
+  "topic": "Change of subject",
+  "q": "Make l the subject of the formula P = 2(l + w).",
+  "options": [
+   "l = 2P − w",
+   "l = (P − w)/2",
+   "l = P/2 − w",
+   "l = P − 2w"
+  ],
+  "answer": 2,
+  "explanation": "Undo each operation on the other side of the formula, one step at a time."
+ },
+ {
+  "id": 438,
+  "level": "JSS3",
+  "topic": "Indices",
+  "q": "Evaluate 3⁻³.",
+  "options": [
+   "1/9",
+   "−27",
+   "−9",
+   "1/27"
+  ],
+  "answer": 3,
+  "explanation": "A negative power means a reciprocal: 3⁻³ = 1/3³ = 1/27."
+ },
+ {
+  "id": 439,
+  "level": "JSS3",
+  "topic": "Algebraic expressions",
+  "q": "Factorise x² + 2x − 15.",
+  "options": [
+   "(x + 5)(x − 3)",
+   "(x − 5)(x + 3)",
+   "(x − 5)(x − 3)",
+   "(x + 5)(x + 3)"
+  ],
+  "answer": 0,
+  "explanation": "Find two numbers with product -15 and sum 2: they are 5 and -3."
+ },
+ {
+  "id": 440,
+  "level": "JSS3",
+  "topic": "Surds",
+  "q": "Simplify √50.",
+  "options": [
+   "5√2",
+   "2√5",
+   "10√2",
+   "5√3"
+  ],
+  "answer": 0,
+  "explanation": "√50 = √25 × √2 = 5√2."
+ },
+ {
+  "id": 441,
+  "level": "JSS3",
+  "topic": "Mensuration",
+  "q": "Find the volume of a cylinder of radius 7 cm and height 5 cm. (Take π = 22/7)",
+  "options": [
+   "220 cm³",
+   "770 cm³",
+   "110 cm³",
+   "792 cm³"
+  ],
+  "answer": 1,
+  "explanation": "V = πr²h = 22/7 × 7² × 5 = 770 cm³."
+ },
+ {
+  "id": 442,
+  "level": "JSS3",
+  "topic": "Indices",
+  "q": "Evaluate 8⁰.",
+  "options": [
+   "1",
+   "1/8",
+   "0",
+   "8"
+  ],
+  "answer": 0,
+  "explanation": "Any non-zero number raised to the power 0 equals 1."
+ },
+ {
+  "id": 443,
+  "level": "JSS3",
+  "topic": "Logarithms",
+  "q": "log 25 − log 5 = log ?",
+  "options": [
+   "20",
+   "5",
+   "25",
+   "10"
+  ],
+  "answer": 1,
+  "explanation": "log a − log b = log(a/b)."
+ },
+ {
+  "id": 444,
+  "level": "JSS3",
+  "topic": "Compound interest",
+  "q": "Find the compound interest on ₦100,000 for 2 years at 10% per annum.",
+  "options": [
+   "₦121,000",
+   "₦20,000",
+   "₦31,000",
+   "₦21,000"
+  ],
+  "answer": 3,
+  "explanation": "Amount = ₦100,000 × (1 + 10/100)² = ₦121,000. Interest = amount − principal = ₦21,000."
+ },
+ {
+  "id": 445,
+  "level": "JSS3",
+  "topic": "Mensuration",
+  "q": "Find the total surface area of a cuboid 9 cm by 6 cm by 8 cm.",
+  "options": [
+   "174 cm²",
+   "348 cm²",
+   "432 cm²",
+   "46 cm²"
+  ],
+  "answer": 1,
+  "explanation": "Total surface area = 2(lw + lh + wh) = 2(54 + 72 + 48) = 348 cm²."
+ },
+ {
+  "id": 446,
+  "level": "JSS3",
+  "topic": "Logarithms",
+  "q": "log 28 − log 4 = log ?",
+  "options": [
+   "28",
+   "24",
+   "11",
+   "7"
+  ],
+  "answer": 3,
+  "explanation": "log a − log b = log(a/b)."
+ },
+ {
+  "id": 447,
+  "level": "JSS3",
+  "topic": "Linear equations",
+  "q": "Solve x/4 + 8 = 19.",
+  "options": [
+   "44",
+   "11",
+   "40",
+   "48"
+  ],
+  "answer": 0,
+  "explanation": "Subtract 8: x/4 = 11. Multiply by 4: x = 44."
+ },
+ {
+  "id": 448,
+  "level": "JSS3",
+  "topic": "Compound interest",
+  "q": "Find the compound interest on ₦100,000 for 2 years at 20% per annum.",
+  "options": [
+   "₦144,000",
+   "₦40,000",
+   "₦64,000",
+   "₦44,000"
+  ],
+  "answer": 3,
+  "explanation": "Amount = ₦100,000 × (1 + 20/100)² = ₦144,000. Interest = amount − principal = ₦44,000."
+ },
+ {
+  "id": 449,
+  "level": "JSS3",
+  "topic": "Standard form",
+  "q": "Express 2,500,000 in standard form.",
+  "options": [
+   "2.5 × 10⁷",
+   "2.5 × 10⁶",
+   "2.5 × 10⁵",
+   "25 × 10⁵"
+  ],
+  "answer": 1,
+  "explanation": "Move the decimal point 6 places to get 2.5 × 10⁶."
+ },
+ {
+  "id": 450,
+  "level": "JSS3",
+  "topic": "Probability",
+  "q": "A bag has 9 red, 7 blue and 5 green balls. A ball is chosen at random. Find the probability that it is NOT red.",
+  "options": [
+   "3/7",
+   "4/3",
+   "1/3",
+   "4/7"
+  ],
+  "answer": 3,
+  "explanation": "P(not red) = 1 − 9/21 = 4/7."
+ },
+ {
+  "id": 451,
+  "level": "JSS3",
+  "topic": "Trigonometry",
+  "q": "In a right-angled triangle, the side opposite angle θ is 7 cm, the side adjacent to θ is 24 cm and the hypotenuse is 25 cm. Find sin θ.",
+  "options": [
+   "7/25",
+   "7/24",
+   "24/25",
+   "25/7"
+  ],
+  "answer": 0,
+  "explanation": "sin θ = opposite ÷ hypotenuse."
+ },
+ {
+  "id": 452,
+  "level": "JSS3",
+  "topic": "Quadratic equations",
+  "q": "Solve x² + 10x + 16 = 0.",
+  "options": [
+   "x = 8 or x = 2",
+   "x = 8 or x = −2",
+   "x = −8 or x = −2",
+   "x = −8 or x = 2"
+  ],
+  "answer": 2,
+  "explanation": "Factorise: (x + 8)(x + 2) = 0. So x = −8 or x = −2."
+ },
+ {
+  "id": 453,
+  "level": "JSS3",
+  "topic": "Sets",
+  "q": "In a class of 45 students, 19 offer Mathematics, 14 offer Physics and 11 offer both. How many students offer neither subject?",
+  "options": [
+   "22",
+   "34",
+   "12",
+   "23"
+  ],
+  "answer": 3,
+  "explanation": "Students offering at least one = 19 + 14 − 11 = 22. Neither = 45 − 22 = 23."
+ },
+ {
+  "id": 454,
+  "level": "JSS3",
+  "topic": "Whole numbers",
+  "q": "Evaluate 5 + 4 × 9 − 5 × 6.",
+  "options": [
+   "42",
+   "11",
+   "101",
+   "51"
+  ],
+  "answer": 1,
+  "explanation": "Multiply first (BODMAS), then add and subtract from left to right."
+ },
+ {
+  "id": 455,
+  "level": "JSS3",
+  "topic": "Surds",
+  "q": "Simplify √45.",
+  "options": [
+   "5√3",
+   "3√5",
+   "3√6",
+   "15√5"
+  ],
+  "answer": 1,
+  "explanation": "√45 = √9 × √5 = 3√5."
+ },
+ {
+  "id": 456,
+  "level": "JSS3",
+  "topic": "Variation",
+  "q": "y varies directly as x. If y = 64 when x = 8, find y when x = 7.",
+  "options": [
+   "71",
+   "58",
+   "64",
+   "56"
+  ],
+  "answer": 3,
+  "explanation": "y = kx. k = 64 ÷ 8 = 8. When x = 7, y = 8 × 7 = 56."
+ },
+ {
+  "id": 457,
+  "level": "JSS3",
+  "topic": "Change of subject",
+  "q": "Make b the subject of the formula A = ½bh.",
+  "options": [
+   "b = Ah/2",
+   "b = A/(2h)",
+   "b = 2Ah",
+   "b = 2A/h"
+  ],
+  "answer": 3,
+  "explanation": "Undo each operation on the other side of the formula, one step at a time."
+ },
+ {
+  "id": 458,
+  "level": "JSS3",
+  "topic": "Pythagoras theorem",
+  "q": "The two shorter sides of a right-angled triangle are 3 cm and 4 cm. Find the length of the hypotenuse.",
+  "options": [
+   "4 cm",
+   "5 cm",
+   "7 cm",
+   "6 cm"
+  ],
+  "answer": 1,
+  "explanation": "c² = 3² + 4² = 25, so c = 5 cm."
+ },
+ {
+  "id": 459,
+  "level": "JSS3",
+  "topic": "Algebraic expressions",
+  "q": "Expand (x + 4)(x + 2).",
+  "options": [
+   "x² + 2x + 8",
+   "x² + 6x + 8",
+   "x² + 8x + 6",
+   "x² + 6x − 8"
+  ],
+  "answer": 1,
+  "explanation": "x² + (4 + 2)x + (4)(2) = x² + 6x + 8."
+ },
+ {
+  "id": 460,
+  "level": "JSS3",
+  "topic": "Inequalities",
+  "q": "Solve −6x > 30.",
+  "options": [
+   "x < −5",
+   "x < 5",
+   "x > −5",
+   "x > 5"
+  ],
+  "answer": 0,
+  "explanation": "Dividing by a negative number reverses the inequality sign."
+ },
+ {
+  "id": 461,
+  "level": "JSS3",
+  "topic": "Bearings",
+  "q": "The bearing of B from A is 120°. What is the bearing of A from B?",
+  "options": [
+   "300°",
+   "240°",
+   "210°",
+   "030°"
+  ],
+  "answer": 0,
+  "explanation": "Back bearing = 120° + 180° = 300°."
+ },
+ {
+  "id": 462,
+  "level": "JSS3",
+  "topic": "Quadratic equations",
+  "q": "Solve x² + 6x + 5 = 0.",
+  "options": [
+   "x = 1 or x = −5",
+   "x = −1 or x = −5",
+   "x = −1 or x = 5",
+   "x = 1 or x = 5"
+  ],
+  "answer": 1,
+  "explanation": "Factorise: (x + 1)(x + 5) = 0. So x = −1 or x = −5."
+ },
+ {
+  "id": 463,
+  "level": "JSS3",
+  "topic": "Mensuration",
+  "q": "Find the total surface area of a cuboid 8 cm by 8 cm by 3 cm.",
+  "options": [
+   "112 cm²",
+   "192 cm²",
+   "224 cm²",
+   "38 cm²"
+  ],
+  "answer": 2,
+  "explanation": "Total surface area = 2(lw + lh + wh) = 2(64 + 24 + 24) = 224 cm²."
+ },
+ {
+  "id": 464,
+  "level": "JSS3",
+  "topic": "Trigonometry",
+  "q": "In a right-angled triangle, the side opposite angle θ is 8 cm, the side adjacent to θ is 15 cm and the hypotenuse is 17 cm. Find sin θ.",
+  "options": [
+   "15/17",
+   "8/17",
+   "17/8",
+   "8/15"
+  ],
+  "answer": 1,
+  "explanation": "sin θ = opposite ÷ hypotenuse."
+ },
+ {
+  "id": 465,
+  "level": "JSS3",
+  "topic": "Indices",
+  "q": "Evaluate 13⁰.",
+  "options": [
+   "1",
+   "1/13",
+   "0",
+   "13"
+  ],
+  "answer": 0,
+  "explanation": "Any non-zero number raised to the power 0 equals 1."
+ },
+ {
+  "id": 466,
+  "level": "JSS3",
+  "topic": "Percentages",
+  "q": "The price of a bag of beans rose from ₦1,800 to ₦1,980. Find the percentage increase.",
+  "options": [
+   "5%",
+   "15%",
+   "10%",
+   "20%"
+  ],
+  "answer": 2,
+  "explanation": "Increase = ₦180. Percentage increase = 180/1800 × 100 = 10%."
+ },
+ {
+  "id": 467,
+  "level": "JSS3",
+  "topic": "Algebraic expressions",
+  "q": "Factorise x² − 5x + 6.",
+  "options": [
+   "(x − 3)(x + 2)",
+   "(x + 3)(x − 2)",
+   "(x + 3)(x + 2)",
+   "(x − 3)(x − 2)"
+  ],
+  "answer": 3,
+  "explanation": "Find two numbers with product 6 and sum -5: they are -3 and -2."
+ },
+ {
+  "id": 468,
+  "level": "JSS3",
+  "topic": "Statistics",
+  "q": "The mean of 4, 11, 3, x, 2 is 15. Find x.",
+  "options": [
+   "56",
+   "15",
+   "55",
+   "54"
+  ],
+  "answer": 2,
+  "explanation": "Total = 5 × 15 = 75. x = 75 − 20 = 55."
+ },
+ {
+  "id": 469,
+  "level": "JSS3",
+  "topic": "Polygons",
+  "q": "Each exterior angle of a regular polygon is 40°. How many sides does it have?",
+  "options": [
+   "11",
+   "9",
+   "8",
+   "10"
+  ],
+  "answer": 1,
+  "explanation": "Number of sides = 360° ÷ 40° = 9."
+ },
+ {
+  "id": 470,
+  "level": "JSS3",
+  "topic": "Indices",
+  "q": "Evaluate 100^(1/2).",
+  "options": [
+   "10",
+   "98",
+   "11",
+   "50"
+  ],
+  "answer": 0,
+  "explanation": "The power (1/2) means the square root of 100, which is 10."
+ },
+ {
+  "id": 471,
+  "level": "JSS3",
+  "topic": "Trigonometry",
+  "q": "What is the exact value of cos 30°?",
+  "options": [
+   "1",
+   "√3/2",
+   "1/2",
+   "0"
+  ],
+  "answer": 1,
+  "explanation": "This is one of the standard trigonometric values to learn by heart."
+ },
+ {
+  "id": 472,
+  "level": "JSS3",
+  "topic": "Probability",
+  "q": "A bag has 4 red, 4 blue and 1 green balls. A ball is chosen at random. Find the probability that it is NOT red.",
+  "options": [
+   "5/4",
+   "5/9",
+   "2/3",
+   "4/9"
+  ],
+  "answer": 1,
+  "explanation": "P(not red) = 1 − 4/9 = 5/9."
+ },
+ {
+  "id": 473,
+  "level": "JSS3",
+  "topic": "Coordinate geometry",
+  "q": "What is the y-intercept of the line y = −x + 5?",
+  "options": [
+   "6",
+   "−1",
+   "−5",
+   "5"
+  ],
+  "answer": 3,
+  "explanation": "In y = mx + c, the y-intercept is c."
+ },
+ {
+  "id": 474,
+  "level": "JSS3",
+  "topic": "Compound interest",
+  "q": "Find the compound interest on ₦20,000 for 2 years at 5% per annum.",
+  "options": [
+   "₦22,050",
+   "₦2,000",
+   "₦3,050",
+   "₦2,050"
+  ],
+  "answer": 3,
+  "explanation": "Amount = ₦20,000 × (1 + 5/100)² = ₦22,050. Interest = amount − principal = ₦2,050."
+ },
+ {
+  "id": 475,
+  "level": "JSS3",
+  "topic": "Polygons",
+  "q": "Each exterior angle of a regular polygon is 20°. How many sides does it have?",
+  "options": [
+   "17",
+   "19",
+   "18",
+   "20"
+  ],
+  "answer": 2,
+  "explanation": "Number of sides = 360° ÷ 20° = 18."
+ },
+ {
+  "id": 476,
+  "level": "JSS3",
+  "topic": "Mensuration",
+  "q": "Find the total surface area of a cuboid 10 cm by 8 cm by 2 cm.",
+  "options": [
+   "40 cm²",
+   "160 cm²",
+   "116 cm²",
+   "232 cm²"
+  ],
+  "answer": 3,
+  "explanation": "Total surface area = 2(lw + lh + wh) = 2(80 + 20 + 16) = 232 cm²."
+ },
+ {
+  "id": 477,
+  "level": "JSS3",
+  "topic": "Percentages",
+  "q": "A salesman earns 4% commission on his sales. Find his commission on sales of ₦45,000.",
+  "options": [
+   "₦900",
+   "₦43,200",
+   "₦1,800",
+   "₦18,000"
+  ],
+  "answer": 2,
+  "explanation": "4% of ₦45,000 = ₦1,800."
+ },
+ {
+  "id": 478,
+  "level": "JSS3",
+  "topic": "Trigonometry",
+  "q": "What is the exact value of sin 60°?",
+  "options": [
+   "1/2",
+   "√3/2",
+   "1",
+   "0"
+  ],
+  "answer": 1,
+  "explanation": "This is one of the standard trigonometric values to learn by heart."
+ },
+ {
+  "id": 479,
+  "level": "JSS3",
+  "topic": "Mensuration",
+  "q": "Find the volume of a cylinder of radius 14 cm and height 8 cm. (Take π = 22/7)",
+  "options": [
+   "4,928 cm³",
+   "704 cm³",
+   "4,950 cm³",
+   "352 cm³"
+  ],
+  "answer": 0,
+  "explanation": "V = πr²h = 22/7 × 14² × 8 = 4,928 cm³."
+ },
+ {
+  "id": 480,
+  "level": "JSS3",
+  "topic": "Compound interest",
+  "q": "Find the compound interest on ₦50,000 for 2 years at 20% per annum.",
+  "options": [
+   "₦72,000",
+   "₦22,000",
+   "₦20,000",
+   "₦32,000"
+  ],
+  "answer": 1,
+  "explanation": "Amount = ₦50,000 × (1 + 20/100)² = ₦72,000. Interest = amount − principal = ₦22,000."
+ },
+ {
+  "id": 481,
+  "level": "JSS3",
+  "topic": "Linear equations",
+  "q": "Solve x/3 + 5 = 16.",
+  "options": [
+   "33",
+   "36",
+   "30",
+   "11"
+  ],
+  "answer": 0,
+  "explanation": "Subtract 5: x/3 = 11. Multiply by 3: x = 33."
+ },
+ {
+  "id": 482,
+  "level": "JSS3",
+  "topic": "Change of subject",
+  "q": "Make x the subject of the formula y = mx + c.",
+  "options": [
+   "x = m(y − c)",
+   "x = (y + c)/m",
+   "x = y − c/m",
+   "x = (y − c)/m"
+  ],
+  "answer": 3,
+  "explanation": "Undo each operation on the other side of the formula, one step at a time."
+ },
+ {
+  "id": 483,
+  "level": "JSS3",
+  "topic": "Algebraic expressions",
+  "q": "Expand (x − 5)(x − 7).",
+  "options": [
+   "x² − 12x + 35",
+   "x² − 12x − 35",
+   "x² + 2x + 35",
+   "x² + 35x − 12"
+  ],
+  "answer": 0,
+  "explanation": "x² + (-5 + -7)x + (-5)(-7) = x² − 12x + 35."
+ },
+ {
+  "id": 484,
+  "level": "JSS3",
+  "topic": "Coordinate geometry",
+  "q": "What is the gradient of the line y = 5x + 4?",
+  "options": [
+   "5",
+   "−5",
+   "6",
+   "4"
+  ],
+  "answer": 0,
+  "explanation": "In y = mx + c, the gradient is m."
+ },
+ {
+  "id": 485,
+  "level": "JSS3",
+  "topic": "Whole numbers",
+  "q": "Evaluate 4 + 9 × 3 − 5 × 4.",
+  "options": [
+   "19",
+   "11",
+   "13",
+   "30"
+  ],
+  "answer": 1,
+  "explanation": "Multiply first (BODMAS), then add and subtract from left to right."
+ },
+ {
+  "id": 486,
+  "level": "JSS3",
+  "topic": "Variation",
+  "q": "y varies inversely as x. If y = 40 when x = 7, find y when x = 8.",
+  "options": [
+   "38",
+   "34",
+   "36",
+   "35"
+  ],
+  "answer": 3,
+  "explanation": "y = k/x. k = 40 × 7 = 280. When x = 8, y = 280 ÷ 8 = 35."
+ },
+ {
+  "id": 487,
+  "level": "JSS3",
+  "topic": "Inequalities",
+  "q": "Solve 3x + 7 < 22.",
+  "options": [
+   "x < 5",
+   "x < 15",
+   "x < 6",
+   "x > 5"
+  ],
+  "answer": 0,
+  "explanation": "Subtract 7: 3x < 15. Divide by 3: x < 5."
+ },
+ {
+  "id": 488,
+  "level": "JSS3",
+  "topic": "Probability",
+  "q": "A fair die is rolled. What is the probability of getting a 6?",
+  "options": [
+   "5/6",
+   "1/6",
+   "1/4",
+   "3/4"
+  ],
+  "answer": 1,
+  "explanation": "Count the favourable outcomes and divide by the total number of equally likely outcomes."
+ },
+ {
+  "id": 489,
+  "level": "JSS3",
+  "topic": "Surds",
+  "q": "Simplify √32.",
+  "options": [
+   "4√3",
+   "4√2",
+   "2√4",
+   "8√2"
+  ],
+  "answer": 1,
+  "explanation": "√32 = √16 × √2 = 4√2."
+ },
+ {
+  "id": 490,
+  "level": "JSS3",
+  "topic": "Change of subject",
+  "q": "Make x the subject of y = 3x − 7.",
+  "options": [
+   "x = 3(y + 7)",
+   "x = (y + 7)/3",
+   "x = (y − 7)/3",
+   "x = y + 7/3"
+  ],
+  "answer": 1,
+  "explanation": "Add 7 to both sides, then divide by 3."
+ },
+ {
+  "id": 491,
+  "level": "JSS3",
+  "topic": "Trigonometry",
+  "q": "What is the exact value of cos 0°?",
+  "options": [
+   "0",
+   "1/2",
+   "√3/2",
+   "1"
+  ],
+  "answer": 3,
+  "explanation": "This is one of the standard trigonometric values to learn by heart."
+ },
+ {
+  "id": 492,
+  "level": "JSS3",
+  "topic": "Percentages",
+  "q": "A shirt marked at ₦3,000 is sold at a 25% discount. What is the selling price?",
+  "options": [
+   "₦2,250",
+   "₦750",
+   "₦3,750",
+   "₦2,975"
+  ],
+  "answer": 0,
+  "explanation": "Discount = 25% of ₦3,000 = ₦750. Selling price = ₦3,000 − ₦750 = ₦2,250."
+ },
+ {
+  "id": 493,
+  "level": "JSS3",
+  "topic": "Inequalities",
+  "q": "Solve −6x > 18.",
+  "options": [
+   "x > 3",
+   "x > −3",
+   "x < 3",
+   "x < −3"
+  ],
+  "answer": 3,
+  "explanation": "Dividing by a negative number reverses the inequality sign."
+ },
+ {
+  "id": 494,
+  "level": "JSS3",
+  "topic": "Sets",
+  "q": "In a class of 47 students, 16 offer Mathematics, 19 offer Physics and 11 offer both. How many students offer neither subject?",
+  "options": [
+   "23",
+   "24",
+   "12",
+   "34"
+  ],
+  "answer": 0,
+  "explanation": "Students offering at least one = 16 + 19 − 11 = 24. Neither = 47 − 24 = 23."
+ },
+ {
+  "id": 495,
+  "level": "JSS3",
+  "topic": "Inequalities",
+  "q": "Solve 4x + 9 ≤ 25.",
+  "options": [
+   "x ≤ 4",
+   "x ≤ 16",
+   "x ≥ 4",
+   "x ≤ 5"
+  ],
+  "answer": 0,
+  "explanation": "Subtract 9: 4x ≤ 16. Divide by 4: x ≤ 4."
+ },
+ {
+  "id": 496,
+  "level": "JSS3",
+  "topic": "Bearings",
+  "q": "The bearing of B from A is 330°. What is the bearing of A from B?",
+  "options": [
+   "240°",
+   "150°",
+   "030°",
+   "060°"
+  ],
+  "answer": 1,
+  "explanation": "Back bearing = 330° − 180° = 150°."
+ },
+ {
+  "id": 497,
+  "level": "JSS3",
+  "topic": "Quadratic equations",
+  "q": "Solve x² − 14x + 48 = 0.",
+  "options": [
+   "x = −8 or x = 6",
+   "x = 8 or x = 6",
+   "x = 8 or x = −6",
+   "x = −8 or x = −6"
+  ],
+  "answer": 1,
+  "explanation": "Factorise: (x − 8)(x − 6) = 0. So x = 8 or x = 6."
+ },
+ {
+  "id": 498,
+  "level": "JSS3",
+  "topic": "Variation",
+  "q": "y varies directly as x. If y = 56 when x = 7, find y when x = 9.",
+  "options": [
+   "74",
+   "72",
+   "80",
+   "65"
+  ],
+  "answer": 1,
+  "explanation": "y = kx. k = 56 ÷ 7 = 8. When x = 9, y = 8 × 9 = 72."
+ },
+ {
+  "id": 499,
+  "level": "JSS3",
+  "topic": "Percentages",
+  "q": "The price of a bag of beans rose from ₦3,600 to ₦4,500. Find the percentage increase.",
+  "options": [
+   "30%",
+   "25%",
+   "20%",
+   "50%"
+  ],
+  "answer": 1,
+  "explanation": "Increase = ₦900. Percentage increase = 900/3600 × 100 = 25%."
+ },
+ {
+  "id": 500,
+  "level": "JSS3",
+  "topic": "Polygons",
+  "q": "Find the size of each exterior angle of a regular polygon with 9 sides.",
+  "options": [
+   "80°",
+   "140°",
+   "50°",
+   "40°"
+  ],
+  "answer": 3,
+  "explanation": "Exterior angle = 360° ÷ 9 = 40°."
+ }
+]
