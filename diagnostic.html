@@ -1,0 +1,1161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Diagnostic | Calculia EdTech Solutions</title>
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 96'><rect width='96' height='96' rx='22' fill='%23FF4D5E'/><path d='M 62 28 C 50 22 34 26 30 40 C 26 54 30 68 40 72 C 50 78 62 76 66 70' fill='none' stroke='%23EEF4F0' stroke-width='7' stroke-linecap='round'/><path d='M 42 62 L 52 50 L 62 54 L 72 38' fill='none' stroke='%23C6FF3D' stroke-width='4' stroke-linecap='round' stroke-linejoin='round'/><circle cx='72' cy='38' r='5' fill='%23C6FF3D'/><circle cx='64' cy='28' r='4.5' fill='%23C6FF3D'/><circle cx='66' cy='70' r='4.5' fill='%23C6FF3D'/></svg>">
+<meta name="description" content="Answer 20 carefully selected questions across 5 domains to understand your maths learning profile — free diagnostic tool from Calculia.">
+<link rel="canonical" href="https://calculiang.github.io/diagnostic.html">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css" />
+<style>
+:root {
+  --navy: #10231D;
+  --navy-mid: #17302A;
+  --navy-light: #1F3D35;
+  --gold: #C6FF3D;
+  --gold-light: #DBFF7A;
+  --gold-dim: #8FB82C;
+  --white: #EEF4F0;
+  --off-white: #DCE7E0;
+  --gray: #B9C9C1;
+  --light-gray: rgba(238,244,240,0.15);
+  --success: #C6FF3D;
+  --warning: #FFB627;
+  --danger: #FF4D5E;
+  --radius: 14px;
+  --radius-lg: 20px;
+  --shadow: 0 4px 24px rgba(0,0,0,0.35);
+  --shadow-gold: 0 0 0 3px rgba(198,255,61,0.3);
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: var(--navy);
+  color: var(--white);
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* ─── BACKGROUND ─── */
+.bg-pattern {
+  position: fixed; inset: 0; z-index: 0;
+  background:
+    radial-gradient(ellipse 80% 50% at 20% 20%, rgba(201,168,76,0.06) 0%, transparent 60%),
+    radial-gradient(ellipse 60% 40% at 80% 80%, rgba(201,168,76,0.04) 0%, transparent 60%),
+    var(--navy);
+  pointer-events: none;
+}
+.bg-pattern::after {
+  content: '';
+  position: absolute; inset: 0;
+  background-image: repeating-linear-gradient(0deg, transparent, transparent 40px, rgba(255,255,255,0.012) 40px, rgba(255,255,255,0.012) 41px),
+                    repeating-linear-gradient(90deg, transparent, transparent 40px, rgba(255,255,255,0.012) 40px, rgba(255,255,255,0.012) 41px);
+}
+
+/* ─── MAIN WRAPPER ─── */
+#app { position: relative; z-index: 1; min-height: 100vh; display: flex; flex-direction: column; align-items: center; padding-top: 88px; }
+@media (max-width: 768px) { #app { padding-top: 76px; } }
+
+/* ─── HEADER ─── */
+.site-header {
+  width: 100%; padding: 18px 32px;
+  display: flex; align-items: center; gap: 14px;
+  border-bottom: 1px solid rgba(201,168,76,0.15);
+  backdrop-filter: blur(10px);
+  background: rgba(10,22,40,0.7);
+  position: sticky; top: 0; z-index: 100;
+}
+.logo-mark {
+  width: 40px; height: 40px; border-radius: 8px;
+  background: linear-gradient(135deg, var(--gold) 0%, var(--gold-dim) 100%);
+  display: flex; align-items: center; justify-content: center;
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 20px; font-weight: 700; color: var(--navy);
+  flex-shrink: 0;
+}
+.logo-text { font-family: 'Space Grotesk', sans-serif; font-size: 22px; font-weight: 700; color: var(--white); letter-spacing: 0.5px; }
+.logo-text span { color: var(--gold); }
+.header-tag {
+  margin-left: auto; font-size: 11px; font-weight: 500; letter-spacing: 1.5px;
+  text-transform: uppercase; color: var(--gold); opacity: 0.8;
+}
+
+/* ─── SCREENS ─── */
+.screen { display: none; width: 100%; max-width: 800px; padding: 40px 20px; animation: fadeIn 0.4s ease; }
+.screen.active { display: flex; flex-direction: column; align-items: center; }
+
+@keyframes fadeIn { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: translateY(0); } }
+@keyframes slideUp { from { opacity: 0; transform: translateY(30px); } to { opacity: 1; transform: translateY(0); } }
+@keyframes pulse { 0%,100% { opacity:1; } 50% { opacity:0.6; } }
+
+/* ─── WELCOME SCREEN ─── */
+.welcome-badge {
+  display: inline-flex; align-items: center; gap: 8px;
+  padding: 6px 18px; border-radius: 999px;
+  border: 1px solid rgba(201,168,76,0.4);
+  background: rgba(201,168,76,0.08);
+  font-size: 12px; font-weight: 500; letter-spacing: 1.2px;
+  text-transform: uppercase; color: var(--gold);
+  margin-bottom: 28px;
+}
+.welcome-badge::before { content: '●'; font-size: 8px; animation: pulse 2s infinite; }
+
+.welcome-title {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: clamp(32px, 6vw, 52px); font-weight: 700;
+  line-height: 1.15; text-align: center; margin-bottom: 20px;
+}
+.welcome-title em { color: var(--gold); font-style: normal; }
+
+.welcome-subtitle {
+  font-size: 17px; font-weight: 300; color: rgba(255,255,255,0.72);
+  line-height: 1.7; text-align: center; max-width: 520px; margin-bottom: 44px;
+}
+
+.stats-row {
+  display: flex; gap: 20px; flex-wrap: wrap; justify-content: center; margin-bottom: 48px;
+}
+.stat-pill {
+  padding: 12px 22px; border-radius: 999px;
+  border: 1px solid rgba(201,168,76,0.25);
+  background: rgba(17,32,64,0.6);
+  text-align: center;
+}
+.stat-pill .num { font-family: 'Space Grotesk', sans-serif; font-size: 22px; font-weight: 700; color: var(--gold); display: block; }
+.stat-pill .lbl { font-size: 11px; color: var(--gray); letter-spacing: 0.8px; text-transform: uppercase; }
+
+/* ─── BUTTONS ─── */
+.btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: 10px;
+  padding: 14px 32px; border-radius: var(--radius);
+  font-family: 'Inter', sans-serif; font-size: 16px; font-weight: 600;
+  cursor: pointer; border: none; transition: all 0.2s ease;
+  text-decoration: none;
+}
+.btn-primary {
+  background: linear-gradient(135deg, var(--gold) 0%, var(--gold-dim) 100%);
+  color: var(--navy); letter-spacing: 0.3px;
+}
+.btn-primary:hover { transform: translateY(-2px); box-shadow: 0 8px 32px rgba(201,168,76,0.35); }
+.btn-primary:active { transform: translateY(0); }
+
+.btn-outline {
+  background: transparent; color: var(--white);
+  border: 1px solid rgba(255,255,255,0.25);
+}
+.btn-outline:hover { border-color: var(--gold); color: var(--gold); }
+
+.btn-lg { padding: 18px 48px; font-size: 18px; }
+.btn-sm { padding: 10px 22px; font-size: 14px; }
+
+/* ─── DIAGNOSIS TAGS ─── */
+.diag-chips { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; margin-bottom: 48px; }
+.diag-chip {
+  padding: 6px 16px; border-radius: 999px; font-size: 13px; font-weight: 500;
+  border: 1px solid;
+}
+.chip-mp  { color: #ff8fa0; border-color: rgba(255,143,160,0.4); background: rgba(255,143,160,0.08); }
+.chip-dc  { color: #82c4ff; border-color: rgba(130,196,255,0.4); background: rgba(130,196,255,0.08); }
+.chip-dl  { color: #a78bfa; border-color: rgba(167,139,250,0.4); background: rgba(167,139,250,0.08); }
+.chip-dg  { color: #D9FF75; border-color: rgba(198,255,61,0.4); background: rgba(198,255,61,0.08); }
+.chip-wm  { color: #fbbf24; border-color: rgba(251,191,36,0.4); background: rgba(251,191,36,0.08); }
+.chip-ok  { color: #86efac; border-color: rgba(134,239,172,0.4); background: rgba(134,239,172,0.08); }
+
+/* ─── INSTRUCTIONS ─── */
+.instr-card {
+  background: var(--navy-mid); border-radius: var(--radius-lg);
+  border: 1px solid rgba(201,168,76,0.15);
+  padding: 36px; width: 100%; margin-bottom: 32px;
+}
+.instr-title { font-family: 'Space Grotesk', sans-serif; font-size: 22px; font-weight: 600; color: var(--gold); margin-bottom: 20px; }
+.instr-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px,1fr)); gap: 16px; }
+.instr-item { display: flex; gap: 14px; align-items: flex-start; }
+.instr-icon { width: 36px; height: 36px; border-radius: 8px; background: rgba(201,168,76,0.12); display: flex; align-items: center; justify-content: center; font-size: 18px; flex-shrink: 0; }
+.instr-text h4 { font-size: 14px; font-weight: 600; margin-bottom: 4px; }
+.instr-text p { font-size: 13px; color: var(--gray); line-height: 1.5; }
+
+.cat-legend { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 24px; }
+.cat-badge {
+  padding: 5px 14px; border-radius: 999px; font-size: 12px; font-weight: 500;
+  background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.12); color: var(--gray);
+}
+.cat-badge.survey { border-color: rgba(168,85,247,0.4); color: #c084fc; background: rgba(168,85,247,0.08); }
+.cat-badge.calculation { border-color: rgba(59,130,246,0.4); color: #60a5fa; background: rgba(59,130,246,0.08); }
+.cat-badge.memory { border-color: rgba(16,185,129,0.4); color: #34d399; background: rgba(16,185,129,0.08); }
+.cat-badge.visual { border-color: rgba(245,158,11,0.4); color: #fbbf24; background: rgba(245,158,11,0.08); }
+.cat-badge.logic { border-color: rgba(239,68,68,0.4); color: #f87171; background: rgba(239,68,68,0.08); }
+
+/* ─── QUIZ SCREEN ─── */
+.quiz-header { width: 100%; margin-bottom: 28px; }
+.progress-row { display: flex; align-items: center; justify-content: space-between; margin-bottom: 10px; }
+.progress-label { font-size: 13px; font-weight: 500; color: var(--gray); }
+.q-count { font-family: 'Space Grotesk', sans-serif; font-size: 24px; font-weight: 700; color: var(--white); }
+.q-count span { color: var(--gold); }
+.progress-bar { width: 100%; height: 6px; background: rgba(255,255,255,0.1); border-radius: 999px; overflow: hidden; }
+.progress-fill { height: 100%; background: linear-gradient(90deg, var(--gold-dim), var(--gold)); border-radius: 999px; transition: width 0.5s ease; }
+
+.cat-indicator {
+  display: inline-flex; align-items: center; gap: 8px; margin-top: 10px;
+  font-size: 12px; font-weight: 600; letter-spacing: 1px; text-transform: uppercase;
+}
+.cat-dot { width: 8px; height: 8px; border-radius: 50%; }
+
+/* ─── QUESTION CARD ─── */
+.q-card {
+  width: 100%; background: var(--navy-mid);
+  border-radius: var(--radius-lg); border: 1px solid rgba(201,168,76,0.12);
+  padding: 36px; margin-bottom: 24px;
+  box-shadow: var(--shadow);
+  animation: slideUp 0.35s ease;
+}
+.q-text {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: clamp(17px, 3vw, 22px); font-weight: 600;
+  line-height: 1.5; margin-bottom: 28px; color: var(--white);
+}
+.q-visual {
+  background: rgba(255,255,255,0.04); border-radius: 10px;
+  border: 1px solid rgba(255,255,255,0.08);
+  padding: 20px; margin-bottom: 24px; text-align: center;
+}
+.q-visual .num-grid { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; }
+.q-visual .num-box {
+  width: 52px; height: 52px; border-radius: 8px;
+  background: rgba(201,168,76,0.1); border: 1px solid rgba(201,168,76,0.2);
+  display: flex; align-items: center; justify-content: center;
+  font-family: 'Space Grotesk', sans-serif; font-size: 22px; font-weight: 700; color: var(--gold);
+}
+.q-visual .seq-display {
+  font-family: 'Space Grotesk', sans-serif; font-size: 28px; font-weight: 600; color: var(--gold);
+  letter-spacing: 8px;
+}
+.q-visual .word-problem {
+  font-size: 15px; line-height: 1.7; color: rgba(255,255,255,0.8); text-align: left;
+}
+.q-visual .matrix { display: grid; gap: 6px; justify-content: center; }
+.q-visual .matrix-cell {
+  width: 44px; height: 44px; border-radius: 6px;
+  background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.1);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 15px; font-weight: 600; color: var(--white);
+}
+
+/* ─── OPTIONS ─── */
+.options-grid { display: grid; gap: 12px; }
+.options-grid.four-col { grid-template-columns: 1fr 1fr; }
+
+.opt-btn {
+  width: 100%; padding: 14px 20px; border-radius: 10px;
+  background: rgba(255,255,255,0.04); border: 1.5px solid rgba(255,255,255,0.1);
+  color: var(--white); font-size: 15px; font-weight: 400; font-family: 'Inter', sans-serif;
+  cursor: pointer; text-align: left; transition: all 0.18s ease;
+  display: flex; align-items: center; gap: 12px;
+}
+.opt-btn:hover { border-color: var(--gold); background: rgba(201,168,76,0.08); }
+.opt-btn.selected { border-color: var(--gold); background: rgba(201,168,76,0.14); color: var(--gold-light); }
+.opt-btn.correct { border-color: var(--success); background: rgba(198,255,61,0.15); color: #D9FF75; }
+.opt-btn.wrong { border-color: var(--danger); background: rgba(255,77,94,0.12); color: #FFA5AC; }
+.opt-btn:disabled { cursor: default; }
+.opt-letter {
+  width: 26px; height: 26px; border-radius: 6px; flex-shrink: 0;
+  background: rgba(255,255,255,0.08); display: flex; align-items: center; justify-content: center;
+  font-size: 12px; font-weight: 700; letter-spacing: 0; color: var(--gray);
+  transition: all 0.18s ease;
+}
+.opt-btn.selected .opt-letter { background: var(--gold); color: var(--navy); }
+.opt-btn.correct .opt-letter { background: var(--success); color: white; }
+.opt-btn.wrong .opt-letter { background: var(--danger); color: white; }
+
+/* Likert scale */
+.likert-grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 8px; }
+.likert-opt {
+  display: flex; flex-direction: column; align-items: center; gap: 6px;
+  padding: 12px 6px; border-radius: 10px;
+  background: rgba(255,255,255,0.04); border: 1.5px solid rgba(255,255,255,0.1);
+  cursor: pointer; transition: all 0.18s ease; text-align: center;
+}
+.likert-opt:hover { border-color: var(--gold); background: rgba(201,168,76,0.08); }
+.likert-opt.selected { border-color: var(--gold); background: rgba(201,168,76,0.14); }
+.likert-opt .lk-icon { font-size: 22px; }
+.likert-opt .lk-label { font-size: 10px; font-weight: 500; color: var(--gray); letter-spacing: 0.3px; line-height: 1.3; }
+.likert-opt.selected .lk-label { color: var(--gold-light); }
+
+.next-row { display: flex; justify-content: flex-end; margin-top: 20px; }
+
+/* ─── FEEDBACK TOOLTIP ─── */
+.feedback-bar {
+  width: 100%; padding: 14px 20px; border-radius: 10px;
+  font-size: 14px; font-weight: 500; margin-bottom: 16px;
+  display: none; animation: fadeIn 0.2s ease;
+}
+.feedback-bar.correct { background: rgba(198,255,61,0.15); border: 1px solid rgba(198,255,61,0.4); color: #D9FF75; }
+.feedback-bar.wrong { background: rgba(255,77,94,0.12); border: 1px solid rgba(255,77,94,0.4); color: #FFA5AC; }
+.feedback-bar.info { background: rgba(201,168,76,0.1); border: 1px solid rgba(201,168,76,0.3); color: var(--gold-light); }
+
+/* ─── RESULTS SCREEN ─── */
+.results-hero {
+  width: 100%; text-align: center; padding: 48px 24px 36px;
+  background: linear-gradient(160deg, var(--navy-mid) 0%, rgba(17,32,64,0.4) 100%);
+  border-radius: var(--radius-lg); border: 1px solid rgba(201,168,76,0.15);
+  margin-bottom: 28px; position: relative; overflow: hidden;
+}
+.results-hero::before {
+  content: '';
+  position: absolute; top: -60px; right: -60px;
+  width: 200px; height: 200px; border-radius: 50%;
+  background: radial-gradient(circle, rgba(201,168,76,0.08) 0%, transparent 70%);
+}
+.diag-icon { font-size: 56px; margin-bottom: 16px; display: block; }
+.diag-primary {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: clamp(26px, 5vw, 38px); font-weight: 700;
+  margin-bottom: 8px;
+}
+.diag-subtitle { font-size: 15px; color: rgba(255,255,255,0.65); max-width: 480px; margin: 0 auto 20px; line-height: 1.6; }
+.confidence-row { display: flex; align-items: center; gap: 14px; justify-content: center; }
+.conf-bar { width: 160px; height: 8px; background: rgba(255,255,255,0.1); border-radius: 999px; overflow: hidden; }
+.conf-fill { height: 100%; border-radius: 999px; }
+.conf-label { font-size: 13px; font-weight: 600; }
+
+/* Score breakdown */
+.breakdown-section { width: 100%; margin-bottom: 24px; }
+.section-title {
+  font-family: 'Space Grotesk', sans-serif; font-size: 20px; font-weight: 600;
+  color: var(--gold); margin-bottom: 16px; padding-bottom: 8px;
+  border-bottom: 1px solid rgba(201,168,76,0.2);
+}
+.score-bars { display: flex; flex-direction: column; gap: 14px; }
+.score-row { display: flex; align-items: center; gap: 14px; }
+.score-label { font-size: 14px; font-weight: 500; min-width: 140px; color: rgba(255,255,255,0.85); }
+.score-track { flex: 1; height: 10px; background: rgba(255,255,255,0.08); border-radius: 999px; overflow: hidden; }
+.score-bar { height: 100%; border-radius: 999px; transition: width 1.2s cubic-bezier(0.34,1.56,0.64,1); }
+.score-pct { font-size: 13px; font-weight: 600; min-width: 38px; text-align: right; color: var(--gray); }
+
+/* Category performance */
+.cat-perf { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px,1fr)); gap: 14px; margin-bottom: 24px; }
+.cat-card {
+  padding: 20px; border-radius: var(--radius); text-align: center;
+  background: var(--navy-mid); border: 1px solid rgba(255,255,255,0.08);
+}
+.cat-card .cat-score { font-family: 'Space Grotesk', sans-serif; font-size: 28px; font-weight: 700; }
+.cat-card .cat-name { font-size: 11px; font-weight: 600; letter-spacing: 1px; text-transform: uppercase; margin-top: 4px; color: var(--gray); }
+.cat-card .cat-bar { width: 100%; height: 4px; border-radius: 999px; margin-top: 10px; background: rgba(255,255,255,0.08); overflow: hidden; }
+.cat-card .cat-fill { height: 100%; border-radius: 999px; }
+
+/* Recommendations */
+.reco-card {
+  background: var(--navy-mid); border-radius: var(--radius-lg);
+  border: 1px solid rgba(201,168,76,0.12); padding: 28px; margin-bottom: 16px; width: 100%;
+}
+.reco-header { display: flex; align-items: flex-start; gap: 14px; margin-bottom: 16px; }
+.reco-icon { font-size: 28px; }
+.reco-title { font-size: 17px; font-weight: 600; margin-bottom: 4px; }
+.reco-meta { font-size: 12px; color: var(--gray); font-weight: 500; letter-spacing: 0.5px; text-transform: uppercase; }
+.reco-list { list-style: none; display: flex; flex-direction: column; gap: 8px; }
+.reco-list li { font-size: 14px; color: rgba(255,255,255,0.78); display: flex; gap: 10px; align-items: flex-start; line-height: 1.5; }
+.reco-list li::before { content: '→'; color: var(--gold); flex-shrink: 0; font-weight: 700; }
+
+/* CTA */
+.cta-box {
+  width: 100%; padding: 36px; border-radius: var(--radius-lg);
+  background: linear-gradient(135deg, rgba(201,168,76,0.12) 0%, rgba(201,168,76,0.05) 100%);
+  border: 1px solid rgba(201,168,76,0.3); text-align: center; margin-bottom: 24px;
+}
+.cta-box h3 { font-family: 'Space Grotesk', sans-serif; font-size: 24px; font-weight: 700; margin-bottom: 10px; }
+.cta-box p { font-size: 15px; color: rgba(255,255,255,0.72); max-width: 420px; margin: 0 auto 24px; line-height: 1.6; }
+.cta-buttons { display: flex; gap: 14px; flex-wrap: wrap; justify-content: center; }
+
+.btn-whatsapp {
+  background: #25D366; color: white; display: inline-flex; align-items: center; gap: 10px;
+  padding: 14px 28px; border-radius: var(--radius); font-size: 15px; font-weight: 600;
+  text-decoration: none; transition: all 0.2s; border: none; cursor: pointer;
+}
+.btn-whatsapp:hover { transform: translateY(-2px); box-shadow: 0 8px 24px rgba(37,211,102,0.3); }
+
+/* Disclaimer */
+.disclaimer {
+  font-size: 12px; color: var(--gray); text-align: center; line-height: 1.6;
+  padding: 16px; border-radius: 8px; background: rgba(255,255,255,0.03);
+  border: 1px solid rgba(255,255,255,0.06); margin-bottom: 32px; width: 100%;
+}
+
+/* ─── LOADING ─── */
+.loading-screen {
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  min-height: 60vh; gap: 20px;
+}
+.spinner {
+  width: 48px; height: 48px; border: 3px solid rgba(201,168,76,0.2);
+  border-top-color: var(--gold); border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+
+/* ─── RESPONSIVE ─── */
+@media (max-width: 600px) {
+  .screen { padding: 24px 16px; }
+  .site-header { padding: 14px 18px; }
+  .q-card { padding: 24px 18px; }
+  .four-col { grid-template-columns: 1fr; }
+  .likert-grid { grid-template-columns: repeat(5,1fr); gap: 4px; }
+  .likert-opt { padding: 8px 2px; }
+  .likert-opt .lk-label { font-size: 8px; }
+  .score-label { min-width: 110px; font-size: 12px; }
+  .instr-grid { grid-template-columns: 1fr; }
+  .cat-perf { grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 400px) {
+  .likert-grid { grid-template-columns: repeat(5,1fr); }
+  .four-col { grid-template-columns: 1fr; }
+}
+
+/* Timer ring */
+.timer-ring { position: absolute; top: 20px; right: 20px; }
+.timer-ring svg { transform: rotate(-90deg); }
+.timer-ring circle { fill: none; stroke: rgba(255,255,255,0.08); stroke-width: 3; }
+.timer-ring .ring-fill { stroke: var(--gold); stroke-width: 3; stroke-linecap: round; transition: stroke-dashoffset 1s linear; }
+.timer-text { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: 600; color: var(--gold); }
+
+.q-card { position: relative; }
+
+/* ── Class selection ── */
+.cl-pick{width:100%;max-width:720px;margin:0 auto 26px;text-align:center}
+.cl-title{font:600 18px 'Space Grotesk',sans-serif;color:var(--white);margin-bottom:4px}
+.cl-grp{margin:16px 0}
+.cl-grp h3{font:500 13px 'Inter',sans-serif;color:var(--gray);margin:0 0 8px;letter-spacing:.5px}
+.cl-chips{display:flex;flex-wrap:wrap;gap:10px;justify-content:center}
+.cl-chip{background:transparent;color:var(--white);border:1.5px dashed var(--gray);border-radius:12px;padding:10px 18px;font:500 16px 'Space Grotesk',sans-serif;cursor:pointer;min-height:44px}
+.cl-chip:hover{border-color:var(--white)}
+.cl-chip[aria-pressed="true"]{border:1.5px solid var(--gold);background:var(--gold);color:var(--navy);font-weight:700}
+.cl-chip:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
+#begin-btn:disabled{opacity:.5;cursor:not-allowed}
+.cl-error{color:var(--danger);font-size:14px;margin-top:14px}
+[hidden]{display:none!important}
+</style>
+</head>
+<body>
+<nav>
+  <a href="index.html" class="nav-logo"><svg class="brand-mark" viewBox="0 0 96 96" width="30" height="30" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <defs><linearGradient id="navMark" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#FF4D5E"/><stop offset="100%" stop-color="#C23E4B"/></linearGradient></defs>
+      <rect width="96" height="96" rx="24" fill="url(#navMark)"/>
+      <path d="M 62 28 C 50 22 34 26 30 40 C 26 54 30 68 40 72 C 50 78 62 76 66 70" fill="none" stroke="#EEF4F0" stroke-width="7" stroke-linecap="round"/>
+      <path d="M 42 62 L 52 50 L 62 54 L 72 38" fill="none" stroke="#C6FF3D" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="72" cy="38" r="5" fill="#C6FF3D"/><circle cx="64" cy="28" r="4.5" fill="#C6FF3D"/><circle cx="66" cy="70" r="4.5" fill="#C6FF3D"/>
+    </svg>Calculia</a>
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="achievements.html">Achievements</a></li>
+    <li><a href="projects.html">Projects</a></li>
+    <li><a href="youtube.html">YouTube</a></li>
+    <li class="nav-dropdown">
+      <span>Practice</span>
+      <div class="dropdown-menu">
+        <a href="daily-quiz.html">🧠 Daily Quiz</a>
+        <a href="diagnostic.html" class="active">💡 Diagnostic</a>
+        <a href="mock.html">🎓 Mock Exam</a>
+        <a href="certifications.html">📜 Certifications</a>
+      </div>
+    </li>
+    <li><a href="booking.html" class="nav-cta">Book a Session</a></li>
+  </ul>
+  <button class="hamburger" id="hamburger" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+</nav>
+<div class="mobile-menu" id="mobileMenu">
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="achievements.html">Achievements</a>
+  <a href="certifications.html">Certifications</a>
+  <a href="projects.html">Projects</a>
+  <a href="youtube.html">YouTube</a>
+  <span class="sub-label">Practice</span>
+  <a href="daily-quiz.html">🧠 Daily Quiz</a>
+  <a href="diagnostic.html">💡 Diagnostic</a>
+  <a href="mock.html">🎓 Mock Exam</a>
+  <a href="booking.html" class="btn btn-primary nav-cta">Book a Session</a>
+</div>
+<div class="bg-pattern"></div>
+<div id="app">
+
+<!-- ══ SCREEN: WELCOME ══ -->
+<section class="screen active" id="screen-welcome">
+  <div class="welcome-badge">Free Preliminary Assessment</div>
+  <h1 class="welcome-title">Identify Your Maths<br><em>Learning Difficulty</em></h1>
+  <p class="welcome-subtitle">Choose your class, then answer 20 carefully selected questions matched to your level across five assessment domains. Get a preliminary indicator of any Mathematics learning difficulty — in under 10 minutes.</p>
+
+  <div class="stats-row">
+    <div class="stat-pill"><span class="num bank-count">…</span><span class="lbl">Questions in Bank</span></div>
+    <div class="stat-pill"><span class="num">20</span><span class="lbl">Per Session</span></div>
+    <div class="stat-pill"><span class="num">5</span><span class="lbl">Assessment Domains</span></div>
+    <div class="stat-pill"><span class="num">6</span><span class="lbl">Diagnostic Outcomes</span></div>
+  </div>
+
+  <p style="font-size:13px;font-weight:600;letter-spacing:1px;text-transform:uppercase;color:var(--gray);margin-bottom:14px;">Possible Diagnostic Outcomes</p>
+  <div class="diag-chips">
+    <span class="diag-chip chip-mp">🔴 Maths Phobia</span>
+    <span class="diag-chip chip-dc">🔵 Dyscalculia</span>
+    <span class="diag-chip chip-dl">🟣 Dyslexia (Maths-Related)</span>
+    <span class="diag-chip chip-dg">🟢 Dysgraphia</span>
+    <span class="diag-chip chip-wm">🟡 Working Memory Difficulty</span>
+    <span class="diag-chip chip-ok">✅ No Significant Difficulty</span>
+  </div>
+
+  <div class="cl-pick">
+    <p class="cl-title">Which class are you in?</p>
+    <div id="class-groups"></div>
+  </div>
+  <button class="btn btn-primary btn-lg" id="begin-btn" onclick="goToInstructions()" disabled>Choose your class to begin</button>
+  <p id="load-error" class="cl-error" hidden>The question bank could not be loaded. Check your internet connection and refresh the page.</p>
+  <p style="margin-top:16px;font-size:12px;color:var(--gray);">Estimated time: 8–12 minutes &nbsp;·&nbsp; No sign-up required</p>
+</section>
+
+<!-- ══ SCREEN: INSTRUCTIONS ══ -->
+<section class="screen" id="screen-instructions">
+  <h2 style="font-family:'Space Grotesk',sans-serif;font-size:30px;font-weight:700;margin-bottom:8px;">How It Works</h2>
+  <p style="color:var(--gray);font-size:15px;margin-bottom:28px;">Read carefully before you begin</p>
+
+  <div class="instr-card">
+    <div class="instr-title">Assessment Structure</div>
+    <div class="instr-grid">
+      <div class="instr-item"><div class="instr-icon">📋</div><div class="instr-text"><h4>Survey (4 Qs)</h4><p>Questions about your feelings and habits around Mathematics</p></div></div>
+      <div class="instr-item"><div class="instr-icon">🔢</div><div class="instr-text"><h4>Calculation (5 Qs)</h4><p>Arithmetic and number problems matched to your class</p></div></div>
+      <div class="instr-item"><div class="instr-icon">🧠</div><div class="instr-text"><h4>Memory (4 Qs)</h4><p>Tests of working memory, sequence recall and mental tracking</p></div></div>
+      <div class="instr-item"><div class="instr-icon">👁️</div><div class="instr-text"><h4>Visual (4 Qs)</h4><p>Pattern recognition, spatial tasks and number identification</p></div></div>
+      <div class="instr-item"><div class="instr-icon">💡</div><div class="instr-text"><h4>Logic & IQ (3 Qs)</h4><p>Reasoning, patterns and problem-solving matched to your class</p></div></div>
+    </div>
+  </div>
+
+  <div class="instr-card">
+    <div class="instr-title">Important Notes</div>
+    <ul class="reco-list" style="margin:0">
+      <li>This is a preliminary screening tool — not a clinical diagnosis. Consult a specialist for formal assessment.</li>
+      <li>Answer honestly based on your typical experience in Mathematics, not just today.</li>
+      <li>There is no time limit. Take as long as you need for each question.</li>
+      <li>Each session draws 20 questions matched to your class from a bank of over <span class="bank-count">1,000+</span>, and avoids repeating questions you have already seen on this device.</li>
+      <li>Your results remain private — no data is stored or transmitted.</li>
+    </ul>
+  </div>
+
+  <div style="display:flex;gap:14px;width:100%;justify-content:space-between;flex-wrap:wrap;">
+    <button class="btn btn-outline" onclick="showScreen('screen-welcome')">← Back</button>
+    <button class="btn btn-primary btn-lg" onclick="startQuiz()">Start Assessment →</button>
+  </div>
+</section>
+
+<!-- ══ SCREEN: QUIZ ══ -->
+<section class="screen" id="screen-quiz">
+  <div class="quiz-header">
+    <div class="progress-row">
+      <div>
+        <div class="progress-label" id="q-label">Question</div>
+        <div class="q-count" id="q-count">1 <span>/ 20</span></div>
+      </div>
+      <div id="cat-indicator" class="cat-indicator">
+        <span class="cat-dot" id="cat-dot"></span>
+        <span id="cat-label">Survey</span>
+      </div>
+    </div>
+    <div class="progress-bar"><div class="progress-fill" id="progress-fill" style="width:5%"></div></div>
+  </div>
+
+  <div class="q-card" id="q-card">
+    <!-- Injected by JS -->
+  </div>
+
+  <div class="feedback-bar" id="feedback-bar"></div>
+  <div class="next-row">
+    <button class="btn btn-primary" id="next-btn" style="display:none" onclick="nextQuestion()">Next →</button>
+  </div>
+</section>
+
+<!-- ══ SCREEN: LOADING RESULTS ══ -->
+<section class="screen" id="screen-loading">
+  <div class="loading-screen">
+    <div class="spinner"></div>
+    <p style="font-family:'Space Grotesk',sans-serif;font-size:22px;font-weight:600;">Analysing your responses…</p>
+    <p style="color:var(--gray);font-size:14px;">Applying diagnostic algorithms</p>
+  </div>
+</section>
+
+<!-- ══ SCREEN: RESULTS ══ -->
+<section class="screen" id="screen-results">
+  <!-- Injected by JS -->
+</section>
+
+</div><!-- /app -->
+
+<script>
+/* ══════════════════════════════════════════════════════════════════
+   CALCULIA DIAGNOSTIC ENGINE
+   Class-matched question bank (diagnostic-questions.json) · 5 Domains · 6 Diagnostic Outcomes
+═══════════════════════════════════════════════════════════════════ */
+
+// ─── DIAGNOSTIC KEYS ───
+const D = {
+  MP: 'mathsPhobia',
+  DC: 'dyscalculia',
+  DL: 'dyslexia',
+  DG: 'dysgraphia',
+  WM: 'workingMemory',
+  AD: 'attentionDifficulty'
+};
+
+// ─── HELPERS ───
+const rnd = (a,b) => Math.floor(Math.random()*(b-a+1))+a;
+const shuffle = arr => { let a=[...arr]; for(let i=a.length-1;i>0;i--){const j=rnd(0,i);[a[i],a[j]]=[a[j],a[i]];} return a; };
+const pick = (arr, n) => shuffle(arr).slice(0,n);
+
+/* ══════════════════════════════════════════════════════
+   QUESTION BANK (loaded from diagnostic-questions.json) + CLASS SELECTION
+   Every question carries c:[firstClass,lastClass] (1 = Primary 1 … 12 = SSS 3)
+══════════════════════════════════════════════════════ */
+let QB = null;
+let USER_CLASS = 0;                       // 1–12, 0 = not chosen
+const CLASS_LABELS = ['', 'Primary 1','Primary 2','Primary 3','Primary 4','Primary 5','Primary 6','JSS 1','JSS 2','JSS 3','SSS 1','SSS 2','SSS 3'];
+const CLASS_GROUPS = [['Primary',1,6],['Junior Secondary',7,9],['Senior Secondary',10,12]];
+const DEFW = { calculation:{DC:2}, memory:{WM:2}, visual:{DL:2,DC:1}, logic:{DC:2,WM:1} };
+const SEEN_KEY = 'calculia_diag_seen_v1';
+
+function seenSet(){ try { return new Set(JSON.parse(localStorage.getItem(SEEN_KEY)||'[]')); } catch(e){ return new Set(); } }
+function saveSeen(s){ try { localStorage.setItem(SEEN_KEY, JSON.stringify([...s].slice(-6000))); } catch(e){} }
+
+function toQuestion(q, cat) {
+  if (q.s !== undefined) {   // survey (Likert)
+    return { id:q.i, cat, type:'likert', text:q.t,
+      diag:{ 'Strongly Agree':q.s||{}, 'Agree':q.g||{}, 'Neutral':q.n||{}, 'Disagree':{}, 'Strongly Disagree':{} } };
+  }
+  return { id:q.i, cat, type:'mcq', text:q.t, opts:shuffle(q.o), correct:q.o[q.a],
+           diag:{ wrong:q.w||DEFW[cat] }, visual:q.v||null };
+}
+
+function updateBegin() {
+  const btn = document.getElementById('begin-btn');
+  if (!btn) return;
+  if (!QB) { btn.disabled = true; btn.innerHTML = 'Loading questions…'; return; }
+  btn.disabled = !USER_CLASS;
+  btn.innerHTML = USER_CLASS ? `Begin ${CLASS_LABELS[USER_CLASS]} Assessment &nbsp;→` : 'Choose your class to begin';
+}
+
+function chooseClass(n, el) {
+  USER_CLASS = n;
+  document.querySelectorAll('.cl-chip').forEach(c => c.setAttribute('aria-pressed', c === el));
+  updateBegin();
+}
+
+(function initClassPicker(){
+  const host = document.getElementById('class-groups');
+  CLASS_GROUPS.forEach(([name, lo, hi]) => {
+    const g = document.createElement('div'); g.className = 'cl-grp';
+    const h = document.createElement('h3'); h.textContent = name; g.appendChild(h);
+    const row = document.createElement('div'); row.className = 'cl-chips';
+    for (let n = lo; n <= hi; n++) {
+      const b = document.createElement('button'); b.type = 'button'; b.className = 'cl-chip';
+      b.textContent = CLASS_LABELS[n]; b.setAttribute('aria-pressed', 'false');
+      b.addEventListener('click', () => chooseClass(n, b));
+      row.appendChild(b);
+    }
+    g.appendChild(row); host.appendChild(g);
+  });
+  updateBegin();
+  fetch('diagnostic-questions.json', { cache:'default' })
+    .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
+    .then(d => {
+      QB = d;
+      const total = ['survey','calculation','memory','visual','logic'].reduce((s,k) => s + d[k].length, 0);
+      const bank = Math.floor(total/100)*100;
+      document.querySelectorAll('.bank-count').forEach(e => e.textContent = bank.toLocaleString() + '+');
+      updateBegin();
+    })
+    .catch(() => {
+      const btn = document.getElementById('begin-btn');
+      btn.disabled = true; btn.textContent = 'Could not load questions';
+      document.getElementById('load-error').hidden = false;
+    });
+})();
+
+/* ══════════════════════════════════════════════════════
+   QUIZ ENGINE
+══════════════════════════════════════════════════════ */
+let sessionQuestions = [];
+let currentIndex = 0;
+let answers = [];
+let diagScores = { MP:0, DC:0, DL:0, DG:0, WM:0, AD:0 };
+let sessionMaxScores = { MP:1, DC:1, DL:1, DG:1, WM:1, AD:1 }; // computed per session
+let catScores = { survey:0, calculation:0, memory:0, visual:0, logic:0 };
+let catTotals = { survey:0, calculation:0, memory:0, visual:0, logic:0 };
+let selectedAnswer = null;
+let answered = false;
+
+const CAT_CONFIG = {
+  survey:      { label:'Survey',        color:'#c084fc', dot:'#a855f7', icon:'📋', count:4 },
+  calculation: { label:'Calculation',   color:'#60a5fa', dot:'#3b82f6', icon:'🔢', count:5 },
+  memory:      { label:'Memory',        color:'#34d399', dot:'#C6FF3D', icon:'🧠', count:4 },
+  visual:      { label:'Visual',        color:'#fbbf24', dot:'#f59e0b', icon:'👁️', count:4 },
+  logic:       { label:'Logic & IQ',    color:'#f87171', dot:'#ef4444', icon:'💡', count:3 },
+};
+
+function buildSession() {
+  sessionQuestions = [];
+  const seen = seenSet();
+  Object.entries(CAT_CONFIG).forEach(([cat, cfg]) => {
+    const pool = QB[cat].filter(q => q.c[0] <= USER_CLASS && USER_CLASS <= q.c[1]);
+    let fresh = pool.filter(q => !seen.has(q.i));
+    if (fresh.length < cfg.count) { pool.forEach(q => seen.delete(q.i)); fresh = pool; }   // seen everything: start a new cycle
+    pick(fresh, cfg.count).forEach(q => { seen.add(q.i); sessionQuestions.push(toQuestion(q, cat)); });
+  });
+  saveSeen(seen);
+  sessionQuestions = shuffle(sessionQuestions);
+
+  // Compute the maximum possible diagnostic score for this specific session
+  sessionMaxScores = { MP:0, DC:0, DL:0, DG:0, WM:0, AD:0 };
+  sessionQuestions.forEach(q => {
+    if (q.type === 'likert') {
+      // Max score = "Strongly Agree" values (highest possible response)
+      const sa = q.diag['Strongly Agree'] || {};
+      Object.entries(sa).forEach(([key, pts]) => {
+        if (key in sessionMaxScores) sessionMaxScores[key] += pts;
+      });
+    } else {
+      // Max score = wrong-answer diag values (wrong answers drive diagnosis)
+      const wd = q.diag.wrong || {};
+      Object.entries(wd).forEach(([key, pts]) => {
+        if (key in sessionMaxScores) sessionMaxScores[key] += pts;
+      });
+    }
+  });
+  // Guard against any zero max (avoid division by zero)
+  Object.keys(sessionMaxScores).forEach(k => {
+    if (sessionMaxScores[k] === 0) sessionMaxScores[k] = 1;
+  });
+}
+
+function startQuiz() {
+  diagScores = { MP:0, DC:0, DL:0, DG:0, WM:0, AD:0 };
+  catScores = { survey:0, calculation:0, memory:0, visual:0, logic:0 };
+  catTotals = { survey:0, calculation:0, memory:0, visual:0, logic:0 };
+  answers = [];
+  currentIndex = 0;
+  selectedAnswer = null;
+  answered = false;
+  if (!QB || !USER_CLASS) { showScreen('screen-welcome'); return; }
+  buildSession();
+  document.getElementById('q-label').textContent = CLASS_LABELS[USER_CLASS] + ' · Question';
+  showScreen('screen-quiz');
+  renderQuestion();
+}
+
+function renderQuestion() {
+  const q = sessionQuestions[currentIndex];
+  const cfg = CAT_CONFIG[q.cat];
+  selectedAnswer = null;
+  answered = false;
+
+  // Update header
+  document.getElementById('q-count').innerHTML = `${currentIndex+1} <span>/ ${sessionQuestions.length}</span>`;
+  document.getElementById('progress-fill').style.width = `${(currentIndex/sessionQuestions.length)*100}%`;
+  document.getElementById('cat-label').textContent = cfg.label;
+  document.getElementById('cat-dot').style.background = cfg.dot;
+  document.getElementById('cat-indicator').style.color = cfg.color;
+  document.getElementById('feedback-bar').style.display = 'none';
+  document.getElementById('next-btn').style.display = 'none';
+
+  // Build card HTML
+  let html = `<div class="q-text">${cfg.icon} ${q.text}</div>`;
+  if (q.visual) html += `<div class="q-visual">${q.visual}</div>`;
+
+  if (q.type === 'likert') {
+    html += `<div class="likert-grid">
+      <div class="likert-opt" onclick="selectLikert(this,'Strongly Agree')"><span class="lk-icon">😰</span><span class="lk-label">Strongly<br>Agree</span></div>
+      <div class="likert-opt" onclick="selectLikert(this,'Agree')"><span class="lk-icon">😟</span><span class="lk-label">Agree</span></div>
+      <div class="likert-opt" onclick="selectLikert(this,'Neutral')"><span class="lk-icon">😐</span><span class="lk-label">Neutral</span></div>
+      <div class="likert-opt" onclick="selectLikert(this,'Disagree')"><span class="lk-icon">🙂</span><span class="lk-label">Disagree</span></div>
+      <div class="likert-opt" onclick="selectLikert(this,'Strongly Disagree')"><span class="lk-icon">😊</span><span class="lk-label">Strongly<br>Disagree</span></div>
+    </div>`;
+  } else {
+    const letters = ['A','B','C','D'];
+    const useGrid = q.opts.every(o => o.length <= 8);
+    html += `<div class="options-grid ${useGrid?'four-col':''}">`;
+    q.opts.forEach((opt, i) => {
+      html += `<button class="opt-btn" data-v="${escQ(opt)}" onclick="selectMCQ(this,'${escQ(opt)}')">
+        <span class="opt-letter">${letters[i]}</span>${opt}</button>`;
+    });
+    html += `</div>`;
+  }
+
+  document.getElementById('q-card').innerHTML = html;
+}
+
+function escQ(s) { return s.replace(/'/g,"&#39;").replace(/"/g,'&quot;'); }
+
+function selectLikert(el, value) {
+  if (answered) return;
+  document.querySelectorAll('.likert-opt').forEach(o => o.classList.remove('selected'));
+  el.classList.add('selected');
+  selectedAnswer = value;
+  scoreAnswer(sessionQuestions[currentIndex], value);
+  answered = true;
+  document.getElementById('next-btn').style.display = 'inline-flex';
+  showFeedback('info', '✓ Response recorded. Tap "Next" to continue.');
+}
+
+function selectMCQ(el, value) {
+  if (answered) return;
+  document.querySelectorAll('.opt-btn').forEach(o => { o.classList.remove('selected','correct','wrong'); o.disabled = true; });
+  const q = sessionQuestions[currentIndex];
+  el.classList.add(value === q.correct ? 'correct' : 'wrong');
+
+  // Show correct answer if wrong
+  if (value !== q.correct) {
+    document.querySelectorAll('.opt-btn').forEach(btn => {
+      if (btn.dataset.v === q.correct) btn.classList.add('correct');
+    });
+    showFeedback('wrong', `✗ Incorrect. The correct answer is: ${q.correct}`);
+    scoreAnswer(q, value); // wrong
+  } else {
+    showFeedback('correct', '✓ Correct!');
+    catScores[q.cat]++;
+  }
+  catTotals[q.cat]++;
+  selectedAnswer = value;
+  answered = true;
+  document.getElementById('next-btn').style.display = 'inline-flex';
+}
+
+function scoreAnswer(q, value) {
+  if (q.type === 'likert') {
+    const diag = q.diag[value] || {};
+    Object.entries(diag).forEach(([key, pts]) => { diagScores[key] = (diagScores[key]||0) + pts; });
+  } else {
+    if (value !== q.correct) {
+      const diag = q.diag.wrong || {};
+      Object.entries(diag).forEach(([key, pts]) => { diagScores[key] = (diagScores[key]||0) + pts; });
+    }
+  }
+}
+
+function showFeedback(type, msg) {
+  const fb = document.getElementById('feedback-bar');
+  fb.className = `feedback-bar ${type}`;
+  fb.textContent = msg;
+  fb.style.display = 'block';
+}
+
+function nextQuestion() {
+  currentIndex++;
+  if (currentIndex >= sessionQuestions.length) {
+    showScreen('screen-loading');
+    setTimeout(showResults, 1800);
+  } else {
+    renderQuestion();
+  }
+}
+
+/* ══════════════════════════════════════════════════════
+   DIAGNOSIS ENGINE
+══════════════════════════════════════════════════════ */
+const DIAG_INFO = {
+  MP: {
+    key: 'MP', label: 'Maths Phobia', icon: '😰',
+    color: '#ff8fa0', barColor: '#f43f5e',
+    desc: 'Strong indicators of mathematics anxiety and avoidance behaviour are present. You may experience fear, panic or strong negative emotions when confronted with Maths tasks — this is very common and highly treatable with the right support.',
+    reco: [
+      'Work with a patient, encouraging tutor in low-pressure 1-to-1 sessions',
+      'Start with familiar, achievable problems to rebuild confidence',
+      'Use breathing and grounding techniques before and during Maths tasks',
+      'Keep a "win journal" — record every Maths success, however small',
+      'Explore whether past negative experiences in class contributed to the anxiety',
+      'Set small, concrete goals: "I will complete 5 problems today"',
+      'Ask about Calculia\'s confidence-building programme specifically designed for you',
+    ]
+  },
+  DC: {
+    key: 'DC', label: 'Dyscalculia', icon: '🔢',
+    color: '#82c4ff', barColor: '#3b82f6',
+    desc: 'Responses suggest difficulty with number sense, arithmetic processing and mathematical conceptualisation consistent with dyscalculia indicators. Dyscalculia is a specific learning difficulty with numbers — not a measure of intelligence.',
+    reco: [
+      'Use concrete manipulatives (counters, number lines, blocks) when learning',
+      'Focus on number sense first: ordering, comparing, estimating quantities',
+      'Break calculations into very small steps with written checkpoints',
+      'Use visual representations (bar models, diagrams) for all problems',
+      'Practise multiplication tables with rhythm, colour-coding and repeated exposure',
+      'Request extra time in examinations if formally diagnosed',
+      'Book a specialist assessment and personalised Calculia tutoring plan',
+    ]
+  },
+  DL: {
+    key: 'DL', label: 'Dyslexia (Maths-related)', icon: '📖',
+    color: '#a78bfa', barColor: '#8b5cf6',
+    desc: 'Patterns suggest difficulties with reading mathematical text, processing symbols, and visual-numeric confusion (such as reversing digits or confusing similar numbers/symbols). This may reflect a dyslexic profile affecting your engagement with Maths.',
+    reco: [
+      'Use large-print or high-contrast question papers where possible',
+      'Colour-code different operations (e.g. addition = blue, subtraction = red)',
+      'Read Maths word problems aloud to yourself',
+      'Use graph paper to organise written work and avoid reversal errors',
+      'Seek a formal assessment from an educational psychologist',
+      'Technology aids: text-to-speech, calculators, digital tools',
+      'Calculia tutoring sessions can accommodate your specific learning style',
+    ]
+  },
+  DG: {
+    key: 'DG', label: 'Dysgraphia', icon: '✍️',
+    color: '#D9FF75', barColor: '#C6FF3D',
+    desc: 'Indicators suggest difficulty with the physical act of writing Maths — organising working on paper, forming numbers consistently, and aligning columns. Dysgraphia can significantly affect Maths performance without reflecting mathematical understanding.',
+    reco: [
+      'Use grid/squared paper to keep numbers aligned in columns',
+      'Allow extra time when writing Maths working',
+      'Consider using a laptop or tablet for Maths work where permitted',
+      'Focus on working from left to right consistently',
+      'Use very clear, large handwriting and erase decisively',
+      'Break written work into clearly labelled stages',
+      'Discuss accommodations with your school and explore formal assessment',
+    ]
+  },
+  WM: {
+    key: 'WM', label: 'Working Memory Difficulty', icon: '🧠',
+    color: '#fbbf24', barColor: '#f59e0b',
+    desc: 'Your responses suggest difficulty holding information in mind whilst working through calculations — a working memory challenge. This makes multi-step problems particularly taxing and can cause mid-calculation "blanks" during exams.',
+    reco: [
+      'Write down every sub-result immediately — never try to hold it in your head',
+      'Use self-talk ("I have carried 2, now add the tens…") while working',
+      'Practise chunking: break large problems into 2–3 labelled sub-problems',
+      'Use structured templates and pro-formas for common question types',
+      'Reduce unnecessary cognitive load by learning key formulas thoroughly',
+      'Allow your brain regular short breaks (5 min every 20 min of study)',
+      'Calculia\'s systematic, step-by-step approach is ideal for this profile',
+    ]
+  },
+  AD: {
+    key: 'AD', label: 'Attentional Difficulty', icon: '🎯',
+    color: '#fb923c', barColor: '#f97316',
+    desc: 'Patterns suggest difficulty sustaining attention during Maths tasks, which can lead to careless errors, skipping steps, and incomplete solutions — even when you understand the concepts.',
+    reco: [
+      'Study in short bursts (20–25 minutes) with scheduled breaks',
+      'Eliminate distractions: phone away, quiet environment, single task',
+      'Use a finger or ruler to track your place in written problems',
+      'Develop a checklist habit: "Read → Underline key info → Plan → Solve → Check"',
+      'Always re-read questions after solving to catch careless errors',
+      'Timed practice can help build concentration stamina gradually',
+      'Speak with a professional about whether ADHD screening may be appropriate',
+    ]
+  },
+  OK: {
+    key: 'OK', label: 'No Significant Difficulty Detected', icon: '✅',
+    color: '#86efac', barColor: '#22c55e',
+    desc: 'Your responses do not indicate a significant mathematics learning difficulty at this time. Any challenges you experience may be related to curriculum gaps, study habits or temporary factors — all of which are very addressable.',
+    reco: [
+      'Continue to build on your existing strengths in Maths',
+      'Identify any specific topic areas where you feel less confident',
+      'Challenge yourself with past exam questions (WAEC, JAMB, BECE)',
+      'Consider a targeted Calculia session to close any knowledge gaps',
+      'Develop a consistent daily study routine for exam preparation',
+      'Explore Calculia\'s YouTube channel for concept reviews and past solutions',
+    ]
+  }
+};
+
+function showResults() {
+  // Normalise scores to % using the actual session's maximum possible scores
+  const normalised = {};
+  Object.keys(diagScores).forEach(k => {
+    normalised[k] = Math.min(100, Math.round((diagScores[k] / sessionMaxScores[k]) * 100));
+  });
+
+  // Determine primary diagnosis
+  let primary = 'OK';
+  let highScore = 25; // threshold
+  Object.entries(normalised).forEach(([k, v]) => {
+    if (v > highScore) { highScore = v; primary = k; }
+  });
+
+  // Secondary
+  let secondary = null;
+  let secondScore = 20;
+  Object.entries(normalised).forEach(([k, v]) => {
+    if (k !== primary && v > secondScore) { secondScore = v; secondary = k; }
+  });
+
+  const info = DIAG_INFO[primary];
+  const confLevel = primary === 'OK' ? 0 : Math.min(95, highScore);
+  const confLabel = confLevel > 70 ? 'High Confidence' : confLevel > 45 ? 'Moderate Confidence' : 'Low Confidence';
+  const confColor = confLevel > 70 ? '#f43f5e' : confLevel > 45 ? '#f97316' : '#fbbf24';
+
+  // Category performance
+  const catPerfHTML = Object.entries(catScores).map(([cat, score]) => {
+    const total = catTotals[cat] || CAT_CONFIG[cat].count;
+    const pct = total > 0 ? Math.round((score/total)*100) : 0;
+    const cfg = CAT_CONFIG[cat];
+    return `<div class="cat-card">
+      <div class="cat-score" style="color:${cfg.color}">${score}/${total > 0 ? total : CAT_CONFIG[cat].count}</div>
+      <div class="cat-name">${cfg.label}</div>
+      <div class="cat-bar"><div class="cat-fill" style="width:${pct}%;background:${cfg.color}"></div></div>
+    </div>`;
+  }).join('');
+
+  // Diagnosis score bars
+  const diagBarsHTML = [
+    { key:'MP', label:'Maths Phobia', color:'#f43f5e' },
+    { key:'DC', label:'Dyscalculia', color:'#3b82f6' },
+    { key:'DL', label:'Dyslexia', color:'#8b5cf6' },
+    { key:'DG', label:'Dysgraphia', color:'#C6FF3D' },
+    { key:'WM', label:'Working Memory', color:'#f59e0b' },
+    { key:'AD', label:'Attentional', color:'#f97316' },
+  ].map(d => `<div class="score-row">
+    <span class="score-label">${d.label}</span>
+    <div class="score-track"><div class="score-bar" data-width="${normalised[d.key]}" style="width:0%;background:${d.color}"></div></div>
+    <span class="score-pct" style="color:${d.color}">${normalised[d.key]}%</span>
+  </div>`).join('');
+
+  // Secondary finding
+  const secHTML = secondary ? `
+    <div class="reco-card" style="border-color:rgba(${DIAG_INFO[secondary].color.replace('#','').match(/../g).map(h=>parseInt(h,16)).join(',')},0.25)">
+      <div class="reco-header">
+        <span class="reco-icon">${DIAG_INFO[secondary].icon}</span>
+        <div><div class="reco-title">${DIAG_INFO[secondary].label}</div><div class="reco-meta">Secondary Finding · ${secondScore}% Indicators</div></div>
+      </div>
+      <p style="font-size:14px;color:rgba(255,255,255,0.72);line-height:1.6">${DIAG_INFO[secondary].desc}</p>
+    </div>` : '';
+
+  const screen = document.getElementById('screen-results');
+  screen.innerHTML = `
+    <div class="results-hero">
+      <span class="diag-icon">${info.icon}</span>
+      <p class="diag-subtitle" style="margin:0 0 6px;font-size:13px">Assessed for: <strong>${CLASS_LABELS[USER_CLASS]}</strong></p>
+      <div class="diag-primary" style="color:${info.color}">${info.label}</div>
+      <p class="diag-subtitle">${info.desc}</p>
+      ${primary !== 'OK' ? `<div class="confidence-row">
+        <span style="font-size:13px;color:var(--gray)">Confidence:</span>
+        <div class="conf-bar"><div class="conf-fill" style="width:${confLevel}%;background:${confColor}"></div></div>
+        <span class="conf-label" style="color:${confColor}">${confLabel} · ${confLevel}%</span>
+      </div>` : ''}
+    </div>
+
+    <div class="breakdown-section">
+      <div class="section-title">Category Performance</div>
+      <div class="cat-perf">${catPerfHTML}</div>
+    </div>
+
+    <div class="breakdown-section">
+      <div class="section-title">Diagnostic Indicator Profile</div>
+      <div class="score-bars">${diagBarsHTML}</div>
+    </div>
+
+    <div class="breakdown-section">
+      <div class="section-title">Primary Recommendations</div>
+      <div class="reco-card">
+        <div class="reco-header">
+          <span class="reco-icon">${info.icon}</span>
+          <div><div class="reco-title">${info.label}</div><div class="reco-meta">Primary Finding</div></div>
+        </div>
+        <ul class="reco-list">${info.reco.map(r=>`<li>${r}</li>`).join('')}</ul>
+      </div>
+      ${secHTML}
+    </div>
+
+    <div class="cta-box">
+      <h3>Get Personalised Support from Jamiu</h3>
+      <p>Book a 1-to-1 Maths tutoring session tailored to your diagnostic profile. Jamiu Olasunkanmi has 7+ years of experience helping students across Nigeria unlock their Mathematics potential.</p>
+      <div class="cta-buttons">
+        <a class="btn-whatsapp" href="https://wa.me/2348109123997?text=Hello%20Jamiu%2C%20I%20just%20completed%20the%20Calculia%20diagnostic%20and%20my%20result%20is%3A%20${encodeURIComponent(info.label)}%20(${encodeURIComponent(CLASS_LABELS[USER_CLASS])}).%20I%20would%20like%20to%20book%20a%20session." target="_blank" rel="noopener noreferrer">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          WhatsApp Jamiu
+        </a>
+        <a class="btn btn-primary" href="mailto:info@calculia.com.ng?subject=Calculia%20Diagnostic%20Result&body=My%20result%3A%20${encodeURIComponent(info.label)}%0A%0AI%20would%20like%20to%20book%20a%20tutoring%20session.">
+          📧 Email Calculia
+        </a>
+        <button class="btn btn-outline" onclick="startQuiz()">🔄 Retake Diagnostic</button>
+        <button class="btn btn-outline" onclick="showScreen('screen-welcome')">🎓 Change Class</button>
+      </div>
+    </div>
+
+    <div class="disclaimer">
+      <strong>Important Disclaimer:</strong> This tool provides a preliminary screening only and is NOT a clinical diagnosis. Results are based on self-reported responses and performance on 20 questions. For a formal assessment of any learning difficulty, please consult a qualified educational psychologist or specialist. All results are processed locally in your browser — no data is transmitted or stored.
+    </div>
+  `;
+
+  showScreen('screen-results');
+
+  // Animate score bars
+  setTimeout(() => {
+    document.querySelectorAll('.score-bar[data-width]').forEach(bar => {
+      bar.style.width = bar.dataset.width + '%';
+    });
+  }, 300);
+}
+
+/* ══ NAVIGATION ══ */
+function showScreen(id) {
+  document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
+  document.getElementById(id).classList.add('active');
+  window.scrollTo(0, 0);
+}
+
+function goToInstructions() { showScreen('screen-instructions'); }
+
+
+</script>
+
+<footer>
+  <div class="footer-grid footer-grid-4">
+    <div class="footer-brand">
+      <a href="index.html" class="logo"><svg class="brand-mark" viewBox="0 0 96 96" width="34" height="34" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <defs><linearGradient id="footMark" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#FF4D5E"/><stop offset="100%" stop-color="#C23E4B"/></linearGradient></defs>
+        <rect width="96" height="96" rx="24" fill="url(#footMark)"/>
+        <path d="M 62 28 C 50 22 34 26 30 40 C 26 54 30 68 40 72 C 50 78 62 76 66 70" fill="none" stroke="#EEF4F0" stroke-width="7" stroke-linecap="round"/>
+        <path d="M 42 62 L 52 50 L 62 54 L 72 38" fill="none" stroke="#C6FF3D" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+        <circle cx="72" cy="38" r="5" fill="#C6FF3D"/><circle cx="64" cy="28" r="4.5" fill="#C6FF3D"/><circle cx="66" cy="70" r="4.5" fill="#C6FF3D"/>
+      </svg>Calculia</a>
+      <p>A Nigerian EdTech platform (RC 9590499) diagnosing learning difficulties and supporting STEM students in English Language, Mathematics, Physics, Chemistry and Biology.</p>
+      <div class="social-links">
+        <a class="social-link" href="https://www.youtube.com/channel/UCdj-SJ9aTm0fqCdhB6cHcyw" aria-label="YouTube" target="_blank" rel="noopener">▶</a>
+        <a class="social-link" href="https://www.linkedin.com/company/calculia" aria-label="LinkedIn" target="_blank" rel="noopener">in</a>
+        <a class="social-link" href="https://wa.me/2348109123997" aria-label="WhatsApp" target="_blank" rel="noopener">💬</a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4>Pages</h4>
+      <ul>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="achievements.html">Achievements</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="certifications.html">Certifications</a></li>
+        <li><a href="booking.html">Book a Class</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Practice</h4>
+      <ul>
+        <li><a href="youtube.html">YouTube Lessons</a></li>
+        <li><a href="daily-quiz.html">Daily Quiz</a></li>
+        <li><a href="diagnostic.html">Diagnostic</a></li>
+        <li><a href="mock.html">Mock Exam</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Contact</h4>
+      <ul>
+        <li><a href="mailto:info@calculia.com.ng">📧 info@calculia.com.ng</a></li>
+        <li><a href="tel:+2348109123997">📞 +234 810 912 3997</a></li>
+        <li><a href="https://wa.me/2348109123997" target="_blank" rel="noopener">💬 WhatsApp</a></li>
+        <li><a href="https://www.youtube.com/channel/UCdj-SJ9aTm0fqCdhB6cHcyw" target="_blank" rel="noopener">▶ YouTube Channel</a></li>
+        <li><a href="https://www.linkedin.com/company/calculia" target="_blank" rel="noopener">💼 LinkedIn</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; 2026 Calculia EdTech Solutions. All rights reserved. &nbsp;|&nbsp; RC 9590499</p>
+    <span>calculia.com.ng</span>
+  </div>
+</footer>
+
+<button id="scrollTop" aria-label="Scroll to top">↑</button>
+<script src="script.js"></script>
+</body>
+</html>
